@@ -8,21 +8,16 @@
 import Foundation
 import Combine
 import Alamofire
-struct DynastyServices {
-   
+
+protocol DynastyServiceProtocol {
+    func getDynastyList() -> AnyPublisher<[DynastyModel], AFError>
 }
 
 
-
-
-protocol UserServiceProtocol {
-    func getUsers() -> AnyPublisher<[User], AFError>
-}
-
-class UserService: UserServiceProtocol {
+class DynastyServices: DynastyServiceProtocol {
     let apiClient = URLSessionAPIClien()
-    
-    func getUsers() -> AnyPublisher<[User], AFError> {
-        return apiClient.request(router: APIRouter.getUsers)
+    func getDynastyList() -> AnyPublisher<[DynastyModel], Alamofire.AFError> {
+        return apiClient.request(router: APIRouter.getDynastyList)
     }
 }
+

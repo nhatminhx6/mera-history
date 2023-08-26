@@ -8,24 +8,24 @@
 import Alamofire
 import Foundation
 enum APIRouter: URLRequestConvertible {
-    case getUsers
+    case getDynastyList
     
     private var method: HTTPMethod {
         switch self {
-        case .getUsers:
+        case .getDynastyList:
             return .get
         }
     }
     
     private var path: String {
         switch self {
-        case .getUsers:
-            return "/users"
+        case .getDynastyList:
+            return "/vndynasty"
         }
     }
     private var parameters: Parameters? {
         switch self {
-        case .getUsers:
+        case .getDynastyList:
             return nil
         }
     }
@@ -41,6 +41,7 @@ enum APIRouter: URLRequestConvertible {
         // Common Headers
         urlRequest.setValue(ContentType.json.rawValue, forHTTPHeaderField: HTTPHeaderField.acceptType.rawValue)
         urlRequest.setValue(ContentType.json.rawValue, forHTTPHeaderField: HTTPHeaderField.contentType.rawValue)
+        urlRequest.setValue(ContentType.xApikey.rawValue, forHTTPHeaderField: HTTPHeaderField.xApikey.rawValue)
         
         // Parameters
         if let parameters = parameters {
@@ -60,18 +61,21 @@ enum APIRouter: URLRequestConvertible {
 
 struct K {
     struct ProductionServer {
-        static let baseURL = "https://64e86d0699cf45b15fdf8ae7.mockapi.io"
+        static let baseURL = "https://merahistory-fd21.restdb.io/rest"
     }
 
 }
+//https://merahistory-fd21.restdb.io/rest/vndynasty
 
 enum HTTPHeaderField: String {
     case authentication = "Authorization"
     case contentType = "Content-Type"
     case acceptType = "Accept"
     case acceptEncoding = "Accept-Encoding"
+    case xApikey = "x-apikey"
 }
 
 enum ContentType: String {
     case json = "application/json"
+    case xApikey = "c1de81530b95424e167df4bccb7f729096bb9"
 }

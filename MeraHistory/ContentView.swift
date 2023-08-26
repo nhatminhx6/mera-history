@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            DynastyList(viewModel: DynastyListViewModel())    // 1
+            DynastyList()    // 1
                         .tabItem {
                             Image(systemName: "house.fill")
                             Text("DynastyList")
