@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5B97672A99E066002139AF /* MeraNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B97662A99E066002139AF /* MeraNetworking.swift */; };
+		CF8424DC2A9736C60080E8E7 /* MeraHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424DB2A9736C60080E8E7 /* MeraHistoryApp.swift */; };
+		CF8424DE2A9736C60080E8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424DD2A9736C60080E8E7 /* ContentView.swift */; };
+		CF8424E02A9736C70080E8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8424DF2A9736C70080E8E7 /* Assets.xcassets */; };
+		CF8424E32A9736C70080E8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8424E22A9736C70080E8E7 /* Preview Assets.xcassets */; };
+		CF8424EF2A973A8D0080E8E7 /* DynastyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424EE2A973A8D0080E8E7 /* DynastyListView.swift */; };
+		CF8424F22A973E530080E8E7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CF8424F12A973E530080E8E7 /* Alamofire */; };
+		CF8424FC2A9758610080E8E7 /* DynastyServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424FB2A9758610080E8E7 /* DynastyServices.swift */; };
+		CF8424FF2A975AA20080E8E7 /* DynastyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424FE2A975AA20080E8E7 /* DynastyModel.swift */; };
+		CF8425012A97603F0080E8E7 /* DynastyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425002A97603F0080E8E7 /* DynastyListViewModel.swift */; };
+		CF9DC5262A98A1350099CD4A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DC5252A98A1350099CD4A /* UserModel.swift */; };
+		CF9DC5282A98A1410099CD4A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DC5272A98A1410099CD4A /* UserViewModel.swift */; };
+		CF9DC52A2A98A14D0099CD4A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DC5292A98A14D0099CD4A /* UserView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF5B97662A99E066002139AF /* MeraNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraNetworking.swift; sourceTree = "<group>"; };
+		CF8424D82A9736C60080E8E7 /* MeraHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeraHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8424DB2A9736C60080E8E7 /* MeraHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraHistoryApp.swift; sourceTree = "<group>"; };
+		CF8424DD2A9736C60080E8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF8424DF2A9736C70080E8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8424E22A9736C70080E8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF8424EE2A973A8D0080E8E7 /* DynastyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyListView.swift; sourceTree = "<group>"; };
+		CF8424FB2A9758610080E8E7 /* DynastyServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyServices.swift; sourceTree = "<group>"; };
+		CF8424FE2A975AA20080E8E7 /* DynastyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyModel.swift; sourceTree = "<group>"; };
+		CF8425002A97603F0080E8E7 /* DynastyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyListViewModel.swift; sourceTree = "<group>"; };
+		CF9DC5252A98A1350099CD4A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CF9DC5272A98A1410099CD4A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		CF9DC5292A98A14D0099CD4A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8424D52A9736C60080E8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8424F22A973E530080E8E7 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5B97652A99E00A002139AF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF5B97662A99E066002139AF /* MeraNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CF8424CF2A9736C60080E8E7 = {
+			isa = PBXGroup;
+			children = (
+				CF8424DA2A9736C60080E8E7 /* MeraHistory */,
+				CF8424D92A9736C60080E8E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8424D92A9736C60080E8E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424D82A9736C60080E8E7 /* MeraHistory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8424DA2A9736C60080E8E7 /* MeraHistory */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424DB2A9736C60080E8E7 /* MeraHistoryApp.swift */,
+				CF8424DD2A9736C60080E8E7 /* ContentView.swift */,
+				CF5B97652A99E00A002139AF /* Networking */,
+				CF8424F42A9744390080E8E7 /* Service */,
+				CF8424E12A9736C70080E8E7 /* Preview Content */,
+				CF8424E92A9738A60080E8E7 /* Modules */,
+				CF8424FD2A97598D0080E8E7 /* Resources */,
+			);
+			path = MeraHistory;
+			sourceTree = "<group>";
+		};
+		CF8424E12A9736C70080E8E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424E22A9736C70080E8E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF8424E92A9738A60080E8E7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DC5232A98A1170099CD4A /* User */,
+				CF8424EA2A9738B00080E8E7 /* DynastyList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CF8424EA2A9738B00080E8E7 /* DynastyList */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424ED2A9738D50080E8E7 /* View */,
+				CF8424EC2A9738CB0080E8E7 /* ViewModel */,
+				CF8424EB2A9738BE0080E8E7 /* Models */,
+			);
+			path = DynastyList;
+			sourceTree = "<group>";
+		};
+		CF8424EB2A9738BE0080E8E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424FE2A975AA20080E8E7 /* DynastyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF8424EC2A9738CB0080E8E7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF8425002A97603F0080E8E7 /* DynastyListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF8424ED2A9738D50080E8E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424EE2A973A8D0080E8E7 /* DynastyListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF8424F42A9744390080E8E7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424FB2A9758610080E8E7 /* DynastyServices.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CF8424FD2A97598D0080E8E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF8424DF2A9736C70080E8E7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF9DC5232A98A1170099CD4A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DC5252A98A1350099CD4A /* UserModel.swift */,
+				CF9DC5272A98A1410099CD4A /* UserViewModel.swift */,
+				CF9DC5292A98A14D0099CD4A /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8424D72A9736C60080E8E7 /* MeraHistory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8424E62A9736C70080E8E7 /* Build configuration list for PBXNativeTarget "MeraHistory" */;
+			buildPhases = (
+				CF8424D42A9736C60080E8E7 /* Sources */,
+				CF8424D52A9736C60080E8E7 /* Frameworks */,
+				CF8424D62A9736C60080E8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeraHistory;
+			packageProductDependencies = (
+				CF8424F12A973E530080E8E7 /* Alamofire */,
+			);
+			productName = MeraHistory;
+			productReference = CF8424D82A9736C60080E8E7 /* MeraHistory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8424D02A9736C60080E8E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF8424D72A9736C60080E8E7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CF8424D32A9736C60080E8E7 /* Build configuration list for PBXProject "MeraHistory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8424CF2A9736C60080E8E7;
+			packageReferences = (
+				CF8424F02A973E530080E8E7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = CF8424D92A9736C60080E8E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8424D72A9736C60080E8E7 /* MeraHistory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8424D62A9736C60080E8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8424E32A9736C70080E8E7 /* Preview Assets.xcassets in Resources */,
+				CF8424E02A9736C70080E8E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8424D42A9736C60080E8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5B97672A99E066002139AF /* MeraNetworking.swift in Sources */,
+				CF9DC52A2A98A14D0099CD4A /* UserView.swift in Sources */,
+				CF8424FC2A9758610080E8E7 /* DynastyServices.swift in Sources */,
+				CF8424DE2A9736C60080E8E7 /* ContentView.swift in Sources */,
+				CF8424FF2A975AA20080E8E7 /* DynastyModel.swift in Sources */,
+				CF9DC5282A98A1410099CD4A /* UserViewModel.swift in Sources */,
+				CF8424EF2A973A8D0080E8E7 /* DynastyListView.swift in Sources */,
+				CF8425012A97603F0080E8E7 /* DynastyListViewModel.swift in Sources */,
+				CF9DC5262A98A1350099CD4A /* UserModel.swift in Sources */,
+				CF8424DC2A9736C60080E8E7 /* MeraHistoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF8424E42A9736C70080E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8424E52A9736C70080E8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8424E72A9736C70080E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeraHistory/Preview Content\"";
+				DEVELOPMENT_TEAM = LY5K2C8AGJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhmera.MeraHistory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8424E82A9736C70080E8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeraHistory/Preview Content\"";
+				DEVELOPMENT_TEAM = LY5K2C8AGJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhmera.MeraHistory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8424D32A9736C60080E8E7 /* Build configuration list for PBXProject "MeraHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8424E42A9736C70080E8E7 /* Debug */,
+				CF8424E52A9736C70080E8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8424E62A9736C70080E8E7 /* Build configuration list for PBXNativeTarget "MeraHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8424E72A9736C70080E8E7 /* Debug */,
+				CF8424E82A9736C70080E8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF8424F02A973E530080E8E7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF8424F12A973E530080E8E7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF8424F02A973E530080E8E7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF8424D02A9736C60080E8E7 /* Project object */;
+}
