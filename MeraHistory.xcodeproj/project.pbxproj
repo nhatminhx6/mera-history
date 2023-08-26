@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF5B97672A99E066002139AF /* MeraNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B97662A99E066002139AF /* MeraNetworking.swift */; };
 		CF8424DC2A9736C60080E8E7 /* MeraHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424DB2A9736C60080E8E7 /* MeraHistoryApp.swift */; };
 		CF8424DE2A9736C60080E8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8424DD2A9736C60080E8E7 /* ContentView.swift */; };
 		CF8424E02A9736C70080E8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8424DF2A9736C70080E8E7 /* Assets.xcassets */; };
@@ -20,10 +19,11 @@
 		CF9DC5262A98A1350099CD4A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DC5252A98A1350099CD4A /* UserModel.swift */; };
 		CF9DC5282A98A1410099CD4A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DC5272A98A1410099CD4A /* UserViewModel.swift */; };
 		CF9DC52A2A98A14D0099CD4A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DC5292A98A14D0099CD4A /* UserView.swift */; };
+		CFBECA892A99FDFB00536DF1 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA882A99FDFB00536DF1 /* APIRouter.swift */; };
+		CFBECA8B2A9A091D00536DF1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA8A2A9A091D00536DF1 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF5B97662A99E066002139AF /* MeraNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraNetworking.swift; sourceTree = "<group>"; };
 		CF8424D82A9736C60080E8E7 /* MeraHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeraHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8424DB2A9736C60080E8E7 /* MeraHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraHistoryApp.swift; sourceTree = "<group>"; };
 		CF8424DD2A9736C60080E8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		CF9DC5252A98A1350099CD4A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CF9DC5272A98A1410099CD4A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		CF9DC5292A98A14D0099CD4A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		CFBECA882A99FDFB00536DF1 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		CFBECA8A2A9A091D00536DF1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 		CF5B97652A99E00A002139AF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				CF5B97662A99E066002139AF /* MeraNetworking.swift */,
+				CFBECA882A99FDFB00536DF1 /* APIRouter.swift */,
+				CFBECA8A2A9A091D00536DF1 /* APIClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -79,6 +82,7 @@
 			children = (
 				CF8424DB2A9736C60080E8E7 /* MeraHistoryApp.swift */,
 				CF8424DD2A9736C60080E8E7 /* ContentView.swift */,
+				CFBECA872A99FDD700536DF1 /* APIClient */,
 				CF5B97652A99E00A002139AF /* Networking */,
 				CF8424F42A9744390080E8E7 /* Service */,
 				CF8424E12A9736C70080E8E7 /* Preview Content */,
@@ -165,6 +169,13 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		CFBECA872A99FDD700536DF1 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,13 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5B97672A99E066002139AF /* MeraNetworking.swift in Sources */,
 				CF9DC52A2A98A14D0099CD4A /* UserView.swift in Sources */,
 				CF8424FC2A9758610080E8E7 /* DynastyServices.swift in Sources */,
 				CF8424DE2A9736C60080E8E7 /* ContentView.swift in Sources */,
 				CF8424FF2A975AA20080E8E7 /* DynastyModel.swift in Sources */,
 				CF9DC5282A98A1410099CD4A /* UserViewModel.swift in Sources */,
+				CFBECA8B2A9A091D00536DF1 /* APIClient.swift in Sources */,
 				CF8424EF2A973A8D0080E8E7 /* DynastyListView.swift in Sources */,
+				CFBECA892A99FDFB00536DF1 /* APIRouter.swift in Sources */,
 				CF8425012A97603F0080E8E7 /* DynastyListViewModel.swift in Sources */,
 				CF9DC5262A98A1350099CD4A /* UserModel.swift in Sources */,
 				CF8424DC2A9736C60080E8E7 /* MeraHistoryApp.swift in Sources */,
