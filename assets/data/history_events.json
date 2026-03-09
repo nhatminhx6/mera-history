@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1945-japanese-coup-indochina",
+    "date": "03-09",
+    "year": 1945,
+    "title": "Japanese coup in French Indochina",
+    "description": "Japan overthrew the French colonial administration in Indochina.",
+    "image": "https://images.unsplash.com/photo-1548013146-72479768bada",
+    "country": "Vietnam"
+  },
+  {
+    "id": "938-bach-dang-victory",
+    "date": "03-10",
+    "year": 938,
+    "title": "Victory at Bach Dang River",
+    "description": "Ngo Quyen defeated Southern Han forces and secured independence.",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+    "country": "Vietnam"
+  },
+  {
+    "id": "1975-ho-chi-minh-campaign",
+    "date": "04-30",
+    "year": 1975,
+    "title": "Ho Chi Minh Campaign concludes",
+    "description": "The campaign ended with the reunification of Vietnam.",
+    "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b",
+    "country": "Vietnam"
+  },
+  {
+    "id": "1010-thang-long-capital",
+    "date": "10-10",
+    "year": 1010,
+    "title": "Capital moved to Thang Long",
+    "description": "Ly Thai To moved the capital from Hoa Lu to Thang Long.",
+    "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170",
+    "country": "Vietnam"
+  }
+]

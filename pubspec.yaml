@@ -1,0 +1,33 @@
+name: mera_history
+description: "MeraHistory - Lunar calendar and visual history explorer"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  freezed_annotation: ^3.1.0
+  go_router: ^16.2.1
+  intl: ^0.20.2
+  json_annotation: ^4.11.0
+  table_calendar: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.9.0
+  freezed: ^3.2.3
+  json_serializable: ^6.11.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/history_events.json
+    - assets/data/heroes.json
+    - assets/data/calendar_events.json

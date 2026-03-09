@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Ly Thuong Kiet",
+    "born": 1019,
+    "died": 1105,
+    "description": "Vietnamese general and strategist during the Ly dynasty, famous for proactive defense and military reforms.",
+    "image": "https://images.unsplash.com/photo-1578926288207-a90a5366759d",
+    "role": "General",
+    "period": "Ly Dynasty"
+  },
+  {
+    "id": 2,
+    "name": "Ngo Quyen",
+    "born": 897,
+    "died": 944,
+    "description": "Military leader who secured independence after the Bach Dang River victory and established early autonomous rule.",
+    "image": "https://images.unsplash.com/photo-1551012011-4fc8f596e8f9",
+    "role": "Emperor",
+    "period": "Early Ngo"
+  },
+  {
+    "id": 3,
+    "name": "Tran Hung Dao",
+    "born": 1228,
+    "died": 1300,
+    "description": "National hero known for leading Tran forces against multiple Mongol invasions in the 13th century.",
+    "image": "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4",
+    "role": "General",
+    "period": "Tran Dynasty"
+  },
+  {
+    "id": 4,
+    "name": "Le Quy Don",
+    "born": 1726,
+    "died": 1784,
+    "description": "Scholar and encyclopedist whose works remain essential records of Vietnamese history and culture.",
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136",
+    "role": "Scholar",
+    "period": "Le Dynasty"
+  },
+  {
+    "id": 5,
+    "name": "Quang Trung",
+    "born": 1753,
+    "died": 1792,
+    "description": "Revolutionary leader of the Tay Son movement and commander of the 1789 victory against Qing forces.",
+    "image": "https://images.unsplash.com/photo-1541535881962-3bb380b08458",
+    "role": "Revolutionary",
+    "period": "Tay Son"
+  }
+]
