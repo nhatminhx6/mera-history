@@ -1,0 +1,60 @@
+[
+  {
+    "solarDate": "2026-03-09",
+    "lunarDate": "20/1",
+    "canChiDay": "Giáp Thìn",
+    "nguHanh": "Hành Hỏa",
+    "truc": "Trực Mãn",
+    "danhGiaNgay": "Ngày tốt",
+    "nenLam": [
+      "Đi xa",
+      "Ký hợp đồng",
+      "Khai trương",
+      "Gặp gỡ đối tác"
+    ],
+    "nenTranh": [
+      "Động thổ",
+      "Sửa nhà",
+      "Tranh chấp"
+    ],
+    "gioHoangDao": [
+      "Tý 23:00–01:00",
+      "Sửu 01:00–03:00",
+      "Thìn 07:00–09:00",
+      "Tỵ 09:00–11:00"
+    ],
+    "huongXuatHanh": {
+      "Hỷ thần": "Đông Nam",
+      "Tài thần": "Chính Tây",
+      "Hạc thần": "Tránh hướng Bắc"
+    }
+  },
+  {
+    "solarDate": "2026-03-10",
+    "lunarDate": "21/1",
+    "canChiDay": "Ất Tỵ",
+    "nguHanh": "Hành Thổ",
+    "truc": "Trực Định",
+    "danhGiaNgay": "Ngày khá",
+    "nenLam": [
+      "Mở rộng kinh doanh",
+      "Cầu tài lộc",
+      "Xuất hành"
+    ],
+    "nenTranh": [
+      "Kiện tụng",
+      "Phá dỡ"
+    ],
+    "gioHoangDao": [
+      "Dần 03:00–05:00",
+      "Mão 05:00–07:00",
+      "Ngọ 11:00–13:00",
+      "Thân 15:00–17:00"
+    ],
+    "huongXuatHanh": {
+      "Hỷ thần": "Đông Bắc",
+      "Tài thần": "Tây Nam",
+      "Hạc thần": "Tránh hướng Đông"
+    }
+  }
+]

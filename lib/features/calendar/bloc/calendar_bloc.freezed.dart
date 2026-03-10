@@ -344,7 +344,7 @@ as DateTime,
 /// @nodoc
 mixin _$CalendarState {
 
- DateTime get focusedMonth; DateTime get selectedDay; bool get isLoading; List<CalendarEventModel> get markers; Set<String> get specialLunarDays; List<HistoryEventModel> get selectedEvents; CalendarDayInfo? get selectedDayInfo; String? get error;
+ DateTime get focusedMonth; DateTime get selectedDay; bool get isLoading; List<CalendarEventModel> get markers; Set<String> get specialLunarDays; List<HistoryEventModel> get selectedEvents; LunarDayInfo? get selectedLunarInfo; String? get error;
 /// Create a copy of CalendarState
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -355,16 +355,16 @@ $CalendarStateCopyWith<CalendarState> get copyWith => _$CalendarStateCopyWithImp
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is CalendarState&&(identical(other.focusedMonth, focusedMonth) || other.focusedMonth == focusedMonth)&&(identical(other.selectedDay, selectedDay) || other.selectedDay == selectedDay)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&const DeepCollectionEquality().equals(other.markers, markers)&&const DeepCollectionEquality().equals(other.specialLunarDays, specialLunarDays)&&const DeepCollectionEquality().equals(other.selectedEvents, selectedEvents)&&(identical(other.selectedDayInfo, selectedDayInfo) || other.selectedDayInfo == selectedDayInfo)&&(identical(other.error, error) || other.error == error));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is CalendarState&&(identical(other.focusedMonth, focusedMonth) || other.focusedMonth == focusedMonth)&&(identical(other.selectedDay, selectedDay) || other.selectedDay == selectedDay)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&const DeepCollectionEquality().equals(other.markers, markers)&&const DeepCollectionEquality().equals(other.specialLunarDays, specialLunarDays)&&const DeepCollectionEquality().equals(other.selectedEvents, selectedEvents)&&(identical(other.selectedLunarInfo, selectedLunarInfo) || other.selectedLunarInfo == selectedLunarInfo)&&(identical(other.error, error) || other.error == error));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,focusedMonth,selectedDay,isLoading,const DeepCollectionEquality().hash(markers),const DeepCollectionEquality().hash(specialLunarDays),const DeepCollectionEquality().hash(selectedEvents),selectedDayInfo,error);
+int get hashCode => Object.hash(runtimeType,focusedMonth,selectedDay,isLoading,const DeepCollectionEquality().hash(markers),const DeepCollectionEquality().hash(specialLunarDays),const DeepCollectionEquality().hash(selectedEvents),selectedLunarInfo,error);
 
 @override
 String toString() {
-  return 'CalendarState(focusedMonth: $focusedMonth, selectedDay: $selectedDay, isLoading: $isLoading, markers: $markers, specialLunarDays: $specialLunarDays, selectedEvents: $selectedEvents, selectedDayInfo: $selectedDayInfo, error: $error)';
+  return 'CalendarState(focusedMonth: $focusedMonth, selectedDay: $selectedDay, isLoading: $isLoading, markers: $markers, specialLunarDays: $specialLunarDays, selectedEvents: $selectedEvents, selectedLunarInfo: $selectedLunarInfo, error: $error)';
 }
 
 
@@ -375,7 +375,7 @@ abstract mixin class $CalendarStateCopyWith<$Res>  {
   factory $CalendarStateCopyWith(CalendarState value, $Res Function(CalendarState) _then) = _$CalendarStateCopyWithImpl;
 @useResult
 $Res call({
- DateTime focusedMonth, DateTime selectedDay, bool isLoading, List<CalendarEventModel> markers, Set<String> specialLunarDays, List<HistoryEventModel> selectedEvents, CalendarDayInfo? selectedDayInfo, String? error
+ DateTime focusedMonth, DateTime selectedDay, bool isLoading, List<CalendarEventModel> markers, Set<String> specialLunarDays, List<HistoryEventModel> selectedEvents, LunarDayInfo? selectedLunarInfo, String? error
 });
 
 
@@ -392,7 +392,7 @@ class _$CalendarStateCopyWithImpl<$Res>
 
 /// Create a copy of CalendarState
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? focusedMonth = null,Object? selectedDay = null,Object? isLoading = null,Object? markers = null,Object? specialLunarDays = null,Object? selectedEvents = null,Object? selectedDayInfo = freezed,Object? error = freezed,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? focusedMonth = null,Object? selectedDay = null,Object? isLoading = null,Object? markers = null,Object? specialLunarDays = null,Object? selectedEvents = null,Object? selectedLunarInfo = freezed,Object? error = freezed,}) {
   return _then(_self.copyWith(
 focusedMonth: null == focusedMonth ? _self.focusedMonth : focusedMonth // ignore: cast_nullable_to_non_nullable
 as DateTime,selectedDay: null == selectedDay ? _self.selectedDay : selectedDay // ignore: cast_nullable_to_non_nullable
@@ -400,8 +400,8 @@ as DateTime,isLoading: null == isLoading ? _self.isLoading : isLoading // ignore
 as bool,markers: null == markers ? _self.markers : markers // ignore: cast_nullable_to_non_nullable
 as List<CalendarEventModel>,specialLunarDays: null == specialLunarDays ? _self.specialLunarDays : specialLunarDays // ignore: cast_nullable_to_non_nullable
 as Set<String>,selectedEvents: null == selectedEvents ? _self.selectedEvents : selectedEvents // ignore: cast_nullable_to_non_nullable
-as List<HistoryEventModel>,selectedDayInfo: freezed == selectedDayInfo ? _self.selectedDayInfo : selectedDayInfo // ignore: cast_nullable_to_non_nullable
-as CalendarDayInfo?,error: freezed == error ? _self.error : error // ignore: cast_nullable_to_non_nullable
+as List<HistoryEventModel>,selectedLunarInfo: freezed == selectedLunarInfo ? _self.selectedLunarInfo : selectedLunarInfo // ignore: cast_nullable_to_non_nullable
+as LunarDayInfo?,error: freezed == error ? _self.error : error // ignore: cast_nullable_to_non_nullable
 as String?,
   ));
 }
@@ -484,10 +484,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( DateTime focusedMonth,  DateTime selectedDay,  bool isLoading,  List<CalendarEventModel> markers,  Set<String> specialLunarDays,  List<HistoryEventModel> selectedEvents,  CalendarDayInfo? selectedDayInfo,  String? error)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( DateTime focusedMonth,  DateTime selectedDay,  bool isLoading,  List<CalendarEventModel> markers,  Set<String> specialLunarDays,  List<HistoryEventModel> selectedEvents,  LunarDayInfo? selectedLunarInfo,  String? error)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _CalendarState() when $default != null:
-return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.markers,_that.specialLunarDays,_that.selectedEvents,_that.selectedDayInfo,_that.error);case _:
+return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.markers,_that.specialLunarDays,_that.selectedEvents,_that.selectedLunarInfo,_that.error);case _:
   return orElse();
 
 }
@@ -505,10 +505,10 @@ return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.marke
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( DateTime focusedMonth,  DateTime selectedDay,  bool isLoading,  List<CalendarEventModel> markers,  Set<String> specialLunarDays,  List<HistoryEventModel> selectedEvents,  CalendarDayInfo? selectedDayInfo,  String? error)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( DateTime focusedMonth,  DateTime selectedDay,  bool isLoading,  List<CalendarEventModel> markers,  Set<String> specialLunarDays,  List<HistoryEventModel> selectedEvents,  LunarDayInfo? selectedLunarInfo,  String? error)  $default,) {final _that = this;
 switch (_that) {
 case _CalendarState():
-return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.markers,_that.specialLunarDays,_that.selectedEvents,_that.selectedDayInfo,_that.error);}
+return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.markers,_that.specialLunarDays,_that.selectedEvents,_that.selectedLunarInfo,_that.error);}
 }
 /// A variant of `when` that fallback to returning `null`
 ///
@@ -522,10 +522,10 @@ return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.marke
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( DateTime focusedMonth,  DateTime selectedDay,  bool isLoading,  List<CalendarEventModel> markers,  Set<String> specialLunarDays,  List<HistoryEventModel> selectedEvents,  CalendarDayInfo? selectedDayInfo,  String? error)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( DateTime focusedMonth,  DateTime selectedDay,  bool isLoading,  List<CalendarEventModel> markers,  Set<String> specialLunarDays,  List<HistoryEventModel> selectedEvents,  LunarDayInfo? selectedLunarInfo,  String? error)?  $default,) {final _that = this;
 switch (_that) {
 case _CalendarState() when $default != null:
-return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.markers,_that.specialLunarDays,_that.selectedEvents,_that.selectedDayInfo,_that.error);case _:
+return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.markers,_that.specialLunarDays,_that.selectedEvents,_that.selectedLunarInfo,_that.error);case _:
   return null;
 
 }
@@ -537,7 +537,7 @@ return $default(_that.focusedMonth,_that.selectedDay,_that.isLoading,_that.marke
 
 
 class _CalendarState implements CalendarState {
-  const _CalendarState({required this.focusedMonth, required this.selectedDay, required this.isLoading, required final  List<CalendarEventModel> markers, required final  Set<String> specialLunarDays, required final  List<HistoryEventModel> selectedEvents, this.selectedDayInfo, this.error}): _markers = markers,_specialLunarDays = specialLunarDays,_selectedEvents = selectedEvents;
+  const _CalendarState({required this.focusedMonth, required this.selectedDay, required this.isLoading, required final  List<CalendarEventModel> markers, required final  Set<String> specialLunarDays, required final  List<HistoryEventModel> selectedEvents, this.selectedLunarInfo, this.error}): _markers = markers,_specialLunarDays = specialLunarDays,_selectedEvents = selectedEvents;
   
 
 @override final  DateTime focusedMonth;
@@ -564,7 +564,7 @@ class _CalendarState implements CalendarState {
   return EqualUnmodifiableListView(_selectedEvents);
 }
 
-@override final  CalendarDayInfo? selectedDayInfo;
+@override final  LunarDayInfo? selectedLunarInfo;
 @override final  String? error;
 
 /// Create a copy of CalendarState
@@ -577,16 +577,16 @@ _$CalendarStateCopyWith<_CalendarState> get copyWith => __$CalendarStateCopyWith
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _CalendarState&&(identical(other.focusedMonth, focusedMonth) || other.focusedMonth == focusedMonth)&&(identical(other.selectedDay, selectedDay) || other.selectedDay == selectedDay)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&const DeepCollectionEquality().equals(other._markers, _markers)&&const DeepCollectionEquality().equals(other._specialLunarDays, _specialLunarDays)&&const DeepCollectionEquality().equals(other._selectedEvents, _selectedEvents)&&(identical(other.selectedDayInfo, selectedDayInfo) || other.selectedDayInfo == selectedDayInfo)&&(identical(other.error, error) || other.error == error));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _CalendarState&&(identical(other.focusedMonth, focusedMonth) || other.focusedMonth == focusedMonth)&&(identical(other.selectedDay, selectedDay) || other.selectedDay == selectedDay)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&const DeepCollectionEquality().equals(other._markers, _markers)&&const DeepCollectionEquality().equals(other._specialLunarDays, _specialLunarDays)&&const DeepCollectionEquality().equals(other._selectedEvents, _selectedEvents)&&(identical(other.selectedLunarInfo, selectedLunarInfo) || other.selectedLunarInfo == selectedLunarInfo)&&(identical(other.error, error) || other.error == error));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,focusedMonth,selectedDay,isLoading,const DeepCollectionEquality().hash(_markers),const DeepCollectionEquality().hash(_specialLunarDays),const DeepCollectionEquality().hash(_selectedEvents),selectedDayInfo,error);
+int get hashCode => Object.hash(runtimeType,focusedMonth,selectedDay,isLoading,const DeepCollectionEquality().hash(_markers),const DeepCollectionEquality().hash(_specialLunarDays),const DeepCollectionEquality().hash(_selectedEvents),selectedLunarInfo,error);
 
 @override
 String toString() {
-  return 'CalendarState(focusedMonth: $focusedMonth, selectedDay: $selectedDay, isLoading: $isLoading, markers: $markers, specialLunarDays: $specialLunarDays, selectedEvents: $selectedEvents, selectedDayInfo: $selectedDayInfo, error: $error)';
+  return 'CalendarState(focusedMonth: $focusedMonth, selectedDay: $selectedDay, isLoading: $isLoading, markers: $markers, specialLunarDays: $specialLunarDays, selectedEvents: $selectedEvents, selectedLunarInfo: $selectedLunarInfo, error: $error)';
 }
 
 
@@ -597,7 +597,7 @@ abstract mixin class _$CalendarStateCopyWith<$Res> implements $CalendarStateCopy
   factory _$CalendarStateCopyWith(_CalendarState value, $Res Function(_CalendarState) _then) = __$CalendarStateCopyWithImpl;
 @override @useResult
 $Res call({
- DateTime focusedMonth, DateTime selectedDay, bool isLoading, List<CalendarEventModel> markers, Set<String> specialLunarDays, List<HistoryEventModel> selectedEvents, CalendarDayInfo? selectedDayInfo, String? error
+ DateTime focusedMonth, DateTime selectedDay, bool isLoading, List<CalendarEventModel> markers, Set<String> specialLunarDays, List<HistoryEventModel> selectedEvents, LunarDayInfo? selectedLunarInfo, String? error
 });
 
 
@@ -614,7 +614,7 @@ class __$CalendarStateCopyWithImpl<$Res>
 
 /// Create a copy of CalendarState
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? focusedMonth = null,Object? selectedDay = null,Object? isLoading = null,Object? markers = null,Object? specialLunarDays = null,Object? selectedEvents = null,Object? selectedDayInfo = freezed,Object? error = freezed,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? focusedMonth = null,Object? selectedDay = null,Object? isLoading = null,Object? markers = null,Object? specialLunarDays = null,Object? selectedEvents = null,Object? selectedLunarInfo = freezed,Object? error = freezed,}) {
   return _then(_CalendarState(
 focusedMonth: null == focusedMonth ? _self.focusedMonth : focusedMonth // ignore: cast_nullable_to_non_nullable
 as DateTime,selectedDay: null == selectedDay ? _self.selectedDay : selectedDay // ignore: cast_nullable_to_non_nullable
@@ -622,8 +622,8 @@ as DateTime,isLoading: null == isLoading ? _self.isLoading : isLoading // ignore
 as bool,markers: null == markers ? _self._markers : markers // ignore: cast_nullable_to_non_nullable
 as List<CalendarEventModel>,specialLunarDays: null == specialLunarDays ? _self._specialLunarDays : specialLunarDays // ignore: cast_nullable_to_non_nullable
 as Set<String>,selectedEvents: null == selectedEvents ? _self._selectedEvents : selectedEvents // ignore: cast_nullable_to_non_nullable
-as List<HistoryEventModel>,selectedDayInfo: freezed == selectedDayInfo ? _self.selectedDayInfo : selectedDayInfo // ignore: cast_nullable_to_non_nullable
-as CalendarDayInfo?,error: freezed == error ? _self.error : error // ignore: cast_nullable_to_non_nullable
+as List<HistoryEventModel>,selectedLunarInfo: freezed == selectedLunarInfo ? _self.selectedLunarInfo : selectedLunarInfo // ignore: cast_nullable_to_non_nullable
+as LunarDayInfo?,error: freezed == error ? _self.error : error // ignore: cast_nullable_to_non_nullable
 as String?,
   ));
 }

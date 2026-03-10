@@ -1,8 +1,8 @@
 import 'package:mera_history/core/utils/app_date_utils.dart';
-import 'package:mera_history/core/utils/lunar_calendar_utils.dart';
 import 'package:mera_history/data/repositories/calendar_data_repository.dart';
 import 'package:mera_history/data/repositories/history_data_repository.dart';
 import 'package:mera_history/features/calendar/models/calendar_models.dart';
+import 'package:mera_history/features/calendar/repository/lunar_day_repository.dart';
 
 abstract class CalendarRepository {
   Future<CalendarPayload> loadCalendarPayload();
@@ -13,28 +13,20 @@ class CalendarRepositoryImpl implements CalendarRepository {
   CalendarRepositoryImpl({
     required this.calendarData,
     required this.historyData,
+    required this.lunarDayRepository,
   });
 
   final CalendarDataRepository calendarData;
   final HistoryDataRepository historyData;
+  final LunarDayRepository lunarDayRepository;
 
   @override
   Future<CalendarSelectionResult> loadDay(DateTime day) async {
     final key = AppDateUtils.monthDay(day);
     final allEvents = await historyData.getAll();
     final events = allEvents.where((e) => e.date == key).toList();
-
-    final dayInfo = CalendarDayInfo(
-      solarDate: day,
-      lunarDate: LunarCalendarUtils.formatDayMonth(
-        LunarCalendarUtils.solarToLunar(day),
-      ),
-      canChi: 'Giáp Thìn - Ngày Hoàng Đạo',
-      goodActivities: 'Tốt cho: Du lịch, Kinh doanh',
-      badActivities: 'Nên tránh: Xây dựng',
-    );
-
-    return CalendarSelectionResult(dayInfo: dayInfo, events: events);
+    final lunarInfo = await lunarDayRepository.getLunarDayInfo(day);
+    return CalendarSelectionResult(lunarInfo: lunarInfo, events: events);
   }
 
   @override

@@ -5,6 +5,10 @@ import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/core/utils/app_date_utils.dart';
 import 'package:mera_history/core/utils/lunar_calendar_utils.dart';
 import 'package:mera_history/features/calendar/bloc/calendar_bloc.dart';
+import 'package:mera_history/features/calendar/view/widgets/lunar_activity_section.dart';
+import 'package:mera_history/features/calendar/view/widgets/lunar_day_summary_card.dart';
+import 'package:mera_history/features/calendar/view/widgets/lunar_direction_section.dart';
+import 'package:mera_history/features/calendar/view/widgets/lunar_good_hours_section.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
 import 'package:mera_history/shared/widgets/event_card.dart';
@@ -56,8 +60,16 @@ class CalendarScreen extends StatelessWidget {
                       availableGestures: AvailableGestures.horizontalSwipe,
                       selectedDayPredicate: (day) =>
                           isSameDay(day, state.selectedDay),
-                      headerStyle: const HeaderStyle(
+                      headerStyle: HeaderStyle(
                         formatButtonVisible: false,
+                        titleTextFormatter: (day, locale) =>
+                            _monthYearVietnamese(day),
+                      ),
+                      daysOfWeekStyle: DaysOfWeekStyle(
+                        weekdayStyle: context.textTheme.bodyMedium!,
+                        weekendStyle: context.textTheme.bodyMedium!,
+                        dowTextFormatter: (date, locale) =>
+                            _weekdayVietnamese(date.weekday),
                       ),
                       onDaySelected: (selected, focused) {
                         context.read<CalendarBloc>().add(
@@ -94,46 +106,44 @@ class CalendarScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: spacing.md),
-              if (state.selectedDayInfo != null)
+              if (state.selectedLunarInfo != null) ...[
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: spacing.md),
-                  child: Card(
-                    child: Padding(
-                      padding: EdgeInsets.all(spacing.md),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            AppDateUtils.vietnameseDate(
-                              state.selectedDayInfo!.solarDate,
-                            ),
-                            style: context.textTheme.titleLarge,
-                          ),
-                          SizedBox(height: spacing.xxs),
-                          Text(
-                            '${state.selectedDayInfo!.lunarDate} Âm lịch',
-                            style: context.textTheme.bodyMedium,
-                          ),
-                          SizedBox(height: spacing.xxs),
-                          Text(
-                            state.selectedDayInfo!.canChi,
-                            style: context.textTheme.bodyMedium,
-                          ),
-                          SizedBox(height: spacing.xs),
-                          Text(
-                            state.selectedDayInfo!.goodActivities,
-                            style: context.textTheme.bodyMedium,
-                          ),
-                          SizedBox(height: spacing.xxs),
-                          Text(
-                            state.selectedDayInfo!.badActivities,
-                            style: context.textTheme.bodyMedium,
-                          ),
-                        ],
-                      ),
-                    ),
+                  child: LunarDaySummaryCard(info: state.selectedLunarInfo!),
+                ),
+                SizedBox(height: spacing.sm),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                  child: LunarActivitySection(
+                    title: 'Nên làm',
+                    icon: Icons.task_alt_outlined,
+                    items: state.selectedLunarInfo!.nenLam,
                   ),
                 ),
+                SizedBox(height: spacing.sm),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                  child: LunarActivitySection(
+                    title: 'Nên tránh',
+                    icon: Icons.block_outlined,
+                    items: state.selectedLunarInfo!.nenTranh,
+                  ),
+                ),
+                SizedBox(height: spacing.sm),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                  child: LunarGoodHoursSection(
+                    hours: state.selectedLunarInfo!.gioHoangDao,
+                  ),
+                ),
+                SizedBox(height: spacing.sm),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                  child: LunarDirectionSection(
+                    directions: state.selectedLunarInfo!.huongXuatHanh,
+                  ),
+                ),
+              ],
               SizedBox(height: spacing.md),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: spacing.md),
@@ -169,6 +179,22 @@ class CalendarScreen extends StatelessWidget {
         },
       ),
     );
+  }
+
+  String _monthYearVietnamese(DateTime date) {
+    return 'Tháng ${date.month} ${date.year}';
+  }
+
+  String _weekdayVietnamese(int weekday) {
+    return switch (weekday) {
+      DateTime.monday => 'T2',
+      DateTime.tuesday => 'T3',
+      DateTime.wednesday => 'T4',
+      DateTime.thursday => 'T5',
+      DateTime.friday => 'T6',
+      DateTime.saturday => 'T7',
+      _ => 'CN',
+    };
   }
 
   Widget _buildCell(

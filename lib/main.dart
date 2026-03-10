@@ -8,6 +8,7 @@ import 'package:mera_history/data/repositories/hero_data_repository.dart';
 import 'package:mera_history/data/repositories/history_data_repository.dart';
 import 'package:mera_history/data/services/local_json_service.dart';
 import 'package:mera_history/features/calendar/repository/calendar_repository.dart';
+import 'package:mera_history/features/calendar/repository/lunar_day_repository.dart';
 import 'package:mera_history/features/figures/repository/figures_repository.dart';
 import 'package:mera_history/features/history/repository/history_repository.dart';
 import 'package:mera_history/features/home/repository/home_repository.dart';
@@ -26,6 +27,7 @@ class MeraHistoryApp extends StatelessWidget {
     final historyDataRepository = HistoryDataRepository(jsonService);
     final heroDataRepository = HeroDataRepository(jsonService);
     final calendarDataRepository = CalendarDataRepository(jsonService);
+    final lunarDayRepository = LunarDayRepository(jsonService);
 
     return MultiRepositoryProvider(
       providers: [
@@ -39,6 +41,7 @@ class MeraHistoryApp extends StatelessWidget {
           create: (_) => CalendarRepositoryImpl(
             calendarData: calendarDataRepository,
             historyData: historyDataRepository,
+            lunarDayRepository: lunarDayRepository,
           ),
         ),
         RepositoryProvider<HistoryRepository>(
