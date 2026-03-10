@@ -1,38 +1,56 @@
 [
   {
-    "id": "1945-japanese-coup-indochina",
+    "id": "1789-ngoc-hoi-dong-da",
+    "date": "03-09",
+    "year": 1789,
+    "title": "Chiến thắng Ngọc Hồi - Đống Đa",
+    "description": "Quang Trung đánh bại quân Thanh và giải phóng Thăng Long.",
+    "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1",
+    "country": "Đại Việt"
+  },
+  {
+    "id": "1945-nhat-dao-chinh-phap",
     "date": "03-09",
     "year": 1945,
-    "title": "Japanese coup in French Indochina",
-    "description": "Japan overthrew the French colonial administration in Indochina.",
+    "title": "Nhật đảo chính Pháp tại Đông Dương",
+    "description": "Nhật Bản lật đổ chính quyền thực dân Pháp tại Đông Dương.",
     "image": "https://images.unsplash.com/photo-1548013146-72479768bada",
-    "country": "Vietnam"
+    "country": "Việt Nam"
   },
   {
-    "id": "938-bach-dang-victory",
+    "id": "938-bach-dang",
     "date": "03-10",
     "year": 938,
-    "title": "Victory at Bach Dang River",
-    "description": "Ngo Quyen defeated Southern Han forces and secured independence.",
+    "title": "Trận Bạch Đằng",
+    "description": "Ngô Quyền đánh bại quân Nam Hán trên sông Bạch Đằng.",
     "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
-    "country": "Vietnam"
+    "country": "Đại Việt"
   },
   {
-    "id": "1975-ho-chi-minh-campaign",
-    "date": "04-30",
+    "id": "1975-buon-ma-thuot",
+    "date": "03-10",
     "year": 1975,
-    "title": "Ho Chi Minh Campaign concludes",
-    "description": "The campaign ended with the reunification of Vietnam.",
+    "title": "Chiến dịch Buôn Ma Thuột",
+    "description": "Mũi tiến công chiến lược mở đầu thắng lợi mùa Xuân 1975.",
     "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b",
-    "country": "Vietnam"
+    "country": "Việt Nam"
   },
   {
-    "id": "1010-thang-long-capital",
+    "id": "1010-thang-long",
     "date": "10-10",
     "year": 1010,
-    "title": "Capital moved to Thang Long",
-    "description": "Ly Thai To moved the capital from Hoa Lu to Thang Long.",
+    "title": "Dời đô ra Thăng Long",
+    "description": "Lý Thái Tổ ban Chiếu dời đô, mở ra thời kỳ phát triển mới.",
     "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170",
-    "country": "Vietnam"
+    "country": "Đại Việt"
+  },
+  {
+    "id": "1288-bach-dang-tran",
+    "date": "04-30",
+    "year": 1288,
+    "title": "Chiến thắng Bạch Đằng lần thứ ba",
+    "description": "Trần Hưng Đạo chỉ huy quân dân Đại Việt đánh tan thủy quân Nguyên.",
+    "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022",
+    "country": "Đại Việt"
   }
 ]

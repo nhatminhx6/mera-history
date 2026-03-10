@@ -13,13 +13,10 @@ class SavedRepositoryImpl implements SavedRepository {
   Future<List<ReadingHistoryItem>> readingHistory() async {
     return [
       ReadingHistoryItem(
-        title: 'Japanese coup in French Indochina',
-        time: 'Read 2 hours ago',
+        title: 'Chiến thắng Ngọc Hồi - Đống Đa',
+        time: 'Đọc cách đây 2 giờ',
       ),
-      ReadingHistoryItem(
-        title: 'Tran Hung Dao profile',
-        time: 'Read yesterday',
-      ),
+      ReadingHistoryItem(title: 'Hồ sơ Trần Hưng Đạo', time: 'Đọc hôm qua'),
     ];
   }
 

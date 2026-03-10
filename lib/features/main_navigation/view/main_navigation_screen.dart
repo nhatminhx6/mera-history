@@ -3,16 +3,16 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mera_history/features/calendar/bloc/calendar_bloc.dart';
 import 'package:mera_history/features/calendar/repository/calendar_repository.dart';
 import 'package:mera_history/features/calendar/view/calendar_screen.dart';
+import 'package:mera_history/features/explore/view/explore_screen.dart';
 import 'package:mera_history/features/figures/bloc/figures_bloc.dart';
 import 'package:mera_history/features/figures/repository/figures_repository.dart';
-import 'package:mera_history/features/figures/view/figures_screen.dart';
-import 'package:mera_history/features/history/bloc/history_bloc.dart';
-import 'package:mera_history/features/history/repository/history_repository.dart';
-import 'package:mera_history/features/history/view/history_list_screen.dart';
 import 'package:mera_history/features/home/bloc/home_bloc.dart';
 import 'package:mera_history/features/home/repository/home_repository.dart';
 import 'package:mera_history/features/home/view/home_screen.dart';
+import 'package:mera_history/features/history/bloc/history_bloc.dart';
+import 'package:mera_history/features/history/repository/history_repository.dart';
 import 'package:mera_history/features/main_navigation/bloc/main_navigation_bloc.dart';
+import 'package:mera_history/features/profile/view/profile_screen.dart';
 import 'package:mera_history/features/saved/bloc/saved_bloc.dart';
 import 'package:mera_history/features/saved/repository/saved_repository.dart';
 import 'package:mera_history/features/saved/view/saved_screen.dart';
@@ -35,17 +35,20 @@ class MainNavigationScreen extends StatelessWidget {
               ..add(const CalendarEvent.started()),
         child: const CalendarScreen(),
       ),
-      BlocProvider(
-        create: (context) =>
-            HistoryBloc(context.read<HistoryRepository>())
-              ..add(const HistoryEvent.feedLoaded()),
-        child: const HistoryListScreen(),
-      ),
-      BlocProvider(
-        create: (context) =>
-            FiguresBloc(context.read<FiguresRepository>())
-              ..add(const FiguresEvent.feedLoaded()),
-        child: const FiguresScreen(),
+      MultiBlocProvider(
+        providers: [
+          BlocProvider(
+            create: (context) =>
+                HistoryBloc(context.read<HistoryRepository>())
+                  ..add(const HistoryEvent.feedLoaded()),
+          ),
+          BlocProvider(
+            create: (context) =>
+                FiguresBloc(context.read<FiguresRepository>())
+                  ..add(const FiguresEvent.feedLoaded()),
+          ),
+        ],
+        child: const ExploreScreen(),
       ),
       BlocProvider(
         create: (context) =>
@@ -53,6 +56,7 @@ class MainNavigationScreen extends StatelessWidget {
               ..add(const SavedEvent.started()),
         child: const SavedScreen(),
       ),
+      const ProfileScreen(),
     ];
 
     return BlocBuilder<MainNavigationBloc, MainNavigationState>(
@@ -70,27 +74,27 @@ class MainNavigationScreen extends StatelessWidget {
               NavigationDestination(
                 icon: Icon(Icons.home_outlined),
                 selectedIcon: Icon(Icons.home),
-                label: 'Home',
+                label: 'Trang chủ',
               ),
               NavigationDestination(
                 icon: Icon(Icons.calendar_month_outlined),
                 selectedIcon: Icon(Icons.calendar_month),
-                label: 'Calendar',
+                label: 'Lịch',
               ),
               NavigationDestination(
-                icon: Icon(Icons.history_edu_outlined),
-                selectedIcon: Icon(Icons.history_edu),
-                label: 'History',
-              ),
-              NavigationDestination(
-                icon: Icon(Icons.account_balance_outlined),
-                selectedIcon: Icon(Icons.account_balance),
-                label: 'Figures',
+                icon: Icon(Icons.explore_outlined),
+                selectedIcon: Icon(Icons.explore),
+                label: 'Khám phá',
               ),
               NavigationDestination(
                 icon: Icon(Icons.bookmark_outline),
                 selectedIcon: Icon(Icons.bookmark),
-                label: 'Saved',
+                label: 'Đã lưu',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.person_outline),
+                selectedIcon: Icon(Icons.person),
+                label: 'Cá nhân',
               ),
             ],
           ),

@@ -29,9 +29,9 @@ class CalendarRepositoryImpl implements CalendarRepository {
       lunarDate: LunarCalendarUtils.formatDayMonth(
         LunarCalendarUtils.solarToLunar(day),
       ),
-      canChi: 'Can Chi placeholder',
-      goodActivities: 'Good: study, travel, family gathering',
-      badActivities: 'Avoid: major construction',
+      canChi: 'Giáp Thìn - Ngày Hoàng Đạo',
+      goodActivities: 'Tốt cho: Du lịch, Kinh doanh',
+      badActivities: 'Nên tránh: Xây dựng',
     );
 
     return CalendarSelectionResult(dayInfo: dayInfo, events: events);

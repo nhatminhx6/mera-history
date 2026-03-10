@@ -13,7 +13,7 @@ class ThemeSelectorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Theme SelectorScreen')),
+      appBar: AppBar(title: const Text('Chọn giao diện')),
       body: BlocBuilder<AppThemeCubit, AppThemeState>(
         builder: (context, state) {
           final spacing = context.appSpacing;
@@ -21,10 +21,13 @@ class ThemeSelectorScreen extends StatelessWidget {
           return ListView(
             padding: EdgeInsets.all(spacing.md),
             children: [
-              Text('Choose App Style', style: context.textTheme.headlineSmall),
+              Text(
+                'Chọn phong cách hiển thị',
+                style: context.textTheme.headlineSmall,
+              ),
               SizedBox(height: spacing.xs),
               Text(
-                'Switch visual style instantly across the entire app.',
+                'Thay đổi giao diện toàn ứng dụng ngay lập tức.',
                 style: context.textTheme.bodyMedium,
               ),
               SizedBox(height: spacing.lg),
@@ -45,25 +48,25 @@ class ThemeSelectorScreen extends StatelessWidget {
     final palette = paletteForStyle(style);
 
     final title = switch (style) {
-      AppStyle.darkImperial => 'Dark Imperial',
-      AppStyle.darkJade => 'Dark Jade',
-      AppStyle.darkScholar => 'Dark Scholar',
-      AppStyle.ancientBronze => 'Ancient Bronze',
-      AppStyle.darkCrimson => 'Dark Crimson',
-      AppStyle.midnightBlue => 'Midnight Blue',
-      AppStyle.obsidianGold => 'Obsidian Gold',
-      AppStyle.deepForest => 'Deep Forest',
+      AppStyle.darkImperial => 'Đế Vương Huyền',
+      AppStyle.darkJade => 'Ngọc Thẫm',
+      AppStyle.darkScholar => 'Học Giả Đêm',
+      AppStyle.ancientBronze => 'Đồng Cổ',
+      AppStyle.darkCrimson => 'Đỏ Thẫm',
+      AppStyle.midnightBlue => 'Lam Đêm',
+      AppStyle.obsidianGold => 'Hắc Kim',
+      AppStyle.deepForest => 'Rừng Sâu',
     };
 
     final subtitle = switch (style) {
-      AppStyle.darkImperial => 'Imperial gold and crimson contrast',
-      AppStyle.darkJade => 'Calm jade surfaces and warm accents',
-      AppStyle.darkScholar => 'Scholarly blues with strong hierarchy',
-      AppStyle.ancientBronze => 'Historical bronze manuscript tone',
-      AppStyle.darkCrimson => 'Deep crimson editorial atmosphere',
-      AppStyle.midnightBlue => 'Night archive with vibrant blue focus',
-      AppStyle.obsidianGold => 'Obsidian base with gold highlights',
-      AppStyle.deepForest => 'Forest palette with muted gold details',
+      AppStyle.darkImperial => 'Sắc vàng cổ điển và đỏ quyền uy',
+      AppStyle.darkJade => 'Nền ngọc trầm, điểm nhấn ấm',
+      AppStyle.darkScholar => 'Tông lam học thuật, tương phản rõ',
+      AppStyle.ancientBronze => 'Không khí tư liệu đồng cổ',
+      AppStyle.darkCrimson => 'Sắc đỏ thẫm giàu cảm xúc',
+      AppStyle.midnightBlue => 'Kho tư liệu đêm với điểm nhấn lam',
+      AppStyle.obsidianGold => 'Nền hắc diện thạch, ánh kim sang trọng',
+      AppStyle.deepForest => 'Tông rừng sâu kết hợp ánh vàng nhẹ',
     };
 
     return AppStylePreviewCard(

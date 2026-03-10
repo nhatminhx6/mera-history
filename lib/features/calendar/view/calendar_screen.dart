@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:intl/intl.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/core/utils/app_date_utils.dart';
 import 'package:mera_history/core/utils/lunar_calendar_utils.dart';
@@ -9,6 +8,7 @@ import 'package:mera_history/features/calendar/bloc/calendar_bloc.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
 import 'package:mera_history/shared/widgets/event_card.dart';
+import 'package:mera_history/shared/widgets/unified_calendar_cell.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class CalendarScreen extends StatelessWidget {
@@ -23,7 +23,7 @@ class CalendarScreen extends StatelessWidget {
         builder: (context, state) {
           if (state.error != null) {
             return EmptyStateView(
-              title: 'Calendar unavailable',
+              title: 'Không thể tải lịch',
               message: state.error!,
               icon: Icons.error_outline,
             );
@@ -35,10 +35,8 @@ class CalendarScreen extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: spacing.md),
                 child: AppSectionHeader(
-                  title: 'Calendar',
-                  subtitle: DateFormat(
-                    'EEEE, dd MMM yyyy',
-                  ).format(state.selectedDay),
+                  title: 'Lịch',
+                  subtitle: AppDateUtils.vietnameseDate(state.selectedDay),
                 ),
               ),
               SizedBox(height: spacing.sm),
@@ -53,7 +51,7 @@ class CalendarScreen extends StatelessWidget {
                       lastDay: DateTime(2100),
                       calendarFormat: CalendarFormat.month,
                       availableCalendarFormats: const {
-                        CalendarFormat.month: 'Month',
+                        CalendarFormat.month: 'Tháng',
                       },
                       availableGestures: AvailableGestures.horizontalSwipe,
                       selectedDayPredicate: (day) =>
@@ -76,57 +74,20 @@ class CalendarScreen extends StatelessWidget {
                       },
                       calendarBuilders: CalendarBuilders(
                         defaultBuilder: (context, day, focusedDay) =>
-                            _CalendarDayCell(
-                              day: day,
-                              isSelected: false,
-                              isToday: false,
-                              isOutside: false,
-                              hasEvent: state.markers.any(
-                                (m) => m.date == AppDateUtils.monthDay(day),
-                              ),
-                              hasLunarSpecial: state.specialLunarDays.contains(
-                                AppDateUtils.monthDay(day),
-                              ),
+                            _buildCell(
+                              context,
+                              state,
+                              day,
+                              false,
+                              false,
+                              false,
                             ),
                         todayBuilder: (context, day, focusedDay) =>
-                            _CalendarDayCell(
-                              day: day,
-                              isSelected: false,
-                              isToday: true,
-                              isOutside: false,
-                              hasEvent: state.markers.any(
-                                (m) => m.date == AppDateUtils.monthDay(day),
-                              ),
-                              hasLunarSpecial: state.specialLunarDays.contains(
-                                AppDateUtils.monthDay(day),
-                              ),
-                            ),
+                            _buildCell(context, state, day, true, false, false),
                         selectedBuilder: (context, day, focusedDay) =>
-                            _CalendarDayCell(
-                              day: day,
-                              isSelected: true,
-                              isToday: false,
-                              isOutside: false,
-                              hasEvent: state.markers.any(
-                                (m) => m.date == AppDateUtils.monthDay(day),
-                              ),
-                              hasLunarSpecial: state.specialLunarDays.contains(
-                                AppDateUtils.monthDay(day),
-                              ),
-                            ),
+                            _buildCell(context, state, day, false, true, false),
                         outsideBuilder: (context, day, focusedDay) =>
-                            _CalendarDayCell(
-                              day: day,
-                              isSelected: false,
-                              isToday: false,
-                              isOutside: true,
-                              hasEvent: state.markers.any(
-                                (m) => m.date == AppDateUtils.monthDay(day),
-                              ),
-                              hasLunarSpecial: state.specialLunarDays.contains(
-                                AppDateUtils.monthDay(day),
-                              ),
-                            ),
+                            _buildCell(context, state, day, false, false, true),
                       ),
                     ),
                   ),
@@ -143,18 +104,31 @@ class CalendarScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Selected date details',
-                            style: Theme.of(context).textTheme.titleLarge,
+                            AppDateUtils.vietnameseDate(
+                              state.selectedDayInfo!.solarDate,
+                            ),
+                            style: context.textTheme.titleLarge,
                           ),
-                          SizedBox(height: spacing.xs + spacing.xxs / 2),
+                          SizedBox(height: spacing.xxs),
                           Text(
-                            'Solar: ${DateFormat('dd/MM/yyyy').format(state.selectedDayInfo!.solarDate)}',
+                            '${state.selectedDayInfo!.lunarDate} Âm lịch',
+                            style: context.textTheme.bodyMedium,
                           ),
-                          Text('Lunar: ${state.selectedDayInfo!.lunarDate}'),
-                          Text('Can Chi: ${state.selectedDayInfo!.canChi}'),
+                          SizedBox(height: spacing.xxs),
+                          Text(
+                            state.selectedDayInfo!.canChi,
+                            style: context.textTheme.bodyMedium,
+                          ),
                           SizedBox(height: spacing.xs),
-                          Text(state.selectedDayInfo!.goodActivities),
-                          Text(state.selectedDayInfo!.badActivities),
+                          Text(
+                            state.selectedDayInfo!.goodActivities,
+                            style: context.textTheme.bodyMedium,
+                          ),
+                          SizedBox(height: spacing.xxs),
+                          Text(
+                            state.selectedDayInfo!.badActivities,
+                            style: context.textTheme.bodyMedium,
+                          ),
                         ],
                       ),
                     ),
@@ -163,15 +137,15 @@ class CalendarScreen extends StatelessWidget {
               SizedBox(height: spacing.md),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: spacing.md),
-                child: const AppSectionHeader(title: 'Historical Events'),
+                child: const AppSectionHeader(title: 'Sự kiện trong ngày'),
               ),
-              SizedBox(height: spacing.xs + spacing.xxs / 2),
+              SizedBox(height: spacing.xs),
               if (state.selectedEvents.isEmpty)
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: spacing.md),
-                  child: EmptyStateView(
-                    title: 'No events for this day',
-                    message: 'Try a different day in this month.',
+                  child: const EmptyStateView(
+                    title: 'Không có sự kiện',
+                    message: 'Vui lòng chọn ngày khác để xem thêm.',
                   ),
                 )
               else
@@ -185,7 +159,8 @@ class CalendarScreen extends StatelessWidget {
                     ),
                     child: EventCard(
                       event: event,
-                      onTap: () => context.push('/history/detail/${event.id}'),
+                      onTap: () =>
+                          context.push('/kham-pha/su-kien/${event.id}'),
                     ),
                   ),
                 ),
@@ -195,97 +170,30 @@ class CalendarScreen extends StatelessWidget {
       ),
     );
   }
-}
 
-class _CalendarDayCell extends StatelessWidget {
-  const _CalendarDayCell({
-    required this.day,
-    required this.isSelected,
-    required this.isToday,
-    required this.isOutside,
-    required this.hasEvent,
-    required this.hasLunarSpecial,
-  });
+  Widget _buildCell(
+    BuildContext context,
+    CalendarState state,
+    DateTime day,
+    bool isToday,
+    bool isSelected,
+    bool isOutside,
+  ) {
+    final key = AppDateUtils.monthDay(day);
+    final hasEvent = state.markers.any((m) => m.date == key);
+    final hasSpecial = state.specialLunarDays.contains(key);
+    final lunarText = LunarCalendarUtils.formatDayMonth(
+      LunarCalendarUtils.solarToLunar(day),
+    );
 
-  final DateTime day;
-  final bool isSelected;
-  final bool isToday;
-  final bool isOutside;
-  final bool hasEvent;
-  final bool hasLunarSpecial;
-
-  @override
-  Widget build(BuildContext context) {
-    final spacing = context.appSpacing;
-    final radius = context.appRadius;
-    final lunar = LunarCalendarUtils.solarToLunar(day);
-    final lunarText = LunarCalendarUtils.formatDayMonth(lunar);
-
-    final isHighlighted = isSelected || isToday;
-    final foregroundColor = isOutside
-        ? context.appColors.textSecondary
-        : context.appColors.textPrimary;
-
-    return Container(
-      margin: EdgeInsets.symmetric(
-        vertical: spacing.xxs,
-        horizontal: spacing.xxs / 2,
-      ),
-      decoration: BoxDecoration(
-        color: isSelected
-            ? context.colorScheme.primary.withValues(alpha: 0.18)
-            : (isToday
-                  ? context.colorScheme.secondary.withValues(alpha: 0.16)
-                  : null),
-        borderRadius: BorderRadius.circular(radius.sm + 2),
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            '${day.day}',
-            style: context.textTheme.bodyMedium?.copyWith(
-              fontWeight: isHighlighted ? FontWeight.w700 : FontWeight.w600,
-              color: foregroundColor,
-            ),
-          ),
-          SizedBox(height: spacing.xxs / 2),
-          Text(
-            lunarText,
-            style: context.textTheme.bodySmall?.copyWith(
-              color: context.appColors.lunarText.withValues(
-                alpha: isOutside ? 0.6 : 0.95,
-              ),
-              fontSize: 11,
-            ),
-          ),
-          SizedBox(height: spacing.xxs / 2),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              if (hasEvent)
-                Container(
-                  width: spacing.xxs,
-                  height: spacing.xxs,
-                  decoration: BoxDecoration(
-                    color: context.appColors.eventDot,
-                    shape: BoxShape.circle,
-                  ),
-                ),
-              if (hasEvent && hasLunarSpecial) SizedBox(width: spacing.xxs / 2),
-              if (hasLunarSpecial)
-                Container(
-                  width: spacing.xxs,
-                  height: spacing.xxs,
-                  decoration: BoxDecoration(
-                    color: context.appColors.specialDayBadge,
-                    shape: BoxShape.circle,
-                  ),
-                ),
-            ],
-          ),
-        ],
-      ),
+    return UnifiedCalendarCell(
+      solarDay: day.day,
+      lunarText: lunarText,
+      isToday: isToday,
+      isSelected: isSelected,
+      isOutside: isOutside,
+      hasEvent: hasEvent,
+      hasSpecial: hasSpecial,
     );
   }
 }

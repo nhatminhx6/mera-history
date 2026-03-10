@@ -71,7 +71,7 @@ class EventCard extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.sm),
                   Text(
-                    'Read story',
+                    'Đọc câu chuyện',
                     style: context.textTheme.labelLarge?.copyWith(
                       color: context.colorScheme.primary,
                     ),

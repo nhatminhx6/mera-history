@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:mera_history/core/constants/app_spacing.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/saved/bloc/saved_bloc.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
@@ -12,6 +11,8 @@ class SavedScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final spacing = context.appSpacing;
+
     return SafeArea(
       child: BlocBuilder<SavedBloc, SavedState>(
         builder: (context, state) {
@@ -19,60 +20,62 @@ class SavedScreen extends StatelessWidget {
             initial: () => const Center(child: CircularProgressIndicator()),
             loading: () => const Center(child: CircularProgressIndicator()),
             error: (message) => EmptyStateView(
-              title: 'Cannot load saved content',
+              title: 'Không thể tải dữ liệu',
               message: message,
               icon: Icons.error_outline,
             ),
             loaded: (events, figures, readingHistory) {
               return ListView(
-                padding: EdgeInsets.only(
-                  top: context.appSpacing.sm,
-                  bottom: context.appSpacing.lg,
-                ),
+                padding: EdgeInsets.only(top: spacing.sm, bottom: spacing.lg),
                 children: [
-                  const Padding(
-                    padding: AppSpacing.pagePadding,
-                    child: AppSectionHeader(title: 'Saved'),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                    child: const AppSectionHeader(title: 'Đã lưu'),
                   ),
-                  AppSpacing.sectionGap,
-                  const Padding(
-                    padding: AppSpacing.pagePadding,
-                    child: AppSectionHeader(title: 'Saved Events'),
+                  SizedBox(height: spacing.lg),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                    child: const AppSectionHeader(title: 'Sự kiện đã lưu'),
                   ),
-                  const SizedBox(height: 10),
+                  SizedBox(height: spacing.xs),
                   if (events.isEmpty)
-                    const Padding(
-                      padding: AppSpacing.pagePadding,
-                      child: EmptyStateView(
-                        title: 'No saved events',
-                        message: 'Bookmark stories to see them here.',
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                      child: const EmptyStateView(
+                        title: 'Chưa có sự kiện đã lưu',
+                        message: 'Nhấn lưu khi đọc để xem lại sau.',
                         icon: Icons.bookmark_outline,
                       ),
                     ),
-                  AppSpacing.sectionGap,
-                  const Padding(
-                    padding: AppSpacing.pagePadding,
-                    child: AppSectionHeader(title: 'Saved Figures'),
+                  SizedBox(height: spacing.lg),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                    child: const AppSectionHeader(title: 'Nhân vật đã lưu'),
                   ),
-                  const SizedBox(height: 10),
+                  SizedBox(height: spacing.xs),
                   if (figures.isEmpty)
-                    const Padding(
-                      padding: AppSpacing.pagePadding,
-                      child: EmptyStateView(
-                        title: 'No saved figures',
-                        message: 'Save historical figures for quick revisit.',
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                      child: const EmptyStateView(
+                        title: 'Chưa có nhân vật đã lưu',
+                        message: 'Lưu nhân vật để xem lại nhanh hơn.',
                         icon: Icons.account_balance_outlined,
                       ),
                     ),
-                  AppSpacing.sectionGap,
-                  const Padding(
-                    padding: AppSpacing.pagePadding,
-                    child: AppSectionHeader(title: 'Reading History'),
+                  SizedBox(height: spacing.lg),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                    child: const AppSectionHeader(title: 'Lịch sử đọc'),
                   ),
-                  const SizedBox(height: 10),
+                  SizedBox(height: spacing.xs),
                   ...readingHistory.map(
                     (item) => Padding(
-                      padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
+                      padding: EdgeInsets.fromLTRB(
+                        spacing.md,
+                        0,
+                        spacing.md,
+                        spacing.sm,
+                      ),
                       child: Card(
                         child: ListTile(
                           title: Text(item.title),
@@ -81,17 +84,14 @@ class SavedScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  AppSpacing.sectionGap,
+                  SizedBox(height: spacing.md),
                   Padding(
-                    padding: AppSpacing.pagePadding,
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
                     child: Card(
                       child: ListTile(
-                        leading: Icon(
-                          Icons.palette_outlined,
-                          color: context.colorScheme.primary,
-                        ),
-                        title: const Text('Theme & Style'),
-                        subtitle: const Text('Switch app visual style'),
+                        leading: const Icon(Icons.palette_outlined),
+                        title: const Text('Đổi giao diện'),
+                        subtitle: const Text('Tùy chỉnh phong cách hiển thị'),
                         trailing: const Icon(Icons.chevron_right),
                         onTap: () => context.push('/settings/theme'),
                       ),
