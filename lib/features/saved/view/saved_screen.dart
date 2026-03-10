@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import 'package:mera_history/core/constants/app_spacing.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/saved/bloc/saved_bloc.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
@@ -23,7 +25,10 @@ class SavedScreen extends StatelessWidget {
             ),
             loaded: (events, figures, readingHistory) {
               return ListView(
-                padding: const EdgeInsets.only(top: 12, bottom: 24),
+                padding: EdgeInsets.only(
+                  top: context.appSpacing.sm,
+                  bottom: context.appSpacing.lg,
+                ),
                 children: [
                   const Padding(
                     padding: AppSpacing.pagePadding,
@@ -73,6 +78,22 @@ class SavedScreen extends StatelessWidget {
                           title: Text(item.title),
                           subtitle: Text(item.time),
                         ),
+                      ),
+                    ),
+                  ),
+                  AppSpacing.sectionGap,
+                  Padding(
+                    padding: AppSpacing.pagePadding,
+                    child: Card(
+                      child: ListTile(
+                        leading: Icon(
+                          Icons.palette_outlined,
+                          color: context.colorScheme.primary,
+                        ),
+                        title: const Text('Theme & Style'),
+                        subtitle: const Text('Switch app visual style'),
+                        trailing: const Icon(Icons.chevron_right),
+                        onTap: () => context.push('/settings/theme'),
                       ),
                     ),
                   ),

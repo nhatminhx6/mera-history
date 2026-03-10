@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 
 class QuickActionCard extends StatelessWidget {
   const QuickActionCard({
@@ -14,26 +15,25 @@ class QuickActionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final spacing = context.appSpacing;
+    final radius = context.appRadius;
+
     return Card(
       child: InkWell(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(radius.xl),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(14),
+          padding: EdgeInsets.all(spacing.sm),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Icon(
                 icon,
-                size: 28,
-                color: Theme.of(context).colorScheme.primary,
+                size: spacing.xl - spacing.xxs,
+                color: context.colorScheme.primary,
               ),
               const Spacer(),
-              Text(
-                title,
-                style: Theme.of(context).textTheme.titleMedium,
-                maxLines: 2,
-              ),
+              Text(title, style: context.textTheme.titleMedium, maxLines: 2),
             ],
           ),
         ),

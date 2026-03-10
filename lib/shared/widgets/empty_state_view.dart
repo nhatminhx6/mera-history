@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 
 class EmptyStateView extends StatelessWidget {
   const EmptyStateView({
@@ -14,17 +15,23 @@ class EmptyStateView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final spacing = context.appSpacing;
+
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(24),
+        padding: EdgeInsets.all(spacing.lg),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(icon, size: 40, color: Theme.of(context).colorScheme.primary),
-            const SizedBox(height: 12),
-            Text(title, style: Theme.of(context).textTheme.titleLarge),
-            const SizedBox(height: 8),
-            Text(message, textAlign: TextAlign.center),
+            Icon(icon, size: spacing.xxl, color: context.colorScheme.primary),
+            SizedBox(height: spacing.sm),
+            Text(title, style: context.textTheme.titleLarge),
+            SizedBox(height: spacing.xs),
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              style: context.textTheme.bodyMedium,
+            ),
           ],
         ),
       ),

@@ -1,5 +1,5 @@
-import 'package:intl/intl.dart';
 import 'package:mera_history/core/utils/app_date_utils.dart';
+import 'package:mera_history/core/utils/lunar_calendar_utils.dart';
 import 'package:mera_history/data/repositories/calendar_data_repository.dart';
 import 'package:mera_history/data/repositories/history_data_repository.dart';
 import 'package:mera_history/features/calendar/models/calendar_models.dart';
@@ -26,7 +26,9 @@ class CalendarRepositoryImpl implements CalendarRepository {
 
     final dayInfo = CalendarDayInfo(
       solarDate: day,
-      lunarDate: 'Lunar ${DateFormat('dd/MM').format(day)}',
+      lunarDate: LunarCalendarUtils.formatDayMonth(
+        LunarCalendarUtils.solarToLunar(day),
+      ),
       canChi: 'Can Chi placeholder',
       goodActivities: 'Good: study, travel, family gathering',
       badActivities: 'Avoid: major construction',

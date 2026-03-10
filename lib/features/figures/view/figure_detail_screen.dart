@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:mera_history/core/constants/app_spacing.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/figures/bloc/figures_bloc.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
@@ -47,13 +48,10 @@ class FigureDetailScreen extends StatelessWidget {
                           left: 12,
                           top: 12,
                           child: CircleAvatar(
-                            backgroundColor: Colors.black54,
+                            backgroundColor: context.appColors.heroOverlayStart,
                             child: IconButton(
                               onPressed: () => context.pop(),
-                              icon: const Icon(
-                                Icons.arrow_back,
-                                color: Colors.white,
-                              ),
+                              icon: const Icon(Icons.arrow_back),
                             ),
                           ),
                         ),
@@ -61,13 +59,10 @@ class FigureDetailScreen extends StatelessWidget {
                           right: 12,
                           top: 12,
                           child: CircleAvatar(
-                            backgroundColor: Colors.black54,
+                            backgroundColor: context.appColors.heroOverlayStart,
                             child: IconButton(
                               onPressed: () {},
-                              icon: const Icon(
-                                Icons.bookmark_outline,
-                                color: Colors.white,
-                              ),
+                              icon: const Icon(Icons.bookmark_outline),
                             ),
                           ),
                         ),

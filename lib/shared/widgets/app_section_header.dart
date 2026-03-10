@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 
 class AppSectionHeader extends StatelessWidget {
   const AppSectionHeader({
@@ -14,6 +15,8 @@ class AppSectionHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final spacing = context.appSpacing;
+
     return Row(
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
@@ -21,14 +24,11 @@ class AppSectionHeader extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(title, style: Theme.of(context).textTheme.headlineSmall),
+              Text(title, style: context.textTheme.headlineSmall),
               if (subtitle != null)
                 Padding(
-                  padding: const EdgeInsets.only(top: 4),
-                  child: Text(
-                    subtitle!,
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
+                  padding: EdgeInsets.only(top: spacing.xxs),
+                  child: Text(subtitle!, style: context.textTheme.bodyMedium),
                 ),
             ],
           ),

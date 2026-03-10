@@ -9,6 +9,7 @@ import 'package:mera_history/features/history/repository/history_repository.dart
 import 'package:mera_history/features/history/view/history_detail_screen.dart';
 import 'package:mera_history/features/main_navigation/bloc/main_navigation_bloc.dart';
 import 'package:mera_history/features/main_navigation/view/main_navigation_screen.dart';
+import 'package:mera_history/features/settings/view/theme_selector_screen.dart';
 
 class AppRouter {
   AppRouter._();
@@ -47,6 +48,10 @@ class AppRouter {
               child: const FigureDetailScreen(),
             );
           },
+        ),
+        GoRoute(
+          path: '/settings/theme',
+          builder: (context, state) => const ThemeSelectorScreen(),
         ),
       ],
       errorBuilder: (context, state) => Scaffold(

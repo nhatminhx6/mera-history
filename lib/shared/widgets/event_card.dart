@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/data/models/history_event_model.dart';
 
 class EventCard extends StatelessWidget {
@@ -15,18 +16,20 @@ class EventCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final spacing = context.appSpacing;
+    final radius = context.appRadius;
     final imageHeight = featured ? 180.0 : 120.0;
 
     return Card(
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(radius.xl),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ClipRRect(
-              borderRadius: const BorderRadius.vertical(
-                top: Radius.circular(20),
+              borderRadius: BorderRadius.vertical(
+                top: Radius.circular(radius.xl),
               ),
               child: Image.network(
                 event.image,
@@ -36,41 +39,41 @@ class EventCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(14),
+              padding: EdgeInsets.all(spacing.sm),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     children: [
                       Chip(label: Text('${event.year}')),
-                      const SizedBox(width: 8),
+                      SizedBox(width: spacing.xs),
                       Expanded(
                         child: Text(
                           event.country,
-                          style: Theme.of(context).textTheme.bodyMedium,
+                          style: context.textTheme.bodyMedium,
                         ),
                       ),
-                      const Icon(Icons.arrow_forward_ios, size: 14),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: spacing.sm,
+                        color: context.appColors.textSecondary,
+                      ),
                     ],
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    event.title,
-                    style: Theme.of(context).textTheme.titleLarge,
-                  ),
-                  const SizedBox(height: 8),
+                  SizedBox(height: spacing.xs),
+                  Text(event.title, style: context.textTheme.titleLarge),
+                  SizedBox(height: spacing.xs),
                   Text(
                     event.description,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
-                    style: Theme.of(context).textTheme.bodyMedium,
+                    style: context.textTheme.bodyMedium,
                   ),
-                  const SizedBox(height: 10),
+                  SizedBox(height: spacing.sm),
                   Text(
                     'Read story',
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.primary,
-                      fontWeight: FontWeight.w600,
+                    style: context.textTheme.labelLarge?.copyWith(
+                      color: context.colorScheme.primary,
                     ),
                   ),
                 ],

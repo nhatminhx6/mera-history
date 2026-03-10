@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/data/models/hero_model.dart';
 
 class FigureCard extends StatelessWidget {
@@ -15,17 +16,20 @@ class FigureCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final spacing = context.appSpacing;
+    final radius = context.appRadius;
+
     return Card(
       child: InkWell(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(radius.xl),
         onTap: onTap,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
               child: ClipRRect(
-                borderRadius: const BorderRadius.vertical(
-                  top: Radius.circular(20),
+                borderRadius: BorderRadius.vertical(
+                  top: Radius.circular(radius.xl),
                 ),
                 child: Image.network(
                   figure.image,
@@ -35,27 +39,21 @@ class FigureCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(12),
+              padding: EdgeInsets.all(spacing.sm),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     figure.name,
-                    style: Theme.of(context).textTheme.titleMedium,
+                    style: context.textTheme.titleMedium,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  const SizedBox(height: 4),
-                  Text(
-                    figure.period,
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
+                  SizedBox(height: spacing.xxs),
+                  Text(figure.period, style: context.textTheme.bodySmall),
                   if (!compact) ...[
-                    const SizedBox(height: 4),
-                    Text(
-                      figure.role,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
+                    SizedBox(height: spacing.xxs),
+                    Text(figure.role, style: context.textTheme.bodySmall),
                   ],
                 ],
               ),

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mera_history/core/router/app_router.dart';
-import 'package:mera_history/core/theme/app_theme.dart';
+import 'package:mera_history/core/theme/app_theme_cubit.dart';
+import 'package:mera_history/core/theme/app_theme_state.dart';
 import 'package:mera_history/data/repositories/calendar_data_repository.dart';
 import 'package:mera_history/data/repositories/hero_data_repository.dart';
 import 'package:mera_history/data/repositories/history_data_repository.dart';
@@ -53,12 +54,30 @@ class MeraHistoryApp extends StatelessWidget {
           create: (_) => SavedRepositoryImpl(),
         ),
       ],
-      child: MaterialApp.router(
-        title: 'MeraHistory',
-        debugShowCheckedModeBanner: false,
-        theme: AppTheme.light,
-        routerConfig: AppRouter.createRouter(),
+      child: BlocProvider(
+        create: (_) => AppThemeCubit(),
+        child: const AppRoot(),
       ),
+    );
+  }
+}
+
+class AppRoot extends StatelessWidget {
+  const AppRoot({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<AppThemeCubit, AppThemeState>(
+      builder: (context, state) {
+        return MaterialApp.router(
+          title: 'MeraHistory',
+          debugShowCheckedModeBanner: false,
+          theme: state.theme,
+          darkTheme: state.theme,
+          themeMode: ThemeMode.dark,
+          routerConfig: AppRouter.createRouter(),
+        );
+      },
     );
   }
 }
