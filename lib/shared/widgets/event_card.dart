@@ -56,7 +56,7 @@ class EventCard extends StatelessWidget {
                       Icon(
                         Icons.arrow_forward_ios,
                         size: spacing.sm,
-                        color: context.appColors.textSecondary,
+                        color: context.colorScheme.primary,
                       ),
                     ],
                   ),

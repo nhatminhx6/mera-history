@@ -52,6 +52,17 @@ class AppTheme {
           );
         }),
       ),
+      iconTheme: IconThemeData(color: palette.primary),
+      primaryIconTheme: IconThemeData(color: palette.primary),
+      iconButtonTheme: IconButtonThemeData(
+        style: IconButton.styleFrom(foregroundColor: palette.primary),
+      ),
+      appBarTheme: AppBarTheme(
+        backgroundColor: Colors.transparent,
+        foregroundColor: palette.primary,
+        iconTheme: IconThemeData(color: palette.primary),
+        actionsIconTheme: IconThemeData(color: palette.primary),
+      ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: palette.surfaceContainer,
