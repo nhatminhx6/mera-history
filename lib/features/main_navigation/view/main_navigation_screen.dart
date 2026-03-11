@@ -3,14 +3,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mera_history/features/calendar/bloc/calendar_bloc.dart';
 import 'package:mera_history/features/calendar/repository/calendar_repository.dart';
 import 'package:mera_history/features/calendar/view/calendar_screen.dart';
+import 'package:mera_history/features/explore/bloc/explore_bloc.dart';
+import 'package:mera_history/features/explore/repository/explore_repository.dart';
 import 'package:mera_history/features/explore/view/explore_screen.dart';
-import 'package:mera_history/features/figures/bloc/figures_bloc.dart';
-import 'package:mera_history/features/figures/repository/figures_repository.dart';
 import 'package:mera_history/features/home/bloc/home_bloc.dart';
 import 'package:mera_history/features/home/repository/home_repository.dart';
 import 'package:mera_history/features/home/view/home_screen.dart';
-import 'package:mera_history/features/history/bloc/history_bloc.dart';
-import 'package:mera_history/features/history/repository/history_repository.dart';
 import 'package:mera_history/features/main_navigation/bloc/main_navigation_bloc.dart';
 import 'package:mera_history/features/profile/bloc/profile_bloc.dart';
 import 'package:mera_history/features/profile/repository/profile_repository.dart';
@@ -37,19 +35,10 @@ class MainNavigationScreen extends StatelessWidget {
               ..add(const CalendarEvent.started()),
         child: const CalendarScreen(),
       ),
-      MultiBlocProvider(
-        providers: [
-          BlocProvider(
-            create: (context) =>
-                HistoryBloc(context.read<HistoryRepository>())
-                  ..add(const HistoryEvent.feedLoaded()),
-          ),
-          BlocProvider(
-            create: (context) =>
-                FiguresBloc(context.read<FiguresRepository>())
-                  ..add(const FiguresEvent.feedLoaded()),
-          ),
-        ],
+      BlocProvider(
+        create: (context) =>
+            ExploreBloc(context.read<ExploreRepository>())
+              ..add(const ExploreEvent.started()),
         child: const ExploreScreen(),
       ),
       BlocProvider(

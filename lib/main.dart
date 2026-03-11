@@ -6,9 +6,15 @@ import 'package:mera_history/core/theme/app_theme_state.dart';
 import 'package:mera_history/data/datasources/local/mock_daily_quiz_datasource.dart';
 import 'package:mera_history/data/datasources/local/mock_dynasty_datasource.dart';
 import 'package:mera_history/data/datasources/local/mock_event_datasource.dart';
+import 'package:mera_history/data/datasources/local/mock_explore_config_datasource.dart';
 import 'package:mera_history/data/datasources/local/mock_figure_datasource.dart';
+import 'package:mera_history/data/datasources/local/mock_historical_theme_datasource.dart';
+import 'package:mera_history/data/datasources/local/mock_king_datasource.dart';
+import 'package:mera_history/data/datasources/local/mock_battle_datasource.dart';
+import 'package:mera_history/data/datasources/local/mock_parallel_timeline_datasource.dart';
 import 'package:mera_history/data/datasources/local/mock_profile_datasource.dart';
 import 'package:mera_history/data/datasources/local/mock_saved_datasource.dart';
+import 'package:mera_history/data/repositories/battle_repository_impl.dart';
 import 'package:mera_history/data/repositories/calendar_data_repository.dart';
 import 'package:mera_history/data/repositories/daily_advice_repository.dart';
 import 'package:mera_history/data/repositories/daily_quiz_repository.dart';
@@ -17,11 +23,14 @@ import 'package:mera_history/data/repositories/event_repository_impl.dart';
 import 'package:mera_history/data/repositories/figure_repository_impl.dart';
 import 'package:mera_history/data/repositories/hero_data_repository.dart';
 import 'package:mera_history/data/repositories/history_data_repository.dart';
+import 'package:mera_history/data/repositories/king_repository_impl.dart';
+import 'package:mera_history/data/repositories/parallel_timeline_repository_impl.dart';
 import 'package:mera_history/data/repositories/profile_stats_repository.dart';
 import 'package:mera_history/data/repositories/saved_content_repository.dart';
 import 'package:mera_history/data/services/local_json_service.dart';
 import 'package:mera_history/features/calendar/repository/calendar_repository.dart';
 import 'package:mera_history/features/calendar/repository/lunar_day_repository.dart';
+import 'package:mera_history/features/explore/repository/explore_repository.dart';
 import 'package:mera_history/features/figures/repository/figures_repository.dart';
 import 'package:mera_history/features/history/repository/history_repository.dart';
 import 'package:mera_history/features/home/repository/home_repository.dart';
@@ -41,7 +50,18 @@ class MeraHistoryApp extends StatelessWidget {
     final mockDailyQuizDataSource = MockDailyQuizDataSource(jsonService);
     final mockDynastyDataSource = MockDynastyDataSource(jsonService);
     final mockEventDataSource = MockEventDataSource(jsonService);
+    final mockExploreConfigDataSource = MockExploreConfigDataSource(
+      jsonService,
+    );
     final mockFigureDataSource = MockFigureDataSource(jsonService);
+    final mockHistoricalThemeDataSource = MockHistoricalThemeDataSource(
+      jsonService,
+    );
+    final mockKingDataSource = MockKingDataSource(jsonService);
+    final mockBattleDataSource = MockBattleDataSource(jsonService);
+    final mockParallelTimelineDataSource = MockParallelTimelineDataSource(
+      jsonService,
+    );
     final mockSavedDataSource = MockSavedDataSource(jsonService);
     final mockProfileDataSource = MockProfileDataSource(jsonService);
 
@@ -49,6 +69,11 @@ class MeraHistoryApp extends StatelessWidget {
     final dynastyRepository = DynastyRepositoryImpl(mockDynastyDataSource);
     final eventApiRepository = EventRepositoryImpl(mockEventDataSource);
     final figureApiRepository = FigureRepositoryImpl(mockFigureDataSource);
+    final kingRepository = KingRepositoryImpl(mockKingDataSource);
+    final battleRepository = BattleRepositoryImpl(mockBattleDataSource);
+    final parallelTimelineRepository = ParallelTimelineRepositoryImpl(
+      mockParallelTimelineDataSource,
+    );
     final savedContentRepository = SavedContentRepository(mockSavedDataSource);
     final profileStatsRepository = ProfileStatsRepository(
       mockProfileDataSource,
@@ -57,6 +82,17 @@ class MeraHistoryApp extends StatelessWidget {
     final historyDataRepository = HistoryDataRepository(eventApiRepository);
     final heroDataRepository = HeroDataRepository(figureApiRepository);
     final calendarDataRepository = CalendarDataRepository(eventApiRepository);
+    final exploreRepository = ExploreRepositoryImpl(
+      eventRepository: eventApiRepository,
+      dynastyRepository: dynastyRepository,
+      kingRepository: kingRepository,
+      figureRepository: figureApiRepository,
+      battleRepository: battleRepository,
+      parallelTimelineRepository: parallelTimelineRepository,
+      heroDataRepository: heroDataRepository,
+      themeDataSource: mockHistoricalThemeDataSource,
+      configDataSource: mockExploreConfigDataSource,
+    );
     final lunarDayRepository = LunarDayRepository(jsonService);
     final dailyAdviceRepository = DailyAdviceRepository(jsonService);
     final savedRepository = SavedRepositoryImpl(
@@ -102,6 +138,7 @@ class MeraHistoryApp extends StatelessWidget {
         ),
         RepositoryProvider<SavedRepository>(create: (_) => savedRepository),
         RepositoryProvider<ProfileRepository>(create: (_) => profileRepository),
+        RepositoryProvider<ExploreRepository>(create: (_) => exploreRepository),
       ],
       child: BlocProvider(
         create: (_) => AppThemeCubit(),

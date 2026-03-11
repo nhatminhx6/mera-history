@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:mera_history/features/explore/view/battle_detail_screen.dart';
+import 'package:mera_history/features/explore/view/dynasty_detail_screen.dart';
 import 'package:mera_history/features/explore/view/figure_detail_screen.dart';
 import 'package:mera_history/features/explore/view/history_detail_screen.dart';
+import 'package:mera_history/features/explore/view/king_detail_screen.dart';
+import 'package:mera_history/features/explore/view/parallel_timeline_screen.dart';
+import 'package:mera_history/features/explore/view/theme_detail_screen.dart';
 import 'package:mera_history/features/figures/bloc/figures_bloc.dart';
 import 'package:mera_history/features/figures/repository/figures_repository.dart';
 import 'package:mera_history/features/history/bloc/history_bloc.dart';
@@ -48,6 +53,38 @@ class AppRouter {
               child: const FigureDetailScreen(),
             );
           },
+        ),
+        GoRoute(
+          path: '/kham-pha/trieu-dai/:id',
+          builder: (context, state) {
+            final id = state.pathParameters['id'] ?? '';
+            return DynastyDetailScreen(dynastyId: id);
+          },
+        ),
+        GoRoute(
+          path: '/kham-pha/vua/:id',
+          builder: (context, state) {
+            final id = state.pathParameters['id'] ?? '';
+            return KingDetailScreen(kingId: id);
+          },
+        ),
+        GoRoute(
+          path: '/kham-pha/tran-danh/:id',
+          builder: (context, state) {
+            final id = state.pathParameters['id'] ?? '';
+            return BattleDetailScreen(battleId: id);
+          },
+        ),
+        GoRoute(
+          path: '/kham-pha/chu-de/:id',
+          builder: (context, state) {
+            final id = state.pathParameters['id'] ?? '';
+            return ThemeDetailScreen(themeId: id);
+          },
+        ),
+        GoRoute(
+          path: '/kham-pha/timeline-song-song',
+          builder: (context, state) => const ParallelTimelineScreen(),
         ),
         GoRoute(
           path: '/settings/theme',

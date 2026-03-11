@@ -1,0 +1,25 @@
+[
+  {
+    "_id": "explore_config_default",
+    "filterChips": [
+      "Dòng thời gian",
+      "Việt Nam",
+      "Trung Quốc",
+      "Thế giới",
+      "Triều đại",
+      "Nhân vật",
+      "Trận đánh"
+    ],
+    "figureRoleChips": [
+      "Vua",
+      "Tướng",
+      "Học giả",
+      "Anh hùng dân tộc"
+    ],
+    "randomDiscovery": {
+      "title": "Khám phá ngẫu nhiên",
+      "description": "Chạm để mở một mảnh lịch sử bất ngờ từ kho dữ liệu MeraHistory.",
+      "buttonText": "Khám phá ngay"
+    }
+  }
+]

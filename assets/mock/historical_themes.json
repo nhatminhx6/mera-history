@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "theme_khang_chien_phuong_bac",
+    "title": "Các cuộc kháng chiến chống phương Bắc",
+    "description": "Những cuộc kháng chiến tiêu biểu bảo vệ độc lập dân tộc qua nhiều thế kỷ.",
+    "icon": "shield",
+    "coverImage": "https://picsum.photos/seed/theme_khang_chien/1000/600"
+  },
+  {
+    "_id": "theme_mo_coi_phuong_nam",
+    "title": "Mở cõi về phương Nam",
+    "description": "Hành trình mở rộng lãnh thổ, khai phá vùng đất mới của người Việt.",
+    "icon": "map",
+    "coverImage": "https://picsum.photos/seed/theme_mo_coi/1000/600"
+  },
+  {
+    "_id": "theme_noi_chien_lon",
+    "title": "Những cuộc nội chiến lớn",
+    "description": "Các giai đoạn phân tranh làm thay đổi sâu sắc cục diện lịch sử Việt Nam.",
+    "icon": "sports_martial_arts",
+    "coverImage": "https://picsum.photos/seed/theme_noi_chien/1000/600"
+  },
+  {
+    "_id": "theme_cai_cach_lon",
+    "title": "Các cải cách lớn trong lịch sử Việt Nam",
+    "description": "Những chính sách cải cách quan trọng về hành chính, pháp luật và kinh tế.",
+    "icon": "model_training",
+    "coverImage": "https://picsum.photos/seed/theme_cai_cach/1000/600"
+  },
+  {
+    "_id": "theme_viet_trung",
+    "title": "Quan hệ Việt Nam và Trung Quốc",
+    "description": "Dòng chảy bang giao, xung đột và giao lưu văn hóa giữa hai quốc gia.",
+    "icon": "handshake",
+    "coverImage": "https://picsum.photos/seed/theme_viet_trung/1000/600"
+  },
+  {
+    "_id": "theme_buoc_ngoat",
+    "title": "Những bước ngoặt lịch sử Việt Nam",
+    "description": "Các sự kiện mang tính quyết định làm thay đổi vận mệnh quốc gia.",
+    "icon": "alt_route",
+    "coverImage": "https://picsum.photos/seed/theme_buoc_ngoat/1000/600"
+  }
+]

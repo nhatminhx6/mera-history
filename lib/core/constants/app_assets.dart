@@ -12,4 +12,6 @@ class AppAssets {
   static const mockDailyQuizzes = 'assets/mock/daily_quizzes.json';
   static const mockSavedContent = 'assets/mock/saved_content.json';
   static const mockProfileStats = 'assets/mock/profile_stats.json';
+  static const mockHistoricalThemes = 'assets/mock/historical_themes.json';
+  static const mockExploreConfig = 'assets/mock/explore_config.json';
 }
