@@ -1,0 +1,222 @@
+[
+  {
+    "_id": "dynasty_hong_bang",
+    "slug": "thoi-hong-bang",
+    "name": "Thời Hồng Bàng",
+    "startYear": -2879,
+    "endYear": -258,
+    "description": "Giai đoạn truyền thuyết dựng nước Văn Lang với các vua Hùng.",
+    "capital": "Phong Châu",
+    "chinaContext": "Thời Tiên Tần và giai đoạn đầu Tần - Hán.",
+    "legacy": "Hình thành bản sắc văn hóa Lạc Việt và tín ngưỡng thờ cúng tổ tiên."
+  },
+  {
+    "_id": "period_an_duong_vuong",
+    "slug": "nuoc-au-lac",
+    "name": "Nhà nước Âu Lạc",
+    "startYear": -257,
+    "endYear": -179,
+    "description": "Thục Phán thống nhất bộ lạc, lập nước Âu Lạc và xây thành Cổ Loa.",
+    "capital": "Cổ Loa",
+    "chinaContext": "Thời Tần thống nhất rồi tan rã, nhà Hán dần mở rộng.",
+    "legacy": "Để lại dấu ấn nhà nước sơ khai và truyền thuyết nỏ thần Cổ Loa."
+  },
+  {
+    "_id": "period_bac_thuoc",
+    "slug": "thoi-bac-thuoc",
+    "name": "Thời Bắc thuộc",
+    "startYear": -111,
+    "endYear": 905,
+    "description": "Nhiều thế kỷ bị các triều đại phương Bắc đô hộ xen kẽ các cuộc nổi dậy.",
+    "capital": "Tống Bình",
+    "chinaContext": "Luân phiên qua các triều Hán, Đường và thời loạn Ngũ Đại.",
+    "legacy": "Bồi đắp ý thức độc lập dân tộc qua các khởi nghĩa Hai Bà Trưng, Bà Triệu, Lý Bí."
+  },
+  {
+    "_id": "dynasty_ngo",
+    "slug": "nha-ngo",
+    "name": "Nhà Ngô",
+    "startYear": 939,
+    "endYear": 965,
+    "description": "Ngô Quyền mở đầu thời kỳ độc lập tự chủ sau chiến thắng Bạch Đằng.",
+    "capital": "Cổ Loa",
+    "chinaContext": "Thời Ngũ Đại Thập Quốc ở Trung Quốc.",
+    "legacy": "Khôi phục chủ quyền và đặt nền móng cho quốc gia độc lập lâu dài."
+  },
+  {
+    "_id": "dynasty_dinh",
+    "slug": "nha-dinh",
+    "name": "Nhà Đinh",
+    "startYear": 968,
+    "endYear": 980,
+    "description": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, lập nước Đại Cồ Việt.",
+    "capital": "Hoa Lư",
+    "chinaContext": "Nhà Tống vừa thành lập và củng cố quyền lực.",
+    "legacy": "Thống nhất quốc gia, định hình bộ máy triều chính đầu thời tự chủ."
+  },
+  {
+    "_id": "dynasty_tien_le",
+    "slug": "nha-tien-le",
+    "name": "Nhà Tiền Lê",
+    "startYear": 980,
+    "endYear": 1009,
+    "description": "Lê Hoàn lãnh đạo kháng chiến chống Tống và ổn định triều đình.",
+    "capital": "Hoa Lư",
+    "chinaContext": "Thời Bắc Tống hùng mạnh.",
+    "legacy": "Khẳng định năng lực tự vệ quốc gia và tiếp nối nền độc lập."
+  },
+  {
+    "_id": "dynasty_ly",
+    "slug": "nha-ly",
+    "name": "Nhà Lý",
+    "startYear": 1009,
+    "endYear": 1225,
+    "description": "Triều đại phát triển ổn định, dời đô ra Thăng Long và mở mang văn hóa.",
+    "capital": "Thăng Long",
+    "chinaContext": "Thời Bắc Tống rồi Nam Tống tại Trung Quốc.",
+    "legacy": "Định đô Thăng Long, xây dựng quốc gia Đại Việt vững mạnh."
+  },
+  {
+    "_id": "dynasty_tran",
+    "slug": "nha-tran",
+    "name": "Nhà Trần",
+    "startYear": 1225,
+    "endYear": 1400,
+    "description": "Thời kỳ quân sự và chính trị rực rỡ với ba lần kháng chiến chống Nguyên - Mông.",
+    "capital": "Thăng Long",
+    "chinaContext": "Đế quốc Nguyên rồi nhà Minh nổi lên.",
+    "legacy": "Tinh thần Đông A, nghệ thuật quân sự và ý thức quốc gia được củng cố mạnh mẽ."
+  },
+  {
+    "_id": "dynasty_ho",
+    "slug": "nha-ho",
+    "name": "Nhà Hồ",
+    "startYear": 1400,
+    "endYear": 1407,
+    "description": "Hồ Quý Ly tiến hành cải cách hành chính, tiền tệ và giáo dục.",
+    "capital": "Tây Đô",
+    "chinaContext": "Nhà Minh đang mở rộng ảnh hưởng khu vực.",
+    "legacy": "Dù ngắn ngủi nhưng để lại nhiều ý tưởng cải cách táo bạo."
+  },
+  {
+    "_id": "period_minh_thuoc",
+    "slug": "thoi-minh-thuoc",
+    "name": "Thời Minh thuộc",
+    "startYear": 1407,
+    "endYear": 1427,
+    "description": "Đại Việt bị nhà Minh đô hộ cho đến khi khởi nghĩa Lam Sơn thắng lợi.",
+    "capital": "Đông Quan",
+    "chinaContext": "Thời Vĩnh Lạc của nhà Minh.",
+    "legacy": "Khơi dậy mạnh mẽ phong trào giành độc lập và đoàn kết dân tộc."
+  },
+  {
+    "_id": "dynasty_le_so",
+    "slug": "le-so",
+    "name": "Nhà Lê sơ",
+    "startYear": 1428,
+    "endYear": 1527,
+    "description": "Giai đoạn hưng thịnh với luật pháp, giáo dục Nho học và mở rộng lãnh thổ.",
+    "capital": "Đông Kinh",
+    "chinaContext": "Nhà Minh bước vào giai đoạn ổn định.",
+    "legacy": "Thiết lập mô hình nhà nước trung ương tập quyền mạnh và Hồng Đức thịnh trị."
+  },
+  {
+    "_id": "period_nam_bac_trieu",
+    "slug": "nam-bac-trieu",
+    "name": "Thời Nam - Bắc triều",
+    "startYear": 1533,
+    "endYear": 1592,
+    "description": "Xung đột giữa nhà Mạc và lực lượng trung hưng nhà Lê.",
+    "capital": "Đông Kinh",
+    "chinaContext": "Nhà Minh suy yếu cuối kỳ.",
+    "legacy": "Tạo tiền đề cho cục diện phân tranh kéo dài ở Đại Việt."
+  },
+  {
+    "_id": "period_trinh_nguyen",
+    "slug": "trinh-nguyen-phan-tranh",
+    "name": "Thời Trịnh - Nguyễn phân tranh",
+    "startYear": 1600,
+    "endYear": 1777,
+    "description": "Đất nước chia cắt Đàng Ngoài - Đàng Trong với chiến tranh liên miên.",
+    "capital": "Đông Đô",
+    "chinaContext": "Minh - Thanh thay đổi triều đại.",
+    "legacy": "Mở rộng khai phá phương Nam và hình thành bản đồ Việt Nam gần hiện đại."
+  },
+  {
+    "_id": "dynasty_tay_son",
+    "slug": "nha-tay-son",
+    "name": "Nhà Tây Sơn",
+    "startYear": 1778,
+    "endYear": 1802,
+    "description": "Phong trào nông dân lật đổ các tập đoàn phong kiến và chống ngoại xâm.",
+    "capital": "Phú Xuân",
+    "chinaContext": "Nhà Thanh thời Càn Long.",
+    "legacy": "Chiến thắng Ngọc Hồi - Đống Đa và tinh thần cải cách mạnh mẽ."
+  },
+  {
+    "_id": "dynasty_nguyen",
+    "slug": "nha-nguyen",
+    "name": "Nhà Nguyễn",
+    "startYear": 1802,
+    "endYear": 1945,
+    "description": "Triều đại phong kiến cuối cùng của Việt Nam với nhiều biến động đối nội, đối ngoại.",
+    "capital": "Huế",
+    "chinaContext": "Nhà Thanh suy yếu rồi Trung Hoa Dân Quốc hình thành.",
+    "legacy": "Hoàn thiện nhiều thiết chế hành chính và để lại quần thể di sản Huế."
+  },
+  {
+    "_id": "period_french_colonial",
+    "slug": "thoi-ky-thuoc-dia-phap",
+    "name": "Thời kỳ thuộc địa Pháp",
+    "startYear": 1858,
+    "endYear": 1945,
+    "description": "Thực dân Pháp xâm lược, áp đặt bộ máy thuộc địa và khai thác kinh tế.",
+    "capital": "Hà Nội",
+    "chinaContext": "Cuối Thanh đến Trung Hoa Dân Quốc.",
+    "legacy": "Khơi dậy các phong trào yêu nước cận đại và xu hướng canh tân."
+  },
+  {
+    "_id": "period_vn_democratic_republic",
+    "slug": "viet-nam-dan-chu-cong-hoa",
+    "name": "Việt Nam Dân chủ Cộng hòa",
+    "startYear": 1945,
+    "endYear": 1976,
+    "description": "Giai đoạn giành độc lập, kháng chiến và xây dựng nhà nước mới ở miền Bắc.",
+    "capital": "Hà Nội",
+    "chinaContext": "Trung Quốc chuyển sang CHND Trung Hoa năm 1949.",
+    "legacy": "Đặt nền tảng cho thống nhất đất nước và định hình thể chế hiện đại."
+  },
+  {
+    "_id": "period_republic_of_vietnam",
+    "slug": "viet-nam-cong-hoa",
+    "name": "Việt Nam Cộng hòa",
+    "startYear": 1955,
+    "endYear": 1975,
+    "description": "Chính thể tại miền Nam Việt Nam trong bối cảnh Chiến tranh Lạnh.",
+    "capital": "Sài Gòn",
+    "chinaContext": "Cạnh tranh ảnh hưởng giữa các cường quốc trong khu vực.",
+    "legacy": "Để lại dấu ấn xã hội - đô thị đặc thù ở miền Nam trước 1975."
+  },
+  {
+    "_id": "period_socialist_republic",
+    "slug": "cong-hoa-xa-hoi-chu-nghia-viet-nam",
+    "name": "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "startYear": 1976,
+    "endYear": 2026,
+    "description": "Thời kỳ thống nhất, đổi mới và hội nhập quốc tế sâu rộng.",
+    "capital": "Hà Nội",
+    "chinaContext": "Trung Quốc cải cách mở cửa và trỗi dậy kinh tế.",
+    "legacy": "Đẩy mạnh công nghiệp hóa, hiện đại hóa và vai trò khu vực của Việt Nam."
+  },
+  {
+    "_id": "period_doi_moi",
+    "slug": "thoi-ky-doi-moi",
+    "name": "Thời kỳ Đổi mới",
+    "startYear": 1986,
+    "endYear": 2026,
+    "description": "Chuyển đổi sang kinh tế thị trường định hướng xã hội chủ nghĩa.",
+    "capital": "Hà Nội",
+    "chinaContext": "Khu vực Đông Á tăng trưởng mạnh, hội nhập kinh tế sâu.",
+    "legacy": "Nâng cao đời sống, mở rộng quan hệ quốc tế và phát triển bền vững."
+  }
+]

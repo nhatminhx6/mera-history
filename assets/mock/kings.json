@@ -1,0 +1,1282 @@
+[
+  {
+    "_id": "king_ngo_quyen",
+    "name": "Ngô Quyền",
+    "dynastyId": "dynasty_ngo",
+    "reignStart": 939,
+    "reignEnd": 944,
+    "shortDescription": "Người mở đầu nền độc lập tự chủ sau chiến thắng Bạch Đằng.",
+    "relatedEventIds": [
+      "event_bach_dang_938",
+      "event_auto_17"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_dinh_bo_linh",
+    "name": "Đinh Tiên Hoàng",
+    "dynastyId": "dynasty_dinh",
+    "reignStart": 968,
+    "reignEnd": 979,
+    "shortDescription": "Dẹp loạn 12 sứ quân, thống nhất Đại Cồ Việt.",
+    "relatedEventIds": [
+      "event_doi_do_1010",
+      "event_auto_19"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_le_dai_hanh",
+    "name": "Lê Đại Hành",
+    "dynastyId": "dynasty_tien_le",
+    "reignStart": 980,
+    "reignEnd": 1005,
+    "shortDescription": "Lãnh đạo kháng Tống thắng lợi và ổn định triều chính.",
+    "relatedEventIds": [
+      "event_bach_dang_1288",
+      "event_auto_21"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_ly_thai_to",
+    "name": "Lý Thái Tổ",
+    "dynastyId": "dynasty_ly",
+    "reignStart": 1009,
+    "reignEnd": 1028,
+    "shortDescription": "Dời đô về Thăng Long, mở đầu thời kỳ hưng thịnh nhà Lý.",
+    "relatedEventIds": [
+      "event_hong_duc",
+      "event_auto_23"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_ly_thanh_tong",
+    "name": "Lý Thánh Tông",
+    "dynastyId": "dynasty_ly",
+    "reignStart": 1054,
+    "reignEnd": 1072,
+    "shortDescription": "Đổi quốc hiệu thành Đại Việt, củng cố thể chế.",
+    "relatedEventIds": [
+      "event_gia_long_1802",
+      "event_auto_25"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_tran_thai_tong",
+    "name": "Trần Thái Tông",
+    "dynastyId": "dynasty_tran",
+    "reignStart": 1225,
+    "reignEnd": 1258,
+    "shortDescription": "Vị vua đầu triều Trần, đặt nền móng chính trị quân sự.",
+    "relatedEventIds": [
+      "event_dien_bien_1954",
+      "event_auto_27"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_tran_nhan_tong",
+    "name": "Trần Nhân Tông",
+    "dynastyId": "dynasty_tran",
+    "reignStart": 1278,
+    "reignEnd": 1293,
+    "shortDescription": "Lãnh đạo hai cuộc kháng chiến chống Nguyên thắng lợi.",
+    "relatedEventIds": [
+      "event_doi_moi_1986",
+      "event_auto_29"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_le_loi",
+    "name": "Lê Thái Tổ",
+    "dynastyId": "dynasty_le_so",
+    "reignStart": 1428,
+    "reignEnd": 1433,
+    "shortDescription": "Lãnh tụ khởi nghĩa Lam Sơn, khôi phục độc lập.",
+    "relatedEventIds": [
+      "event_auto_14",
+      "event_auto_31"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_le_thanh_tong",
+    "name": "Lê Thánh Tông",
+    "dynastyId": "dynasty_le_so",
+    "reignStart": 1460,
+    "reignEnd": 1497,
+    "shortDescription": "Đưa Đại Việt đạt đỉnh cao thịnh trị thời Hồng Đức.",
+    "relatedEventIds": [
+      "event_auto_16",
+      "event_auto_33"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_quang_trung",
+    "name": "Quang Trung",
+    "dynastyId": "dynasty_tay_son",
+    "reignStart": 1788,
+    "reignEnd": 1792,
+    "shortDescription": "Đánh bại quân Thanh trong chiến dịch Ngọc Hồi - Đống Đa.",
+    "relatedEventIds": [
+      "event_auto_18",
+      "event_auto_35"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_gia_long",
+    "name": "Gia Long",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1802,
+    "reignEnd": 1820,
+    "shortDescription": "Thống nhất đất nước, mở đầu triều Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_20",
+      "event_auto_37"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_minh_mang",
+    "name": "Minh Mạng",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1820,
+    "reignEnd": 1841,
+    "shortDescription": "Đẩy mạnh cải cách hành chính và củng cố trung ương.",
+    "relatedEventIds": [
+      "event_auto_22",
+      "event_auto_39"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_bao_dai",
+    "name": "Bảo Đại",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1926,
+    "reignEnd": 1945,
+    "shortDescription": "Vị vua cuối cùng của chế độ quân chủ Việt Nam.",
+    "relatedEventIds": [
+      "event_auto_24",
+      "event_auto_41"
+    ],
+    "metadata": {
+      "source": "mock",
+      "confidence": "prototype"
+    }
+  },
+  {
+    "_id": "king_auto_13",
+    "name": "Nhiếp chính vương số 13 triều Thời Bắc thuộc",
+    "dynastyId": "period_bac_thuoc",
+    "reignStart": -97,
+    "reignEnd": -92,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -97 - -92, góp phần ổn định triều chính Thời Bắc thuộc.",
+    "relatedEventIds": [
+      "event_auto_26",
+      "event_auto_43"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-bac-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_14",
+    "name": "Thái thượng hoàng số 14 triều Nhà Tiền Lê",
+    "dynastyId": "dynasty_tien_le",
+    "reignStart": 998,
+    "reignEnd": 1001,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 998 - 1001, góp phần ổn định triều chính Nhà Tiền Lê.",
+    "relatedEventIds": [
+      "event_auto_28",
+      "event_auto_45"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tien-le"
+    }
+  },
+  {
+    "_id": "king_auto_15",
+    "name": "Hoàng đế số 15 triều Nhà Hồ",
+    "dynastyId": "dynasty_ho",
+    "reignStart": 1400,
+    "reignEnd": 1404,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1400 - 1404, góp phần ổn định triều chính Nhà Hồ.",
+    "relatedEventIds": [
+      "event_auto_30",
+      "event_auto_47"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ho"
+    }
+  },
+  {
+    "_id": "king_auto_16",
+    "name": "Quốc vương số 16 triều Thời Nam - Bắc triều",
+    "dynastyId": "period_nam_bac_trieu",
+    "reignStart": 1534,
+    "reignEnd": 1539,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1534 - 1539, góp phần ổn định triều chính Thời Nam - Bắc triều.",
+    "relatedEventIds": [
+      "event_auto_32",
+      "event_auto_49"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nam-bac-trieu"
+    }
+  },
+  {
+    "_id": "king_auto_17",
+    "name": "Nhiếp chính vương số 17 triều Nhà Nguyễn",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1928,
+    "reignEnd": 1934,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1928 - 1934, góp phần ổn định triều chính Nhà Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_34",
+      "event_auto_51"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-nguyen"
+    }
+  },
+  {
+    "_id": "king_auto_18",
+    "name": "Thái thượng hoàng số 18 triều Việt Nam Cộng hòa",
+    "dynastyId": "period_republic_of_vietnam",
+    "reignStart": 1968,
+    "reignEnd": 1975,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1968 - 1975, góp phần ổn định triều chính Việt Nam Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_36",
+      "event_auto_53"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_19",
+    "name": "Hoàng đế số 19 triều Thời Hồng Bàng",
+    "dynastyId": "dynasty_hong_bang",
+    "reignStart": -2859,
+    "reignEnd": -2848,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -2859 - -2848, góp phần ổn định triều chính Thời Hồng Bàng.",
+    "relatedEventIds": [
+      "event_auto_38",
+      "event_auto_55"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-hong-bang"
+    }
+  },
+  {
+    "_id": "king_auto_20",
+    "name": "Quốc vương số 20 triều Nhà Ngô",
+    "dynastyId": "dynasty_ngo",
+    "reignStart": 956,
+    "reignEnd": 965,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 956 - 965, góp phần ổn định triều chính Nhà Ngô.",
+    "relatedEventIds": [
+      "event_auto_40",
+      "event_auto_57"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ngo"
+    }
+  },
+  {
+    "_id": "king_auto_21",
+    "name": "Nhiếp chính vương số 21 triều Nhà Lý",
+    "dynastyId": "dynasty_ly",
+    "reignStart": 1163,
+    "reignEnd": 1173,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1163 - 1173, góp phần ổn định triều chính Nhà Lý.",
+    "relatedEventIds": [
+      "event_auto_42",
+      "event_auto_59"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ly"
+    }
+  },
+  {
+    "_id": "king_auto_22",
+    "name": "Thái thượng hoàng số 22 triều Thời Minh thuộc",
+    "dynastyId": "period_minh_thuoc",
+    "reignStart": 1408,
+    "reignEnd": 1419,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1408 - 1419, góp phần ổn định triều chính Thời Minh thuộc.",
+    "relatedEventIds": [
+      "event_auto_44",
+      "event_auto_61"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-minh-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_23",
+    "name": "Hoàng đế số 23 triều Thời Trịnh - Nguyễn phân tranh",
+    "dynastyId": "period_trinh_nguyen",
+    "reignStart": 1768,
+    "reignEnd": 1777,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1768 - 1777, góp phần ổn định triều chính Thời Trịnh - Nguyễn phân tranh.",
+    "relatedEventIds": [
+      "event_auto_46",
+      "event_auto_63"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "trinh-nguyen-phan-tranh"
+    }
+  },
+  {
+    "_id": "king_auto_24",
+    "name": "Quốc vương số 24 triều Thời kỳ thuộc địa Pháp",
+    "dynastyId": "period_french_colonial",
+    "reignStart": 1859,
+    "reignEnd": 1872,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1859 - 1872, góp phần ổn định triều chính Thời kỳ thuộc địa Pháp.",
+    "relatedEventIds": [
+      "event_auto_48",
+      "event_auto_65"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-ky-thuoc-dia-phap"
+    }
+  },
+  {
+    "_id": "king_auto_25",
+    "name": "Nhiếp chính vương số 25 triều Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "dynastyId": "period_socialist_republic",
+    "reignStart": 2008,
+    "reignEnd": 2022,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 2008 - 2022, góp phần ổn định triều chính Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
+    "relatedEventIds": [
+      "event_auto_50",
+      "event_auto_67"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "cong-hoa-xa-hoi-chu-nghia-viet-nam"
+    }
+  },
+  {
+    "_id": "king_auto_26",
+    "name": "Thái thượng hoàng số 26 triều Nhà nước Âu Lạc",
+    "dynastyId": "period_an_duong_vuong",
+    "reignStart": -249,
+    "reignEnd": -238,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -249 - -238, góp phần ổn định triều chính Nhà nước Âu Lạc.",
+    "relatedEventIds": [
+      "event_auto_52",
+      "event_auto_69"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nuoc-au-lac"
+    }
+  },
+  {
+    "_id": "king_auto_27",
+    "name": "Hoàng đế số 27 triều Nhà Đinh",
+    "dynastyId": "dynasty_dinh",
+    "reignStart": 972,
+    "reignEnd": 980,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 972 - 980, góp phần ổn định triều chính Nhà Đinh.",
+    "relatedEventIds": [
+      "event_auto_54",
+      "event_auto_71"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-dinh"
+    }
+  },
+  {
+    "_id": "king_auto_28",
+    "name": "Quốc vương số 28 triều Nhà Trần",
+    "dynastyId": "dynasty_tran",
+    "reignStart": 1253,
+    "reignEnd": 1270,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1253 - 1270, góp phần ổn định triều chính Nhà Trần.",
+    "relatedEventIds": [
+      "event_auto_56",
+      "event_auto_73"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tran"
+    }
+  },
+  {
+    "_id": "king_auto_29",
+    "name": "Nhiếp chính vương số 29 triều Nhà Lê sơ",
+    "dynastyId": "dynasty_le_so",
+    "reignStart": 1440,
+    "reignEnd": 1443,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1440 - 1443, góp phần ổn định triều chính Nhà Lê sơ.",
+    "relatedEventIds": [
+      "event_auto_58",
+      "event_auto_75"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "le-so"
+    }
+  },
+  {
+    "_id": "king_auto_30",
+    "name": "Thái thượng hoàng số 30 triều Nhà Tây Sơn",
+    "dynastyId": "dynasty_tay_son",
+    "reignStart": 1779,
+    "reignEnd": 1783,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1779 - 1783, góp phần ổn định triều chính Nhà Tây Sơn.",
+    "relatedEventIds": [
+      "event_auto_60",
+      "event_auto_77"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tay-son"
+    }
+  },
+  {
+    "_id": "king_auto_31",
+    "name": "Hoàng đế số 31 triều Việt Nam Dân chủ Cộng hòa",
+    "dynastyId": "period_vn_democratic_republic",
+    "reignStart": 1952,
+    "reignEnd": 1957,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1952 - 1957, góp phần ổn định triều chính Việt Nam Dân chủ Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_62",
+      "event_auto_79"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-dan-chu-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_32",
+    "name": "Quốc vương số 32 triều Thời kỳ Đổi mới",
+    "dynastyId": "period_doi_moi",
+    "reignStart": 2017,
+    "reignEnd": 2023,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 2017 - 2023, góp phần ổn định triều chính Thời kỳ Đổi mới.",
+    "relatedEventIds": [
+      "event_auto_64",
+      "event_auto_81"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-ky-doi-moi"
+    }
+  },
+  {
+    "_id": "king_auto_33",
+    "name": "Nhiếp chính vương số 33 triều Thời Bắc thuộc",
+    "dynastyId": "period_bac_thuoc",
+    "reignStart": -77,
+    "reignEnd": -66,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -77 - -66, góp phần ổn định triều chính Thời Bắc thuộc.",
+    "relatedEventIds": [
+      "event_auto_66",
+      "event_auto_83"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-bac-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_34",
+    "name": "Thái thượng hoàng số 34 triều Nhà Tiền Lê",
+    "dynastyId": "dynasty_tien_le",
+    "reignStart": 993,
+    "reignEnd": 1001,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 993 - 1001, góp phần ổn định triều chính Nhà Tiền Lê.",
+    "relatedEventIds": [
+      "event_auto_68",
+      "event_auto_85"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tien-le"
+    }
+  },
+  {
+    "_id": "king_auto_35",
+    "name": "Hoàng đế số 35 triều Nhà Hồ",
+    "dynastyId": "dynasty_ho",
+    "reignStart": 1400,
+    "reignEnd": 1407,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1400 - 1407, góp phần ổn định triều chính Nhà Hồ.",
+    "relatedEventIds": [
+      "event_auto_70",
+      "event_auto_87"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ho"
+    }
+  },
+  {
+    "_id": "king_auto_36",
+    "name": "Quốc vương số 36 triều Thời Nam - Bắc triều",
+    "dynastyId": "period_nam_bac_trieu",
+    "reignStart": 1556,
+    "reignEnd": 1566,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1556 - 1566, góp phần ổn định triều chính Thời Nam - Bắc triều.",
+    "relatedEventIds": [
+      "event_auto_72",
+      "event_auto_89"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nam-bac-trieu"
+    }
+  },
+  {
+    "_id": "king_auto_37",
+    "name": "Nhiếp chính vương số 37 triều Nhà Nguyễn",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1925,
+    "reignEnd": 1936,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1925 - 1936, góp phần ổn định triều chính Nhà Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_74",
+      "event_auto_91"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-nguyen"
+    }
+  },
+  {
+    "_id": "king_auto_38",
+    "name": "Thái thượng hoàng số 38 triều Việt Nam Cộng hòa",
+    "dynastyId": "period_republic_of_vietnam",
+    "reignStart": 1968,
+    "reignEnd": 1975,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1968 - 1975, góp phần ổn định triều chính Việt Nam Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_76",
+      "event_auto_93"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_39",
+    "name": "Hoàng đế số 39 triều Thời Hồng Bàng",
+    "dynastyId": "dynasty_hong_bang",
+    "reignStart": -2839,
+    "reignEnd": -2829,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -2839 - -2829, góp phần ổn định triều chính Thời Hồng Bàng.",
+    "relatedEventIds": [
+      "event_auto_78",
+      "event_auto_95"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-hong-bang"
+    }
+  },
+  {
+    "_id": "king_auto_40",
+    "name": "Quốc vương số 40 triều Nhà Ngô",
+    "dynastyId": "dynasty_ngo",
+    "reignStart": 940,
+    "reignEnd": 954,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 940 - 954, góp phần ổn định triều chính Nhà Ngô.",
+    "relatedEventIds": [
+      "event_auto_80",
+      "event_auto_97"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ngo"
+    }
+  },
+  {
+    "_id": "king_auto_41",
+    "name": "Nhiếp chính vương số 41 triều Nhà Lý",
+    "dynastyId": "dynasty_ly",
+    "reignStart": 1087,
+    "reignEnd": 1102,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1087 - 1102, góp phần ổn định triều chính Nhà Lý.",
+    "relatedEventIds": [
+      "event_auto_82",
+      "event_auto_99"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ly"
+    }
+  },
+  {
+    "_id": "king_auto_42",
+    "name": "Thái thượng hoàng số 42 triều Thời Minh thuộc",
+    "dynastyId": "period_minh_thuoc",
+    "reignStart": 1408,
+    "reignEnd": 1424,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1408 - 1424, góp phần ổn định triều chính Thời Minh thuộc.",
+    "relatedEventIds": [
+      "event_auto_84",
+      "event_auto_101"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-minh-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_43",
+    "name": "Hoàng đế số 43 triều Thời Trịnh - Nguyễn phân tranh",
+    "dynastyId": "period_trinh_nguyen",
+    "reignStart": 1731,
+    "reignEnd": 1748,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1731 - 1748, góp phần ổn định triều chính Thời Trịnh - Nguyễn phân tranh.",
+    "relatedEventIds": [
+      "event_auto_86",
+      "event_auto_103"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "trinh-nguyen-phan-tranh"
+    }
+  },
+  {
+    "_id": "king_auto_44",
+    "name": "Quốc vương số 44 triều Thời kỳ thuộc địa Pháp",
+    "dynastyId": "period_french_colonial",
+    "reignStart": 1912,
+    "reignEnd": 1915,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1912 - 1915, góp phần ổn định triều chính Thời kỳ thuộc địa Pháp.",
+    "relatedEventIds": [
+      "event_auto_88",
+      "event_auto_105"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-ky-thuoc-dia-phap"
+    }
+  },
+  {
+    "_id": "king_auto_45",
+    "name": "Nhiếp chính vương số 45 triều Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "dynastyId": "period_socialist_republic",
+    "reignStart": 1998,
+    "reignEnd": 2002,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1998 - 2002, góp phần ổn định triều chính Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
+    "relatedEventIds": [
+      "event_auto_90",
+      "event_auto_107"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "cong-hoa-xa-hoi-chu-nghia-viet-nam"
+    }
+  },
+  {
+    "_id": "king_auto_46",
+    "name": "Thái thượng hoàng số 46 triều Nhà nước Âu Lạc",
+    "dynastyId": "period_an_duong_vuong",
+    "reignStart": -248,
+    "reignEnd": -238,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -248 - -238, góp phần ổn định triều chính Nhà nước Âu Lạc.",
+    "relatedEventIds": [
+      "event_auto_92",
+      "event_auto_109"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nuoc-au-lac"
+    }
+  },
+  {
+    "_id": "king_auto_47",
+    "name": "Hoàng đế số 47 triều Nhà Đinh",
+    "dynastyId": "dynasty_dinh",
+    "reignStart": 968,
+    "reignEnd": 974,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 968 - 974, góp phần ổn định triều chính Nhà Đinh.",
+    "relatedEventIds": [
+      "event_auto_94",
+      "event_auto_111"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-dinh"
+    }
+  },
+  {
+    "_id": "king_auto_48",
+    "name": "Quốc vương số 48 triều Nhà Trần",
+    "dynastyId": "dynasty_tran",
+    "reignStart": 1393,
+    "reignEnd": 1400,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1393 - 1400, góp phần ổn định triều chính Nhà Trần.",
+    "relatedEventIds": [
+      "event_auto_96",
+      "event_auto_113"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tran"
+    }
+  },
+  {
+    "_id": "king_auto_49",
+    "name": "Nhiếp chính vương số 49 triều Nhà Lê sơ",
+    "dynastyId": "dynasty_le_so",
+    "reignStart": 1481,
+    "reignEnd": 1489,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1481 - 1489, góp phần ổn định triều chính Nhà Lê sơ.",
+    "relatedEventIds": [
+      "event_auto_98",
+      "event_auto_115"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "le-so"
+    }
+  },
+  {
+    "_id": "king_auto_50",
+    "name": "Thái thượng hoàng số 50 triều Nhà Tây Sơn",
+    "dynastyId": "dynasty_tay_son",
+    "reignStart": 1799,
+    "reignEnd": 1802,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1799 - 1802, góp phần ổn định triều chính Nhà Tây Sơn.",
+    "relatedEventIds": [
+      "event_auto_100",
+      "event_auto_117"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tay-son"
+    }
+  },
+  {
+    "_id": "king_auto_51",
+    "name": "Hoàng đế số 51 triều Việt Nam Dân chủ Cộng hòa",
+    "dynastyId": "period_vn_democratic_republic",
+    "reignStart": 1968,
+    "reignEnd": 1976,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1968 - 1976, góp phần ổn định triều chính Việt Nam Dân chủ Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_102",
+      "event_auto_119"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-dan-chu-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_52",
+    "name": "Quốc vương số 52 triều Thời kỳ Đổi mới",
+    "dynastyId": "period_doi_moi",
+    "reignStart": 1997,
+    "reignEnd": 2008,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1997 - 2008, góp phần ổn định triều chính Thời kỳ Đổi mới.",
+    "relatedEventIds": [
+      "event_auto_104",
+      "event_auto_121"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-ky-doi-moi"
+    }
+  },
+  {
+    "_id": "king_auto_53",
+    "name": "Nhiếp chính vương số 53 triều Thời Bắc thuộc",
+    "dynastyId": "period_bac_thuoc",
+    "reignStart": -57,
+    "reignEnd": -47,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -57 - -47, góp phần ổn định triều chính Thời Bắc thuộc.",
+    "relatedEventIds": [
+      "event_auto_106",
+      "event_auto_123"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-bac-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_54",
+    "name": "Thái thượng hoàng số 54 triều Nhà Tiền Lê",
+    "dynastyId": "dynasty_tien_le",
+    "reignStart": 988,
+    "reignEnd": 1001,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 988 - 1001, góp phần ổn định triều chính Nhà Tiền Lê.",
+    "relatedEventIds": [
+      "event_auto_108",
+      "event_auto_125"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tien-le"
+    }
+  },
+  {
+    "_id": "king_auto_55",
+    "name": "Hoàng đế số 55 triều Nhà Hồ",
+    "dynastyId": "dynasty_ho",
+    "reignStart": 1400,
+    "reignEnd": 1407,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1400 - 1407, góp phần ổn định triều chính Nhà Hồ.",
+    "relatedEventIds": [
+      "event_auto_110",
+      "event_auto_127"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ho"
+    }
+  },
+  {
+    "_id": "king_auto_56",
+    "name": "Quốc vương số 56 triều Thời Nam - Bắc triều",
+    "dynastyId": "period_nam_bac_trieu",
+    "reignStart": 1578,
+    "reignEnd": 1592,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1578 - 1592, góp phần ổn định triều chính Thời Nam - Bắc triều.",
+    "relatedEventIds": [
+      "event_auto_112",
+      "event_auto_129"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nam-bac-trieu"
+    }
+  },
+  {
+    "_id": "king_auto_57",
+    "name": "Nhiếp chính vương số 57 triều Nhà Nguyễn",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1922,
+    "reignEnd": 1938,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1922 - 1938, góp phần ổn định triều chính Nhà Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_114",
+      "event_auto_131"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-nguyen"
+    }
+  },
+  {
+    "_id": "king_auto_58",
+    "name": "Thái thượng hoàng số 58 triều Việt Nam Cộng hòa",
+    "dynastyId": "period_republic_of_vietnam",
+    "reignStart": 1968,
+    "reignEnd": 1975,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1968 - 1975, góp phần ổn định triều chính Việt Nam Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_116",
+      "event_auto_133"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_59",
+    "name": "Hoàng đế số 59 triều Thời Hồng Bàng",
+    "dynastyId": "dynasty_hong_bang",
+    "reignStart": -2819,
+    "reignEnd": -2810,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -2819 - -2810, góp phần ổn định triều chính Thời Hồng Bàng.",
+    "relatedEventIds": [
+      "event_auto_118",
+      "event_auto_135"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-hong-bang"
+    }
+  },
+  {
+    "_id": "king_auto_60",
+    "name": "Quốc vương số 60 triều Nhà Ngô",
+    "dynastyId": "dynasty_ngo",
+    "reignStart": 950,
+    "reignEnd": 954,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 950 - 954, góp phần ổn định triều chính Nhà Ngô.",
+    "relatedEventIds": [
+      "event_auto_120",
+      "event_auto_137"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ngo"
+    }
+  },
+  {
+    "_id": "king_auto_61",
+    "name": "Nhiếp chính vương số 61 triều Nhà Lý",
+    "dynastyId": "dynasty_ly",
+    "reignStart": 1011,
+    "reignEnd": 1016,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1011 - 1016, góp phần ổn định triều chính Nhà Lý.",
+    "relatedEventIds": [
+      "event_auto_122",
+      "event_auto_139"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ly"
+    }
+  },
+  {
+    "_id": "king_auto_62",
+    "name": "Thái thượng hoàng số 62 triều Thời Minh thuộc",
+    "dynastyId": "period_minh_thuoc",
+    "reignStart": 1408,
+    "reignEnd": 1414,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1408 - 1414, góp phần ổn định triều chính Thời Minh thuộc.",
+    "relatedEventIds": [
+      "event_auto_124",
+      "event_auto_141"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-minh-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_63",
+    "name": "Hoàng đế số 63 triều Thời Trịnh - Nguyễn phân tranh",
+    "dynastyId": "period_trinh_nguyen",
+    "reignStart": 1694,
+    "reignEnd": 1701,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1694 - 1701, góp phần ổn định triều chính Thời Trịnh - Nguyễn phân tranh.",
+    "relatedEventIds": [
+      "event_auto_126",
+      "event_auto_143"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "trinh-nguyen-phan-tranh"
+    }
+  },
+  {
+    "_id": "king_auto_64",
+    "name": "Quốc vương số 64 triều Thời kỳ thuộc địa Pháp",
+    "dynastyId": "period_french_colonial",
+    "reignStart": 1878,
+    "reignEnd": 1886,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1878 - 1886, góp phần ổn định triều chính Thời kỳ thuộc địa Pháp.",
+    "relatedEventIds": [
+      "event_auto_128",
+      "event_auto_145"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-ky-thuoc-dia-phap"
+    }
+  },
+  {
+    "_id": "king_auto_65",
+    "name": "Nhiếp chính vương số 65 triều Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "dynastyId": "period_socialist_republic",
+    "reignStart": 1988,
+    "reignEnd": 1997,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1988 - 1997, góp phần ổn định triều chính Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
+    "relatedEventIds": [
+      "event_auto_130",
+      "event_auto_147"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "cong-hoa-xa-hoi-chu-nghia-viet-nam"
+    }
+  },
+  {
+    "_id": "king_auto_66",
+    "name": "Thái thượng hoàng số 66 triều Nhà nước Âu Lạc",
+    "dynastyId": "period_an_duong_vuong",
+    "reignStart": -247,
+    "reignEnd": -238,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -247 - -238, góp phần ổn định triều chính Nhà nước Âu Lạc.",
+    "relatedEventIds": [
+      "event_auto_132",
+      "event_auto_149"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nuoc-au-lac"
+    }
+  },
+  {
+    "_id": "king_auto_67",
+    "name": "Hoàng đế số 67 triều Nhà Đinh",
+    "dynastyId": "dynasty_dinh",
+    "reignStart": 976,
+    "reignEnd": 980,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 976 - 980, góp phần ổn định triều chính Nhà Đinh.",
+    "relatedEventIds": [
+      "event_auto_134",
+      "event_auto_151"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-dinh"
+    }
+  },
+  {
+    "_id": "king_auto_68",
+    "name": "Quốc vương số 68 triều Nhà Trần",
+    "dynastyId": "dynasty_tran",
+    "reignStart": 1358,
+    "reignEnd": 1370,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1358 - 1370, góp phần ổn định triều chính Nhà Trần.",
+    "relatedEventIds": [
+      "event_auto_136",
+      "event_auto_153"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tran"
+    }
+  },
+  {
+    "_id": "king_auto_69",
+    "name": "Nhiếp chính vương số 69 triều Nhà Lê sơ",
+    "dynastyId": "dynasty_le_so",
+    "reignStart": 1522,
+    "reignEnd": 1527,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1522 - 1527, góp phần ổn định triều chính Nhà Lê sơ.",
+    "relatedEventIds": [
+      "event_auto_138",
+      "event_auto_155"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "le-so"
+    }
+  },
+  {
+    "_id": "king_auto_70",
+    "name": "Thái thượng hoàng số 70 triều Nhà Tây Sơn",
+    "dynastyId": "dynasty_tay_son",
+    "reignStart": 1795,
+    "reignEnd": 1802,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1795 - 1802, góp phần ổn định triều chính Nhà Tây Sơn.",
+    "relatedEventIds": [
+      "event_auto_140",
+      "event_auto_157"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tay-son"
+    }
+  },
+  {
+    "_id": "king_auto_71",
+    "name": "Hoàng đế số 71 triều Việt Nam Dân chủ Cộng hòa",
+    "dynastyId": "period_vn_democratic_republic",
+    "reignStart": 1953,
+    "reignEnd": 1968,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1953 - 1968, góp phần ổn định triều chính Việt Nam Dân chủ Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_142",
+      "event_auto_159"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-dan-chu-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_72",
+    "name": "Quốc vương số 72 triều Thời kỳ Đổi mới",
+    "dynastyId": "period_doi_moi",
+    "reignStart": 2017,
+    "reignEnd": 2026,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 2017 - 2026, góp phần ổn định triều chính Thời kỳ Đổi mới.",
+    "relatedEventIds": [
+      "event_auto_144",
+      "event_auto_161"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-ky-doi-moi"
+    }
+  },
+  {
+    "_id": "king_auto_73",
+    "name": "Nhiếp chính vương số 73 triều Thời Bắc thuộc",
+    "dynastyId": "period_bac_thuoc",
+    "reignStart": -37,
+    "reignEnd": -28,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -37 - -28, góp phần ổn định triều chính Thời Bắc thuộc.",
+    "relatedEventIds": [
+      "event_auto_146",
+      "event_auto_163"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-bac-thuoc"
+    }
+  },
+  {
+    "_id": "king_auto_74",
+    "name": "Thái thượng hoàng số 74 triều Nhà Tiền Lê",
+    "dynastyId": "dynasty_tien_le",
+    "reignStart": 983,
+    "reignEnd": 986,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 983 - 986, góp phần ổn định triều chính Nhà Tiền Lê.",
+    "relatedEventIds": [
+      "event_auto_148",
+      "event_auto_165"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-tien-le"
+    }
+  },
+  {
+    "_id": "king_auto_75",
+    "name": "Hoàng đế số 75 triều Nhà Hồ",
+    "dynastyId": "dynasty_ho",
+    "reignStart": 1400,
+    "reignEnd": 1404,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1400 - 1404, góp phần ổn định triều chính Nhà Hồ.",
+    "relatedEventIds": [
+      "event_auto_150",
+      "event_auto_167"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-ho"
+    }
+  },
+  {
+    "_id": "king_auto_76",
+    "name": "Quốc vương số 76 triều Thời Nam - Bắc triều",
+    "dynastyId": "period_nam_bac_trieu",
+    "reignStart": 1541,
+    "reignEnd": 1546,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1541 - 1546, góp phần ổn định triều chính Thời Nam - Bắc triều.",
+    "relatedEventIds": [
+      "event_auto_152",
+      "event_auto_169"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nam-bac-trieu"
+    }
+  },
+  {
+    "_id": "king_auto_77",
+    "name": "Nhiếp chính vương số 77 triều Nhà Nguyễn",
+    "dynastyId": "dynasty_nguyen",
+    "reignStart": 1919,
+    "reignEnd": 1925,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1919 - 1925, góp phần ổn định triều chính Nhà Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_154",
+      "event_auto_171"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "nha-nguyen"
+    }
+  },
+  {
+    "_id": "king_auto_78",
+    "name": "Thái thượng hoàng số 78 triều Việt Nam Cộng hòa",
+    "dynastyId": "period_republic_of_vietnam",
+    "reignStart": 1968,
+    "reignEnd": 1975,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn 1968 - 1975, góp phần ổn định triều chính Việt Nam Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_156",
+      "event_auto_173"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "viet-nam-cong-hoa"
+    }
+  },
+  {
+    "_id": "king_auto_79",
+    "name": "Hoàng đế số 79 triều Thời Hồng Bàng",
+    "dynastyId": "dynasty_hong_bang",
+    "reignStart": -2799,
+    "reignEnd": -2791,
+    "shortDescription": "Nhân vật cầm quyền tiêu biểu giai đoạn -2799 - -2791, góp phần ổn định triều chính Thời Hồng Bàng.",
+    "relatedEventIds": [
+      "event_auto_158",
+      "event_auto_175"
+    ],
+    "metadata": {
+      "source": "generated",
+      "eraTag": "thoi-hong-bang"
+    }
+  }
+]

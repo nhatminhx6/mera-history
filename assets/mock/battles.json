@@ -1,0 +1,797 @@
+[
+  {
+    "_id": "battle_bach_dang_938",
+    "name": "Trận Bạch Đằng",
+    "year": 938,
+    "location": "Sông Bạch Đằng",
+    "commanders": [
+      "Ngô Quyền"
+    ],
+    "result": "Quân Nam Hán thất bại",
+    "description": "Ngô Quyền dùng trận địa cọc gỗ nhấn chìm hạm đội Nam Hán.",
+    "dynastyId": "dynasty_ngo",
+    "metadata": {
+      "importance": "high"
+    }
+  },
+  {
+    "_id": "battle_nhu_nguyet_1077",
+    "name": "Phòng tuyến Như Nguyệt",
+    "year": 1077,
+    "location": "Sông Như Nguyệt",
+    "commanders": [
+      "Lý Thường Kiệt"
+    ],
+    "result": "Quân Tống rút lui",
+    "description": "Quân Đại Việt phòng thủ chủ động, làm thất bại chiến dịch của nhà Tống.",
+    "dynastyId": "dynasty_ly",
+    "metadata": {
+      "importance": "high"
+    }
+  },
+  {
+    "_id": "battle_bach_dang_1288",
+    "name": "Trận Bạch Đằng 1288",
+    "year": 1288,
+    "location": "Bạch Đằng",
+    "commanders": [
+      "Trần Hưng Đạo"
+    ],
+    "result": "Quân Nguyên đại bại",
+    "description": "Đỉnh cao nghệ thuật thủy chiến thời Trần, bảo vệ nền độc lập.",
+    "dynastyId": "dynasty_tran",
+    "metadata": {
+      "importance": "high"
+    }
+  },
+  {
+    "_id": "battle_chi_lang_1427",
+    "name": "Trận Chi Lăng",
+    "year": 1427,
+    "location": "Chi Lăng",
+    "commanders": [
+      "Lê Lợi",
+      "Lê Sát"
+    ],
+    "result": "Viện binh Minh thất bại",
+    "description": "Nghĩa quân Lam Sơn chặn đánh viện binh, xoay chuyển cục diện chiến tranh.",
+    "dynastyId": "dynasty_le_so",
+    "metadata": {
+      "importance": "high"
+    }
+  },
+  {
+    "_id": "battle_ngoc_hoi_dong_da_1789",
+    "name": "Trận Ngọc Hồi - Đống Đa",
+    "year": 1789,
+    "location": "Thăng Long",
+    "commanders": [
+      "Quang Trung"
+    ],
+    "result": "Quân Thanh thua lớn",
+    "description": "Chiến dịch thần tốc dịp Tết Kỷ Dậu, giải phóng kinh thành.",
+    "dynastyId": "dynasty_tay_son",
+    "metadata": {
+      "importance": "high"
+    }
+  },
+  {
+    "_id": "battle_dien_bien_phu_1954",
+    "name": "Chiến dịch Điện Biên Phủ",
+    "year": 1954,
+    "location": "Điện Biên",
+    "commanders": [
+      "Võ Nguyên Giáp"
+    ],
+    "result": "Tập đoàn cứ điểm Pháp thất thủ",
+    "description": "Chiến thắng quyết định dẫn tới Hiệp định Genève.",
+    "dynastyId": "period_vn_democratic_republic",
+    "metadata": {
+      "importance": "high"
+    }
+  },
+  {
+    "_id": "battle_auto_6",
+    "name": "Trận chiến 6 thời Nhà Nguyễn",
+    "year": 1865,
+    "location": "Gia Định",
+    "commanders": [
+      "Tướng lĩnh 6",
+      "Phó tướng 6"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Nguyễn, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_7",
+    "name": "Trận chiến 7 thời Việt Nam Dân chủ Cộng hòa",
+    "year": 1955,
+    "location": "Đông Kinh",
+    "commanders": [
+      "Tướng lĩnh 7",
+      "Phó tướng 7"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Việt Nam Dân chủ Cộng hòa, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_vn_democratic_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_8",
+    "name": "Trận chiến 8 thời Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "year": 2007,
+    "location": "Tây Đô",
+    "commanders": [
+      "Tướng lĩnh 8",
+      "Phó tướng 8"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_socialist_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_9",
+    "name": "Trận chiến 9 thời Thời Hồng Bàng",
+    "year": -2869,
+    "location": "Thăng Long",
+    "commanders": [
+      "Tướng lĩnh 9",
+      "Phó tướng 9"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Thời Hồng Bàng, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_hong_bang",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_10",
+    "name": "Trận chiến 10 thời Thời Bắc thuộc",
+    "year": -100,
+    "location": "Hoa Lư",
+    "commanders": [
+      "Tướng lĩnh 10",
+      "Phó tướng 10"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Thời Bắc thuộc, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_bac_thuoc",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_11",
+    "name": "Trận chiến 11 thời Nhà Đinh",
+    "year": 968,
+    "location": "Sông Hồng",
+    "commanders": [
+      "Tướng lĩnh 11",
+      "Phó tướng 11"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Đinh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_dinh",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_12",
+    "name": "Trận chiến 12 thời Nhà Lý",
+    "year": 1126,
+    "location": "Thanh Hóa",
+    "commanders": [
+      "Tướng lĩnh 12",
+      "Phó tướng 12"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lý, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ly",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_13",
+    "name": "Trận chiến 13 thời Nhà Hồ",
+    "year": 1406,
+    "location": "Nghệ An",
+    "commanders": [
+      "Tướng lĩnh 13",
+      "Phó tướng 13"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Hồ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ho",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_14",
+    "name": "Trận chiến 14 thời Nhà Lê sơ",
+    "year": 1464,
+    "location": "Quảng Trị",
+    "commanders": [
+      "Tướng lĩnh 14",
+      "Phó tướng 14"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lê sơ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_le_so",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_15",
+    "name": "Trận chiến 15 thời Thời Trịnh - Nguyễn phân tranh",
+    "year": 1744,
+    "location": "Huế",
+    "commanders": [
+      "Tướng lĩnh 15",
+      "Phó tướng 15"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Thời Trịnh - Nguyễn phân tranh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_trinh_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_16",
+    "name": "Trận chiến 16 thời Nhà Nguyễn",
+    "year": 1812,
+    "location": "Gia Định",
+    "commanders": [
+      "Tướng lĩnh 16",
+      "Phó tướng 16"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Nguyễn, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_17",
+    "name": "Trận chiến 17 thời Việt Nam Dân chủ Cộng hòa",
+    "year": 1952,
+    "location": "Đông Kinh",
+    "commanders": [
+      "Tướng lĩnh 17",
+      "Phó tướng 17"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Việt Nam Dân chủ Cộng hòa, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_vn_democratic_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_18",
+    "name": "Trận chiến 18 thời Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "year": 1997,
+    "location": "Tây Đô",
+    "commanders": [
+      "Tướng lĩnh 18",
+      "Phó tướng 18"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_socialist_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_19",
+    "name": "Trận chiến 19 thời Thời Hồng Bàng",
+    "year": -2859,
+    "location": "Thăng Long",
+    "commanders": [
+      "Tướng lĩnh 19",
+      "Phó tướng 19"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Thời Hồng Bàng, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_hong_bang",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_20",
+    "name": "Trận chiến 20 thời Thời Bắc thuộc",
+    "year": -90,
+    "location": "Hoa Lư",
+    "commanders": [
+      "Tướng lĩnh 20",
+      "Phó tướng 20"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Thời Bắc thuộc, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_bac_thuoc",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_21",
+    "name": "Trận chiến 21 thời Nhà Đinh",
+    "year": 974,
+    "location": "Sông Hồng",
+    "commanders": [
+      "Tướng lĩnh 21",
+      "Phó tướng 21"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Đinh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_dinh",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_22",
+    "name": "Trận chiến 22 thời Nhà Lý",
+    "year": 1216,
+    "location": "Thanh Hóa",
+    "commanders": [
+      "Tướng lĩnh 22",
+      "Phó tướng 22"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lý, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ly",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_23",
+    "name": "Trận chiến 23 thời Nhà Hồ",
+    "year": 1400,
+    "location": "Nghệ An",
+    "commanders": [
+      "Tướng lĩnh 23",
+      "Phó tướng 23"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Hồ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ho",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_24",
+    "name": "Trận chiến 24 thời Nhà Lê sơ",
+    "year": 1455,
+    "location": "Quảng Trị",
+    "commanders": [
+      "Tướng lĩnh 24",
+      "Phó tướng 24"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lê sơ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_le_so",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_25",
+    "name": "Trận chiến 25 thời Thời Trịnh - Nguyễn phân tranh",
+    "year": 1657,
+    "location": "Huế",
+    "commanders": [
+      "Tướng lĩnh 25",
+      "Phó tướng 25"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Thời Trịnh - Nguyễn phân tranh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_trinh_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_26",
+    "name": "Trận chiến 26 thời Nhà Nguyễn",
+    "year": 1902,
+    "location": "Gia Định",
+    "commanders": [
+      "Tướng lĩnh 26",
+      "Phó tướng 26"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Nguyễn, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_27",
+    "name": "Trận chiến 27 thời Việt Nam Dân chủ Cộng hòa",
+    "year": 1949,
+    "location": "Đông Kinh",
+    "commanders": [
+      "Tướng lĩnh 27",
+      "Phó tướng 27"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Việt Nam Dân chủ Cộng hòa, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_vn_democratic_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_28",
+    "name": "Trận chiến 28 thời Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "year": 1987,
+    "location": "Tây Đô",
+    "commanders": [
+      "Tướng lĩnh 28",
+      "Phó tướng 28"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_socialist_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_29",
+    "name": "Trận chiến 29 thời Thời Hồng Bàng",
+    "year": -2849,
+    "location": "Thăng Long",
+    "commanders": [
+      "Tướng lĩnh 29",
+      "Phó tướng 29"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Thời Hồng Bàng, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_hong_bang",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_30",
+    "name": "Trận chiến 30 thời Thời Bắc thuộc",
+    "year": -80,
+    "location": "Hoa Lư",
+    "commanders": [
+      "Tướng lĩnh 30",
+      "Phó tướng 30"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Thời Bắc thuộc, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_bac_thuoc",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_31",
+    "name": "Trận chiến 31 thời Nhà Đinh",
+    "year": 968,
+    "location": "Sông Hồng",
+    "commanders": [
+      "Tướng lĩnh 31",
+      "Phó tướng 31"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Đinh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_dinh",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_32",
+    "name": "Trận chiến 32 thời Nhà Lý",
+    "year": 1090,
+    "location": "Thanh Hóa",
+    "commanders": [
+      "Tướng lĩnh 32",
+      "Phó tướng 32"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lý, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ly",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_33",
+    "name": "Trận chiến 33 thời Nhà Hồ",
+    "year": 1402,
+    "location": "Nghệ An",
+    "commanders": [
+      "Tướng lĩnh 33",
+      "Phó tướng 33"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Hồ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ho",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_34",
+    "name": "Trận chiến 34 thời Nhà Lê sơ",
+    "year": 1446,
+    "location": "Quảng Trị",
+    "commanders": [
+      "Tướng lĩnh 34",
+      "Phó tướng 34"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lê sơ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_le_so",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_35",
+    "name": "Trận chiến 35 thời Thời Trịnh - Nguyễn phân tranh",
+    "year": 1747,
+    "location": "Huế",
+    "commanders": [
+      "Tướng lĩnh 35",
+      "Phó tướng 35"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Thời Trịnh - Nguyễn phân tranh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_trinh_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_36",
+    "name": "Trận chiến 36 thời Nhà Nguyễn",
+    "year": 1849,
+    "location": "Gia Định",
+    "commanders": [
+      "Tướng lĩnh 36",
+      "Phó tướng 36"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Nguyễn, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_37",
+    "name": "Trận chiến 37 thời Việt Nam Dân chủ Cộng hòa",
+    "year": 1946,
+    "location": "Đông Kinh",
+    "commanders": [
+      "Tướng lĩnh 37",
+      "Phó tướng 37"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Việt Nam Dân chủ Cộng hòa, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_vn_democratic_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_38",
+    "name": "Trận chiến 38 thời Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "year": 1977,
+    "location": "Tây Đô",
+    "commanders": [
+      "Tướng lĩnh 38",
+      "Phó tướng 38"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_socialist_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_39",
+    "name": "Trận chiến 39 thời Thời Hồng Bàng",
+    "year": -2839,
+    "location": "Thăng Long",
+    "commanders": [
+      "Tướng lĩnh 39",
+      "Phó tướng 39"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Thời Hồng Bàng, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_hong_bang",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_40",
+    "name": "Trận chiến 40 thời Thời Bắc thuộc",
+    "year": -70,
+    "location": "Hoa Lư",
+    "commanders": [
+      "Tướng lĩnh 40",
+      "Phó tướng 40"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Thời Bắc thuộc, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_bac_thuoc",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_41",
+    "name": "Trận chiến 41 thời Nhà Đinh",
+    "year": 974,
+    "location": "Sông Hồng",
+    "commanders": [
+      "Tướng lĩnh 41",
+      "Phó tướng 41"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Đinh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_dinh",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_42",
+    "name": "Trận chiến 42 thời Nhà Lý",
+    "year": 1180,
+    "location": "Thanh Hóa",
+    "commanders": [
+      "Tướng lĩnh 42",
+      "Phó tướng 42"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lý, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ly",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_43",
+    "name": "Trận chiến 43 thời Nhà Hồ",
+    "year": 1404,
+    "location": "Nghệ An",
+    "commanders": [
+      "Tướng lĩnh 43",
+      "Phó tướng 43"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Hồ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_ho",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_44",
+    "name": "Trận chiến 44 thời Nhà Lê sơ",
+    "year": 1437,
+    "location": "Quảng Trị",
+    "commanders": [
+      "Tướng lĩnh 44",
+      "Phó tướng 44"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Lê sơ, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_le_so",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_45",
+    "name": "Trận chiến 45 thời Thời Trịnh - Nguyễn phân tranh",
+    "year": 1660,
+    "location": "Huế",
+    "commanders": [
+      "Tướng lĩnh 45",
+      "Phó tướng 45"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Thời Trịnh - Nguyễn phân tranh, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_trinh_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_46",
+    "name": "Trận chiến 46 thời Nhà Nguyễn",
+    "year": 1939,
+    "location": "Gia Định",
+    "commanders": [
+      "Tướng lĩnh 46",
+      "Phó tướng 46"
+    ],
+    "result": "Kiểm soát chiến trường",
+    "description": "Giao tranh lớn trong giai đoạn Nhà Nguyễn, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_nguyen",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_47",
+    "name": "Trận chiến 47 thời Việt Nam Dân chủ Cộng hòa",
+    "year": 1974,
+    "location": "Đông Kinh",
+    "commanders": [
+      "Tướng lĩnh 47",
+      "Phó tướng 47"
+    ],
+    "result": "Giành thắng lợi",
+    "description": "Giao tranh lớn trong giai đoạn Việt Nam Dân chủ Cộng hòa, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_vn_democratic_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_48",
+    "name": "Trận chiến 48 thời Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "year": 2017,
+    "location": "Tây Đô",
+    "commanders": [
+      "Tướng lĩnh 48",
+      "Phó tướng 48"
+    ],
+    "result": "Cầm cự thành công",
+    "description": "Giao tranh lớn trong giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "period_socialist_republic",
+    "metadata": {
+      "scale": "regional"
+    }
+  },
+  {
+    "_id": "battle_auto_49",
+    "name": "Trận chiến 49 thời Thời Hồng Bàng",
+    "year": -2829,
+    "location": "Thăng Long",
+    "commanders": [
+      "Tướng lĩnh 49",
+      "Phó tướng 49"
+    ],
+    "result": "Rút quân chiến thuật",
+    "description": "Giao tranh lớn trong giai đoạn Thời Hồng Bàng, tác động đến cục diện chính trị - quân sự địa phương.",
+    "dynastyId": "dynasty_hong_bang",
+    "metadata": {
+      "scale": "regional"
+    }
+  }
+]

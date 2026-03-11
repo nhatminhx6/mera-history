@@ -1,3 +1,4 @@
+import 'package:mera_history/core/constants/app_assets.dart';
 import 'package:intl/intl.dart';
 import 'package:mera_history/core/utils/lunar_calendar_utils.dart';
 import 'package:mera_history/data/services/local_json_service.dart';
@@ -9,7 +10,8 @@ class LunarDayRepository {
   final LocalJsonService _jsonService;
 
   Future<LunarDayInfo> getLunarDayInfo(DateTime date) async {
-    final rows = await _jsonService.readList('assets/data/lunar_day_info.json');
+    await Future<void>.delayed(const Duration(milliseconds: 200));
+    final rows = await _jsonService.readList(AppAssets.mockLunarDayInfo);
     final key = DateFormat('yyyy-MM-dd').format(date);
 
     for (final row in rows) {
@@ -19,25 +21,24 @@ class LunarDayRepository {
     }
 
     final lunar = LunarCalendarUtils.solarToLunar(date);
-    return LunarDayInfo(
-      solarDate: key,
-      lunarDate: LunarCalendarUtils.formatDayMonth(lunar),
-      canChiDay: 'Giáp Thìn',
-      nguHanh: 'Hành Hỏa',
-      truc: 'Trực Mãn',
-      danhGiaNgay: 'Ngày bình ổn',
-      nenLam: const ['Học tập', 'Gặp gỡ', 'Lập kế hoạch'],
-      nenTranh: const ['Động thổ', 'Tranh chấp'],
-      gioHoangDao: const [
-        'Tý 23:00–01:00',
-        'Sửu 01:00–03:00',
-        'Thìn 07:00–09:00',
-      ],
-      huongXuatHanh: const {
-        'Hỷ thần': 'Đông Nam',
-        'Tài thần': 'Chính Tây',
-        'Hạc thần': 'Tránh hướng Bắc',
-      },
+    if (rows.isNotEmpty) {
+      final sample = LunarDayInfo.fromJson(rows.first);
+      return LunarDayInfo(
+        solarDate: key,
+        lunarDate: LunarCalendarUtils.formatDayMonth(lunar),
+        canChiDay: sample.canChiDay,
+        nguHanh: sample.nguHanh,
+        truc: sample.truc,
+        danhGiaNgay: sample.danhGiaNgay,
+        nenLam: sample.nenLam,
+        nenTranh: sample.nenTranh,
+        gioHoangDao: sample.gioHoangDao,
+        huongXuatHanh: sample.huongXuatHanh,
+      );
+    }
+
+    throw StateError(
+      'Không có dữ liệu lunar_day_info trong assets/mock/lunar_day_info.json',
     );
   }
 }

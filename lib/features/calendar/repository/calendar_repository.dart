@@ -1,5 +1,6 @@
 import 'package:mera_history/core/utils/app_date_utils.dart';
 import 'package:mera_history/data/repositories/calendar_data_repository.dart';
+import 'package:mera_history/data/repositories/daily_advice_repository.dart';
 import 'package:mera_history/data/repositories/history_data_repository.dart';
 import 'package:mera_history/features/calendar/models/calendar_models.dart';
 import 'package:mera_history/features/calendar/repository/lunar_day_repository.dart';
@@ -14,11 +15,13 @@ class CalendarRepositoryImpl implements CalendarRepository {
     required this.calendarData,
     required this.historyData,
     required this.lunarDayRepository,
+    required this.dailyAdviceRepository,
   });
 
   final CalendarDataRepository calendarData;
   final HistoryDataRepository historyData;
   final LunarDayRepository lunarDayRepository;
+  final DailyAdviceRepository dailyAdviceRepository;
 
   @override
   Future<CalendarSelectionResult> loadDay(DateTime day) async {
@@ -26,7 +29,12 @@ class CalendarRepositoryImpl implements CalendarRepository {
     final allEvents = await historyData.getAll();
     final events = allEvents.where((e) => e.date == key).toList();
     final lunarInfo = await lunarDayRepository.getLunarDayInfo(day);
-    return CalendarSelectionResult(lunarInfo: lunarInfo, events: events);
+    final dailyAdvice = await dailyAdviceRepository.getAdviceForDate(day);
+    return CalendarSelectionResult(
+      lunarInfo: lunarInfo,
+      events: events,
+      dailyAdvice: dailyAdvice,
+    );
   }
 
   @override

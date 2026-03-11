@@ -1,0 +1,4876 @@
+[
+  {
+    "_id": "event_bach_dang_938",
+    "slug": "bach-dang-938",
+    "title": "Chiến thắng Bạch Đằng năm 938",
+    "year": 938,
+    "summary": "Ngô Quyền đánh bại quân Nam Hán, mở đầu kỷ nguyên độc lập.",
+    "dynastyId": "dynasty_ngo",
+    "figureIds": [
+      "figure_ngo_quyen"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Ngô Quyền đánh bại quân Nam Hán, mở đầu kỷ nguyên độc lập.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "era": "Nhà Ngô"
+    }
+  },
+  {
+    "_id": "event_dinh_linh_968",
+    "slug": "dinh-linh-968",
+    "title": "Đinh Bộ Lĩnh thống nhất đất nước",
+    "year": 968,
+    "summary": "Dẹp loạn 12 sứ quân, lập nhà Đinh.",
+    "dynastyId": "dynasty_dinh",
+    "figureIds": [
+      "figure_auto_20"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Dẹp loạn 12 sứ quân, lập nhà Đinh.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "era": "Nhà Đinh"
+    }
+  },
+  {
+    "_id": "event_doi_do_1010",
+    "slug": "doi-do-1010",
+    "title": "Lý Công Uẩn dời đô ra Thăng Long",
+    "year": 1010,
+    "summary": "Kinh đô mới mở ra thời kỳ phát triển dài lâu.",
+    "dynastyId": "dynasty_ly",
+    "figureIds": [
+      "figure_auto_21"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Kinh đô mới mở ra thời kỳ phát triển dài lâu.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "era": "Nhà Lý"
+    }
+  },
+  {
+    "_id": "event_nhu_nguyet_1077",
+    "slug": "nhu-nguyet-1077",
+    "title": "Kháng chiến chống Tống trên sông Như Nguyệt",
+    "year": 1077,
+    "summary": "Lý Thường Kiệt chặn đứng cuộc xâm lược từ phương Bắc.",
+    "dynastyId": "dynasty_ly",
+    "figureIds": [
+      "figure_ly_thuong_kiet"
+    ],
+    "battleIds": [
+      "battle_nhu_nguyet_1077"
+    ],
+    "vietnamEvent": "Lý Thường Kiệt chặn đứng cuộc xâm lược từ phương Bắc.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "era": "Nhà Lý"
+    }
+  },
+  {
+    "_id": "event_bach_dang_1288",
+    "slug": "bach-dang-1288",
+    "title": "Đại thắng Bạch Đằng năm 1288",
+    "year": 1288,
+    "summary": "Nhà Trần đánh tan quân Nguyên lần thứ ba.",
+    "dynastyId": "dynasty_tran",
+    "figureIds": [
+      "figure_tran_hung_dao",
+      "figure_tran_nhan_tong"
+    ],
+    "battleIds": [
+      "battle_bach_dang_1288"
+    ],
+    "vietnamEvent": "Nhà Trần đánh tan quân Nguyên lần thứ ba.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "era": "Nhà Trần"
+    }
+  },
+  {
+    "_id": "event_lam_son_1428",
+    "slug": "lam-son-1428",
+    "title": "Khởi nghĩa Lam Sơn thắng lợi",
+    "year": 1428,
+    "summary": "Lê Lợi lên ngôi, khôi phục quốc hiệu Đại Việt.",
+    "dynastyId": "dynasty_le_so",
+    "figureIds": [
+      "figure_le_loi",
+      "figure_nguyen_trai"
+    ],
+    "battleIds": [
+      "battle_chi_lang_1427"
+    ],
+    "vietnamEvent": "Lê Lợi lên ngôi, khôi phục quốc hiệu Đại Việt.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "era": "Nhà Lê sơ"
+    }
+  },
+  {
+    "_id": "event_hong_duc",
+    "slug": "hong-duc",
+    "title": "Thời kỳ Hồng Đức thịnh trị",
+    "year": 1471,
+    "summary": "Pháp luật, giáo dục và hành chính được hoàn thiện.",
+    "dynastyId": "dynasty_le_so",
+    "figureIds": [
+      "figure_auto_22"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Pháp luật, giáo dục và hành chính được hoàn thiện.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "era": "Nhà Lê sơ"
+    }
+  },
+  {
+    "_id": "event_ngoc_hoi_1789",
+    "slug": "ngoc-hoi-1789",
+    "title": "Chiến thắng Ngọc Hồi - Đống Đa",
+    "year": 1789,
+    "summary": "Quang Trung đánh bại quân Thanh, giải phóng Thăng Long.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_quang_trung",
+      "figure_ngo_thi_nham"
+    ],
+    "battleIds": [
+      "battle_ngoc_hoi_dong_da_1789"
+    ],
+    "vietnamEvent": "Quang Trung đánh bại quân Thanh, giải phóng Thăng Long.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "era": "Nhà Tây Sơn"
+    }
+  },
+  {
+    "_id": "event_gia_long_1802",
+    "slug": "gia-long-1802",
+    "title": "Gia Long thống nhất lãnh thổ",
+    "year": 1802,
+    "summary": "Nhà Nguyễn được thành lập sau nhiều năm nội chiến.",
+    "dynastyId": "dynasty_nguyen",
+    "figureIds": [
+      "figure_gia_long"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Nhà Nguyễn được thành lập sau nhiều năm nội chiến.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "era": "Nhà Nguyễn"
+    }
+  },
+  {
+    "_id": "event_doc_lap_1945",
+    "slug": "doc-lap-1945",
+    "title": "Tuyên ngôn Độc lập",
+    "year": 1945,
+    "summary": "Nước Việt Nam Dân chủ Cộng hòa ra đời.",
+    "dynastyId": "period_vn_democratic_republic",
+    "figureIds": [
+      "figure_ho_chi_minh"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Nước Việt Nam Dân chủ Cộng hòa ra đời.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "era": "Việt Nam Dân chủ Cộng hòa"
+    }
+  },
+  {
+    "_id": "event_dien_bien_1954",
+    "slug": "dien-bien-1954",
+    "title": "Chiến thắng Điện Biên Phủ",
+    "year": 1954,
+    "summary": "Chiến dịch kết thúc thắng lợi, tạo bước ngoặt ngoại giao.",
+    "dynastyId": "period_vn_democratic_republic",
+    "figureIds": [
+      "figure_vo_nguyen_giap"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Chiến dịch kết thúc thắng lợi, tạo bước ngoặt ngoại giao.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "era": "Việt Nam Dân chủ Cộng hòa"
+    }
+  },
+  {
+    "_id": "event_thong_nhat_1975",
+    "slug": "thong-nhat-1975",
+    "title": "Giải phóng miền Nam, thống nhất đất nước",
+    "year": 1975,
+    "summary": "Chiến dịch Hồ Chí Minh toàn thắng.",
+    "dynastyId": "period_socialist_republic",
+    "figureIds": [
+      "figure_vo_nguyen_giap"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Chiến dịch Hồ Chí Minh toàn thắng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "era": "Cộng hòa Xã hội Chủ nghĩa Việt Nam"
+    }
+  },
+  {
+    "_id": "event_doi_moi_1986",
+    "slug": "doi-moi-1986",
+    "title": "Khởi xướng công cuộc Đổi mới",
+    "year": 1986,
+    "summary": "Đại hội VI mở ra giai đoạn cải cách kinh tế - xã hội.",
+    "dynastyId": "period_doi_moi",
+    "figureIds": [
+      "figure_auto_23"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Đại hội VI mở ra giai đoạn cải cách kinh tế - xã hội.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "era": "Thời kỳ Đổi mới"
+    }
+  },
+  {
+    "_id": "event_auto_13",
+    "slug": "bien-co-13-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 13 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_98",
+      "figure_auto_111"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_14",
+    "slug": "bien-co-14-nuoc-au-lac",
+    "title": "Biến cố lịch sử 14 thời Nhà nước Âu Lạc",
+    "year": -242,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_105",
+      "figure_auto_118"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_15",
+    "slug": "bien-co-15-nha-tien-le",
+    "title": "Biến cố lịch sử 15 thời Nhà Tiền Lê",
+    "year": 982,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_112",
+      "figure_nguyen_trai"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_16",
+    "slug": "bien-co-16-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 16 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_119",
+      "figure_trung_trac"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_17",
+    "slug": "bien-co-17-nha-tay-son",
+    "title": "Biến cố lịch sử 17 thời Nhà Tây Sơn",
+    "year": 1784,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_quang_trung",
+      "figure_auto_19"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_18",
+    "slug": "bien-co-18-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 18 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_trieu_thi_trinh",
+      "figure_auto_26"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_19",
+    "slug": "bien-co-19-nuoc-au-lac",
+    "title": "Biến cố lịch sử 19 thời Nhà nước Âu Lạc",
+    "year": -237,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_20",
+      "figure_auto_33"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_20",
+    "slug": "bien-co-20-nha-tien-le",
+    "title": "Biến cố lịch sử 20 thời Nhà Tiền Lê",
+    "year": 1008,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_27",
+      "figure_auto_40"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_21",
+    "slug": "bien-co-21-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 21 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_34",
+      "figure_auto_47"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_22",
+    "slug": "bien-co-22-nha-tay-son",
+    "title": "Biến cố lịch sử 22 thời Nhà Tây Sơn",
+    "year": 1791,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_41",
+      "figure_auto_54"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_23",
+    "slug": "bien-co-23-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 23 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_48",
+      "figure_auto_61"
+    ],
+    "battleIds": [
+      "battle_auto_20"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_24",
+    "slug": "bien-co-24-nuoc-au-lac",
+    "title": "Biến cố lịch sử 24 thời Nhà nước Âu Lạc",
+    "year": -232,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_55",
+      "figure_auto_68"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_25",
+    "slug": "bien-co-25-nha-tien-le",
+    "title": "Biến cố lịch sử 25 thời Nhà Tiền Lê",
+    "year": 1005,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_62",
+      "figure_auto_75"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_26",
+    "slug": "bien-co-26-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 26 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_69",
+      "figure_auto_82"
+    ],
+    "battleIds": [
+      "battle_auto_35"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_27",
+    "slug": "bien-co-27-nha-tay-son",
+    "title": "Biến cố lịch sử 27 thời Nhà Tây Sơn",
+    "year": 1798,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_76",
+      "figure_auto_89"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_28",
+    "slug": "bien-co-28-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 28 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_83",
+      "figure_auto_96"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_29",
+    "slug": "bien-co-29-nuoc-au-lac",
+    "title": "Biến cố lịch sử 29 thời Nhà nước Âu Lạc",
+    "year": -227,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_90",
+      "figure_auto_103"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_30",
+    "slug": "bien-co-30-nha-tien-le",
+    "title": "Biến cố lịch sử 30 thời Nhà Tiền Lê",
+    "year": 1002,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_97",
+      "figure_auto_110"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_31",
+    "slug": "bien-co-31-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 31 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_104",
+      "figure_auto_117"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_32",
+    "slug": "bien-co-32-nha-tay-son",
+    "title": "Biến cố lịch sử 32 thời Nhà Tây Sơn",
+    "year": 1781,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_111",
+      "figure_le_loi"
+    ],
+    "battleIds": [
+      "battle_auto_15"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_33",
+    "slug": "bien-co-33-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 33 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_118",
+      "figure_trung_nhi"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_34",
+    "slug": "bien-co-34-nuoc-au-lac",
+    "title": "Biến cố lịch sử 34 thời Nhà nước Âu Lạc",
+    "year": -222,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_nguyen_trai",
+      "figure_auto_18"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_35",
+    "slug": "bien-co-35-nha-tien-le",
+    "title": "Biến cố lịch sử 35 thời Nhà Tiền Lê",
+    "year": 999,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_trung_trac",
+      "figure_auto_25"
+    ],
+    "battleIds": [
+      "battle_auto_30"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_36",
+    "slug": "bien-co-36-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 36 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_19",
+      "figure_auto_32"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_37",
+    "slug": "bien-co-37-nha-tay-son",
+    "title": "Biến cố lịch sử 37 thời Nhà Tây Sơn",
+    "year": 1788,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_26",
+      "figure_auto_39"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_38",
+    "slug": "bien-co-38-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 38 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_33",
+      "figure_auto_46"
+    ],
+    "battleIds": [
+      "battle_auto_45"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_39",
+    "slug": "bien-co-39-nuoc-au-lac",
+    "title": "Biến cố lịch sử 39 thời Nhà nước Âu Lạc",
+    "year": -256,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_40",
+      "figure_auto_53"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_40",
+    "slug": "bien-co-40-nha-tien-le",
+    "title": "Biến cố lịch sử 40 thời Nhà Tiền Lê",
+    "year": 996,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_47",
+      "figure_auto_60"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_41",
+    "slug": "bien-co-41-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 41 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_54",
+      "figure_auto_67"
+    ],
+    "battleIds": [
+      "battle_auto_10"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_42",
+    "slug": "bien-co-42-nha-tay-son",
+    "title": "Biến cố lịch sử 42 thời Nhà Tây Sơn",
+    "year": 1795,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_61",
+      "figure_auto_74"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_43",
+    "slug": "bien-co-43-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 43 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_68",
+      "figure_auto_81"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_44",
+    "slug": "bien-co-44-nuoc-au-lac",
+    "title": "Biến cố lịch sử 44 thời Nhà nước Âu Lạc",
+    "year": -251,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_75",
+      "figure_auto_88"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_45",
+    "slug": "bien-co-45-nha-tien-le",
+    "title": "Biến cố lịch sử 45 thời Nhà Tiền Lê",
+    "year": 993,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_82",
+      "figure_auto_95"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_46",
+    "slug": "bien-co-46-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 46 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_89",
+      "figure_auto_102"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_47",
+    "slug": "bien-co-47-nha-tay-son",
+    "title": "Biến cố lịch sử 47 thời Nhà Tây Sơn",
+    "year": 1778,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_96",
+      "figure_auto_109"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_48",
+    "slug": "bien-co-48-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 48 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_103",
+      "figure_auto_116"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_49",
+    "slug": "bien-co-49-nuoc-au-lac",
+    "title": "Biến cố lịch sử 49 thời Nhà nước Âu Lạc",
+    "year": -246,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_110",
+      "figure_tran_nhan_tong"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_50",
+    "slug": "bien-co-50-nha-tien-le",
+    "title": "Biến cố lịch sử 50 thời Nhà Tiền Lê",
+    "year": 990,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_117",
+      "figure_vo_nguyen_giap"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_51",
+    "slug": "bien-co-51-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 51 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_le_loi",
+      "figure_auto_17"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_52",
+    "slug": "bien-co-52-nha-tay-son",
+    "title": "Biến cố lịch sử 52 thời Nhà Tây Sơn",
+    "year": 1785,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_trung_nhi",
+      "figure_auto_24"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_53",
+    "slug": "bien-co-53-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 53 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_18",
+      "figure_auto_31"
+    ],
+    "battleIds": [
+      "battle_auto_20"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_54",
+    "slug": "bien-co-54-nuoc-au-lac",
+    "title": "Biến cố lịch sử 54 thời Nhà nước Âu Lạc",
+    "year": -241,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_25",
+      "figure_auto_38"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_55",
+    "slug": "bien-co-55-nha-tien-le",
+    "title": "Biến cố lịch sử 55 thời Nhà Tiền Lê",
+    "year": 987,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_32",
+      "figure_auto_45"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_56",
+    "slug": "bien-co-56-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 56 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_39",
+      "figure_auto_52"
+    ],
+    "battleIds": [
+      "battle_auto_35"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_57",
+    "slug": "bien-co-57-nha-tay-son",
+    "title": "Biến cố lịch sử 57 thời Nhà Tây Sơn",
+    "year": 1792,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_46",
+      "figure_auto_59"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_58",
+    "slug": "bien-co-58-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 58 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_53",
+      "figure_auto_66"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_59",
+    "slug": "bien-co-59-nuoc-au-lac",
+    "title": "Biến cố lịch sử 59 thời Nhà nước Âu Lạc",
+    "year": -236,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_60",
+      "figure_auto_73"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_60",
+    "slug": "bien-co-60-nha-tien-le",
+    "title": "Biến cố lịch sử 60 thời Nhà Tiền Lê",
+    "year": 984,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_67",
+      "figure_auto_80"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_61",
+    "slug": "bien-co-61-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 61 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_74",
+      "figure_auto_87"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_62",
+    "slug": "bien-co-62-nha-tay-son",
+    "title": "Biến cố lịch sử 62 thời Nhà Tây Sơn",
+    "year": 1799,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_81",
+      "figure_auto_94"
+    ],
+    "battleIds": [
+      "battle_auto_15"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_63",
+    "slug": "bien-co-63-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 63 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_88",
+      "figure_auto_101"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_64",
+    "slug": "bien-co-64-nuoc-au-lac",
+    "title": "Biến cố lịch sử 64 thời Nhà nước Âu Lạc",
+    "year": -231,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_95",
+      "figure_auto_108"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_65",
+    "slug": "bien-co-65-nha-tien-le",
+    "title": "Biến cố lịch sử 65 thời Nhà Tiền Lê",
+    "year": 981,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_102",
+      "figure_auto_115"
+    ],
+    "battleIds": [
+      "battle_auto_30"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_66",
+    "slug": "bien-co-66-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 66 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_109",
+      "figure_tran_hung_dao"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_67",
+    "slug": "bien-co-67-nha-tay-son",
+    "title": "Biến cố lịch sử 67 thời Nhà Tây Sơn",
+    "year": 1782,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_116",
+      "figure_ho_chi_minh"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_68",
+    "slug": "bien-co-68-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 68 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_tran_nhan_tong",
+      "figure_auto_16"
+    ],
+    "battleIds": [
+      "battle_auto_45"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_69",
+    "slug": "bien-co-69-nuoc-au-lac",
+    "title": "Biến cố lịch sử 69 thời Nhà nước Âu Lạc",
+    "year": -226,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_vo_nguyen_giap",
+      "figure_auto_23"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_70",
+    "slug": "bien-co-70-nha-tien-le",
+    "title": "Biến cố lịch sử 70 thời Nhà Tiền Lê",
+    "year": 1007,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_17",
+      "figure_auto_30"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_71",
+    "slug": "bien-co-71-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 71 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_24",
+      "figure_auto_37"
+    ],
+    "battleIds": [
+      "battle_auto_10"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_72",
+    "slug": "bien-co-72-nha-tay-son",
+    "title": "Biến cố lịch sử 72 thời Nhà Tây Sơn",
+    "year": 1789,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_31",
+      "figure_auto_44"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_73",
+    "slug": "bien-co-73-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 73 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_38",
+      "figure_auto_51"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_74",
+    "slug": "bien-co-74-nuoc-au-lac",
+    "title": "Biến cố lịch sử 74 thời Nhà nước Âu Lạc",
+    "year": -221,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_45",
+      "figure_auto_58"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_75",
+    "slug": "bien-co-75-nha-tien-le",
+    "title": "Biến cố lịch sử 75 thời Nhà Tiền Lê",
+    "year": 1004,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_52",
+      "figure_auto_65"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_76",
+    "slug": "bien-co-76-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 76 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_59",
+      "figure_auto_72"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_77",
+    "slug": "bien-co-77-nha-tay-son",
+    "title": "Biến cố lịch sử 77 thời Nhà Tây Sơn",
+    "year": 1796,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_66",
+      "figure_auto_79"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_78",
+    "slug": "bien-co-78-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 78 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_73",
+      "figure_auto_86"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_79",
+    "slug": "bien-co-79-nuoc-au-lac",
+    "title": "Biến cố lịch sử 79 thời Nhà nước Âu Lạc",
+    "year": -255,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_80",
+      "figure_auto_93"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_80",
+    "slug": "bien-co-80-nha-tien-le",
+    "title": "Biến cố lịch sử 80 thời Nhà Tiền Lê",
+    "year": 1001,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_87",
+      "figure_auto_100"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_81",
+    "slug": "bien-co-81-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 81 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_94",
+      "figure_auto_107"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_82",
+    "slug": "bien-co-82-nha-tay-son",
+    "title": "Biến cố lịch sử 82 thời Nhà Tây Sơn",
+    "year": 1779,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_101",
+      "figure_auto_114"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_83",
+    "slug": "bien-co-83-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 83 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_108",
+      "figure_ly_thuong_kiet"
+    ],
+    "battleIds": [
+      "battle_auto_20"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_84",
+    "slug": "bien-co-84-nuoc-au-lac",
+    "title": "Biến cố lịch sử 84 thời Nhà nước Âu Lạc",
+    "year": -250,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_115",
+      "figure_minh_mang"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_85",
+    "slug": "bien-co-85-nha-tien-le",
+    "title": "Biến cố lịch sử 85 thời Nhà Tiền Lê",
+    "year": 998,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_tran_hung_dao",
+      "figure_auto_15"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_86",
+    "slug": "bien-co-86-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 86 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_ho_chi_minh",
+      "figure_auto_22"
+    ],
+    "battleIds": [
+      "battle_auto_35"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_87",
+    "slug": "bien-co-87-nha-tay-son",
+    "title": "Biến cố lịch sử 87 thời Nhà Tây Sơn",
+    "year": 1786,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_16",
+      "figure_auto_29"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_88",
+    "slug": "bien-co-88-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 88 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_23",
+      "figure_auto_36"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_89",
+    "slug": "bien-co-89-nuoc-au-lac",
+    "title": "Biến cố lịch sử 89 thời Nhà nước Âu Lạc",
+    "year": -245,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_30",
+      "figure_auto_43"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_90",
+    "slug": "bien-co-90-nha-tien-le",
+    "title": "Biến cố lịch sử 90 thời Nhà Tiền Lê",
+    "year": 995,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_37",
+      "figure_auto_50"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_91",
+    "slug": "bien-co-91-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 91 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_44",
+      "figure_auto_57"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_92",
+    "slug": "bien-co-92-nha-tay-son",
+    "title": "Biến cố lịch sử 92 thời Nhà Tây Sơn",
+    "year": 1793,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_51",
+      "figure_auto_64"
+    ],
+    "battleIds": [
+      "battle_auto_15"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_93",
+    "slug": "bien-co-93-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 93 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_58",
+      "figure_auto_71"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_94",
+    "slug": "bien-co-94-nuoc-au-lac",
+    "title": "Biến cố lịch sử 94 thời Nhà nước Âu Lạc",
+    "year": -240,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_65",
+      "figure_auto_78"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_95",
+    "slug": "bien-co-95-nha-tien-le",
+    "title": "Biến cố lịch sử 95 thời Nhà Tiền Lê",
+    "year": 992,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_72",
+      "figure_auto_85"
+    ],
+    "battleIds": [
+      "battle_auto_30"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_96",
+    "slug": "bien-co-96-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 96 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_79",
+      "figure_auto_92"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_97",
+    "slug": "bien-co-97-nha-tay-son",
+    "title": "Biến cố lịch sử 97 thời Nhà Tây Sơn",
+    "year": 1800,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_86",
+      "figure_auto_99"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_98",
+    "slug": "bien-co-98-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 98 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_93",
+      "figure_auto_106"
+    ],
+    "battleIds": [
+      "battle_auto_45"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_99",
+    "slug": "bien-co-99-nuoc-au-lac",
+    "title": "Biến cố lịch sử 99 thời Nhà nước Âu Lạc",
+    "year": -235,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_100",
+      "figure_auto_113"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_100",
+    "slug": "bien-co-100-nha-tien-le",
+    "title": "Biến cố lịch sử 100 thời Nhà Tiền Lê",
+    "year": 989,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_107",
+      "figure_ngo_quyen"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_101",
+    "slug": "bien-co-101-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 101 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_114",
+      "figure_gia_long"
+    ],
+    "battleIds": [
+      "battle_auto_10"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_102",
+    "slug": "bien-co-102-nha-tay-son",
+    "title": "Biến cố lịch sử 102 thời Nhà Tây Sơn",
+    "year": 1783,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_ly_thuong_kiet",
+      "figure_ngo_thi_nham"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_103",
+    "slug": "bien-co-103-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 103 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_minh_mang",
+      "figure_auto_21"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_104",
+    "slug": "bien-co-104-nuoc-au-lac",
+    "title": "Biến cố lịch sử 104 thời Nhà nước Âu Lạc",
+    "year": -230,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_15",
+      "figure_auto_28"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_105",
+    "slug": "bien-co-105-nha-tien-le",
+    "title": "Biến cố lịch sử 105 thời Nhà Tiền Lê",
+    "year": 986,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_22",
+      "figure_auto_35"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_106",
+    "slug": "bien-co-106-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 106 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_29",
+      "figure_auto_42"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_107",
+    "slug": "bien-co-107-nha-tay-son",
+    "title": "Biến cố lịch sử 107 thời Nhà Tây Sơn",
+    "year": 1790,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_36",
+      "figure_auto_49"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_108",
+    "slug": "bien-co-108-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 108 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_43",
+      "figure_auto_56"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_109",
+    "slug": "bien-co-109-nuoc-au-lac",
+    "title": "Biến cố lịch sử 109 thời Nhà nước Âu Lạc",
+    "year": -225,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_50",
+      "figure_auto_63"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_110",
+    "slug": "bien-co-110-nha-tien-le",
+    "title": "Biến cố lịch sử 110 thời Nhà Tiền Lê",
+    "year": 983,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_57",
+      "figure_auto_70"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_111",
+    "slug": "bien-co-111-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 111 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_64",
+      "figure_auto_77"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_112",
+    "slug": "bien-co-112-nha-tay-son",
+    "title": "Biến cố lịch sử 112 thời Nhà Tây Sơn",
+    "year": 1797,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_71",
+      "figure_auto_84"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_113",
+    "slug": "bien-co-113-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 113 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_78",
+      "figure_auto_91"
+    ],
+    "battleIds": [
+      "battle_auto_20"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_114",
+    "slug": "bien-co-114-nuoc-au-lac",
+    "title": "Biến cố lịch sử 114 thời Nhà nước Âu Lạc",
+    "year": -220,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_85",
+      "figure_auto_98"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_115",
+    "slug": "bien-co-115-nha-tien-le",
+    "title": "Biến cố lịch sử 115 thời Nhà Tiền Lê",
+    "year": 980,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_92",
+      "figure_auto_105"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_116",
+    "slug": "bien-co-116-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 116 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_99",
+      "figure_auto_112"
+    ],
+    "battleIds": [
+      "battle_auto_35"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_117",
+    "slug": "bien-co-117-nha-tay-son",
+    "title": "Biến cố lịch sử 117 thời Nhà Tây Sơn",
+    "year": 1780,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_106",
+      "figure_auto_119"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_118",
+    "slug": "bien-co-118-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 118 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_113",
+      "figure_quang_trung"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_119",
+    "slug": "bien-co-119-nuoc-au-lac",
+    "title": "Biến cố lịch sử 119 thời Nhà nước Âu Lạc",
+    "year": -254,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_ngo_quyen",
+      "figure_trieu_thi_trinh"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_120",
+    "slug": "bien-co-120-nha-tien-le",
+    "title": "Biến cố lịch sử 120 thời Nhà Tiền Lê",
+    "year": 1006,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_gia_long",
+      "figure_auto_20"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_121",
+    "slug": "bien-co-121-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 121 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_ngo_thi_nham",
+      "figure_auto_27"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_122",
+    "slug": "bien-co-122-nha-tay-son",
+    "title": "Biến cố lịch sử 122 thời Nhà Tây Sơn",
+    "year": 1787,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_21",
+      "figure_auto_34"
+    ],
+    "battleIds": [
+      "battle_auto_15"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_123",
+    "slug": "bien-co-123-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 123 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_28",
+      "figure_auto_41"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_124",
+    "slug": "bien-co-124-nuoc-au-lac",
+    "title": "Biến cố lịch sử 124 thời Nhà nước Âu Lạc",
+    "year": -249,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_35",
+      "figure_auto_48"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_125",
+    "slug": "bien-co-125-nha-tien-le",
+    "title": "Biến cố lịch sử 125 thời Nhà Tiền Lê",
+    "year": 1003,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_42",
+      "figure_auto_55"
+    ],
+    "battleIds": [
+      "battle_auto_30"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_126",
+    "slug": "bien-co-126-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 126 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_49",
+      "figure_auto_62"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_127",
+    "slug": "bien-co-127-nha-tay-son",
+    "title": "Biến cố lịch sử 127 thời Nhà Tây Sơn",
+    "year": 1794,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_56",
+      "figure_auto_69"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_128",
+    "slug": "bien-co-128-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 128 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_63",
+      "figure_auto_76"
+    ],
+    "battleIds": [
+      "battle_auto_45"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_129",
+    "slug": "bien-co-129-nuoc-au-lac",
+    "title": "Biến cố lịch sử 129 thời Nhà nước Âu Lạc",
+    "year": -244,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_70",
+      "figure_auto_83"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_130",
+    "slug": "bien-co-130-nha-tien-le",
+    "title": "Biến cố lịch sử 130 thời Nhà Tiền Lê",
+    "year": 1000,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_77",
+      "figure_auto_90"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_131",
+    "slug": "bien-co-131-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 131 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_84",
+      "figure_auto_97"
+    ],
+    "battleIds": [
+      "battle_auto_10"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_132",
+    "slug": "bien-co-132-nha-tay-son",
+    "title": "Biến cố lịch sử 132 thời Nhà Tây Sơn",
+    "year": 1801,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_91",
+      "figure_auto_104"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_133",
+    "slug": "bien-co-133-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 133 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_98",
+      "figure_auto_111"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_134",
+    "slug": "bien-co-134-nuoc-au-lac",
+    "title": "Biến cố lịch sử 134 thời Nhà nước Âu Lạc",
+    "year": -239,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_105",
+      "figure_auto_118"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_135",
+    "slug": "bien-co-135-nha-tien-le",
+    "title": "Biến cố lịch sử 135 thời Nhà Tiền Lê",
+    "year": 997,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_112",
+      "figure_nguyen_trai"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_136",
+    "slug": "bien-co-136-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 136 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_119",
+      "figure_trung_trac"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_137",
+    "slug": "bien-co-137-nha-tay-son",
+    "title": "Biến cố lịch sử 137 thời Nhà Tây Sơn",
+    "year": 1784,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_quang_trung",
+      "figure_auto_19"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_138",
+    "slug": "bien-co-138-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 138 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_trieu_thi_trinh",
+      "figure_auto_26"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_139",
+    "slug": "bien-co-139-nuoc-au-lac",
+    "title": "Biến cố lịch sử 139 thời Nhà nước Âu Lạc",
+    "year": -234,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_20",
+      "figure_auto_33"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_140",
+    "slug": "bien-co-140-nha-tien-le",
+    "title": "Biến cố lịch sử 140 thời Nhà Tiền Lê",
+    "year": 994,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_27",
+      "figure_auto_40"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_141",
+    "slug": "bien-co-141-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 141 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_34",
+      "figure_auto_47"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_142",
+    "slug": "bien-co-142-nha-tay-son",
+    "title": "Biến cố lịch sử 142 thời Nhà Tây Sơn",
+    "year": 1791,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_41",
+      "figure_auto_54"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_143",
+    "slug": "bien-co-143-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 143 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_48",
+      "figure_auto_61"
+    ],
+    "battleIds": [
+      "battle_auto_20"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_144",
+    "slug": "bien-co-144-nuoc-au-lac",
+    "title": "Biến cố lịch sử 144 thời Nhà nước Âu Lạc",
+    "year": -229,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_55",
+      "figure_auto_68"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_145",
+    "slug": "bien-co-145-nha-tien-le",
+    "title": "Biến cố lịch sử 145 thời Nhà Tiền Lê",
+    "year": 991,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_62",
+      "figure_auto_75"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_146",
+    "slug": "bien-co-146-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 146 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_69",
+      "figure_auto_82"
+    ],
+    "battleIds": [
+      "battle_auto_35"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_147",
+    "slug": "bien-co-147-nha-tay-son",
+    "title": "Biến cố lịch sử 147 thời Nhà Tây Sơn",
+    "year": 1798,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_76",
+      "figure_auto_89"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_148",
+    "slug": "bien-co-148-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 148 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_83",
+      "figure_auto_96"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_149",
+    "slug": "bien-co-149-nuoc-au-lac",
+    "title": "Biến cố lịch sử 149 thời Nhà nước Âu Lạc",
+    "year": -224,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_90",
+      "figure_auto_103"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_150",
+    "slug": "bien-co-150-nha-tien-le",
+    "title": "Biến cố lịch sử 150 thời Nhà Tiền Lê",
+    "year": 988,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_97",
+      "figure_auto_110"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_151",
+    "slug": "bien-co-151-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 151 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_104",
+      "figure_auto_117"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_152",
+    "slug": "bien-co-152-nha-tay-son",
+    "title": "Biến cố lịch sử 152 thời Nhà Tây Sơn",
+    "year": 1781,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_111",
+      "figure_le_loi"
+    ],
+    "battleIds": [
+      "battle_auto_15"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_153",
+    "slug": "bien-co-153-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 153 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_118",
+      "figure_trung_nhi"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_154",
+    "slug": "bien-co-154-nuoc-au-lac",
+    "title": "Biến cố lịch sử 154 thời Nhà nước Âu Lạc",
+    "year": -219,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_nguyen_trai",
+      "figure_auto_18"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_155",
+    "slug": "bien-co-155-nha-tien-le",
+    "title": "Biến cố lịch sử 155 thời Nhà Tiền Lê",
+    "year": 985,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_trung_trac",
+      "figure_auto_25"
+    ],
+    "battleIds": [
+      "battle_auto_30"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_156",
+    "slug": "bien-co-156-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 156 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_19",
+      "figure_auto_32"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_157",
+    "slug": "bien-co-157-nha-tay-son",
+    "title": "Biến cố lịch sử 157 thời Nhà Tây Sơn",
+    "year": 1788,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_26",
+      "figure_auto_39"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_158",
+    "slug": "bien-co-158-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 158 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_33",
+      "figure_auto_46"
+    ],
+    "battleIds": [
+      "battle_auto_45"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_159",
+    "slug": "bien-co-159-nuoc-au-lac",
+    "title": "Biến cố lịch sử 159 thời Nhà nước Âu Lạc",
+    "year": -253,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_40",
+      "figure_auto_53"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_160",
+    "slug": "bien-co-160-nha-tien-le",
+    "title": "Biến cố lịch sử 160 thời Nhà Tiền Lê",
+    "year": 982,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_47",
+      "figure_auto_60"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_161",
+    "slug": "bien-co-161-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 161 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_54",
+      "figure_auto_67"
+    ],
+    "battleIds": [
+      "battle_auto_10"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_162",
+    "slug": "bien-co-162-nha-tay-son",
+    "title": "Biến cố lịch sử 162 thời Nhà Tây Sơn",
+    "year": 1795,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_61",
+      "figure_auto_74"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_163",
+    "slug": "bien-co-163-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 163 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_68",
+      "figure_auto_81"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_164",
+    "slug": "bien-co-164-nuoc-au-lac",
+    "title": "Biến cố lịch sử 164 thời Nhà nước Âu Lạc",
+    "year": -248,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_75",
+      "figure_auto_88"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_165",
+    "slug": "bien-co-165-nha-tien-le",
+    "title": "Biến cố lịch sử 165 thời Nhà Tiền Lê",
+    "year": 1008,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_82",
+      "figure_auto_95"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_166",
+    "slug": "bien-co-166-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 166 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_89",
+      "figure_auto_102"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_167",
+    "slug": "bien-co-167-nha-tay-son",
+    "title": "Biến cố lịch sử 167 thời Nhà Tây Sơn",
+    "year": 1778,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_96",
+      "figure_auto_109"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_168",
+    "slug": "bien-co-168-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 168 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_103",
+      "figure_auto_116"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_169",
+    "slug": "bien-co-169-nuoc-au-lac",
+    "title": "Biến cố lịch sử 169 thời Nhà nước Âu Lạc",
+    "year": -243,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_110",
+      "figure_tran_nhan_tong"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_170",
+    "slug": "bien-co-170-nha-tien-le",
+    "title": "Biến cố lịch sử 170 thời Nhà Tiền Lê",
+    "year": 1005,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_117",
+      "figure_vo_nguyen_giap"
+    ],
+    "battleIds": [
+      "battle_dien_bien_phu_1954"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_171",
+    "slug": "bien-co-171-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 171 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_le_loi",
+      "figure_auto_17"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_172",
+    "slug": "bien-co-172-nha-tay-son",
+    "title": "Biến cố lịch sử 172 thời Nhà Tây Sơn",
+    "year": 1785,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_trung_nhi",
+      "figure_auto_24"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_173",
+    "slug": "bien-co-173-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 173 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_18",
+      "figure_auto_31"
+    ],
+    "battleIds": [
+      "battle_auto_20"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_174",
+    "slug": "bien-co-174-nuoc-au-lac",
+    "title": "Biến cố lịch sử 174 thời Nhà nước Âu Lạc",
+    "year": -238,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_25",
+      "figure_auto_38"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_175",
+    "slug": "bien-co-175-nha-tien-le",
+    "title": "Biến cố lịch sử 175 thời Nhà Tiền Lê",
+    "year": 1002,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_32",
+      "figure_auto_45"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_176",
+    "slug": "bien-co-176-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 176 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_39",
+      "figure_auto_52"
+    ],
+    "battleIds": [
+      "battle_auto_35"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_177",
+    "slug": "bien-co-177-nha-tay-son",
+    "title": "Biến cố lịch sử 177 thời Nhà Tây Sơn",
+    "year": 1792,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_46",
+      "figure_auto_59"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_178",
+    "slug": "bien-co-178-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 178 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_53",
+      "figure_auto_66"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_179",
+    "slug": "bien-co-179-nuoc-au-lac",
+    "title": "Biến cố lịch sử 179 thời Nhà nước Âu Lạc",
+    "year": -233,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_60",
+      "figure_auto_73"
+    ],
+    "battleIds": [
+      "battle_bach_dang_938"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_180",
+    "slug": "bien-co-180-nha-tien-le",
+    "title": "Biến cố lịch sử 180 thời Nhà Tiền Lê",
+    "year": 999,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_67",
+      "figure_auto_80"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_181",
+    "slug": "bien-co-181-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 181 thời Thời Minh thuộc",
+    "year": 1409,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_74",
+      "figure_auto_87"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_182",
+    "slug": "bien-co-182-nha-tay-son",
+    "title": "Biến cố lịch sử 182 thời Nhà Tây Sơn",
+    "year": 1799,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_81",
+      "figure_auto_94"
+    ],
+    "battleIds": [
+      "battle_auto_15"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_183",
+    "slug": "bien-co-183-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 183 thời Việt Nam Cộng hòa",
+    "year": 1959,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_88",
+      "figure_auto_101"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_184",
+    "slug": "bien-co-184-nuoc-au-lac",
+    "title": "Biến cố lịch sử 184 thời Nhà nước Âu Lạc",
+    "year": -228,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_95",
+      "figure_auto_108"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_185",
+    "slug": "bien-co-185-nha-tien-le",
+    "title": "Biến cố lịch sử 185 thời Nhà Tiền Lê",
+    "year": 996,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_102",
+      "figure_auto_115"
+    ],
+    "battleIds": [
+      "battle_auto_30"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_186",
+    "slug": "bien-co-186-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 186 thời Thời Minh thuộc",
+    "year": 1424,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_109",
+      "figure_tran_hung_dao"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_187",
+    "slug": "bien-co-187-nha-tay-son",
+    "title": "Biến cố lịch sử 187 thời Nhà Tây Sơn",
+    "year": 1782,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_116",
+      "figure_ho_chi_minh"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_188",
+    "slug": "bien-co-188-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 188 thời Việt Nam Cộng hòa",
+    "year": 1974,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_tran_nhan_tong",
+      "figure_auto_16"
+    ],
+    "battleIds": [
+      "battle_auto_45"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_189",
+    "slug": "bien-co-189-nuoc-au-lac",
+    "title": "Biến cố lịch sử 189 thời Nhà nước Âu Lạc",
+    "year": -223,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_vo_nguyen_giap",
+      "figure_auto_23"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_190",
+    "slug": "bien-co-190-nha-tien-le",
+    "title": "Biến cố lịch sử 190 thời Nhà Tiền Lê",
+    "year": 993,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_17",
+      "figure_auto_30"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Biến động chính trị ở Trung Hoa làm thay đổi tương quan khu vực.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_191",
+    "slug": "bien-co-191-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 191 thời Thời Minh thuộc",
+    "year": 1419,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_24",
+      "figure_auto_37"
+    ],
+    "battleIds": [
+      "battle_auto_10"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_192",
+    "slug": "bien-co-192-nha-tay-son",
+    "title": "Biến cố lịch sử 192 thời Nhà Tây Sơn",
+    "year": 1789,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_31",
+      "figure_auto_44"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_193",
+    "slug": "bien-co-193-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 193 thời Việt Nam Cộng hòa",
+    "year": 1969,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_38",
+      "figure_auto_51"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_194",
+    "slug": "bien-co-194-nuoc-au-lac",
+    "title": "Biến cố lịch sử 194 thời Nhà nước Âu Lạc",
+    "year": -257,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_45",
+      "figure_auto_58"
+    ],
+    "battleIds": [
+      "battle_auto_25"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_195",
+    "slug": "bien-co-195-nha-tien-le",
+    "title": "Biến cố lịch sử 195 thời Nhà Tiền Lê",
+    "year": 990,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tien_le",
+    "figureIds": [
+      "figure_auto_52",
+      "figure_auto_65"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tiền Lê. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Khu vực chứng kiến sự dịch chuyển cán cân quyền lực quân sự.",
+    "historicalImpact": "Định hình lại quan hệ đối ngoại và trật tự chính trị trong nước.",
+    "metadata": {
+      "tags": [
+        "nha-tien-le",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_196",
+    "slug": "bien-co-196-thoi-minh-thuoc",
+    "title": "Biến cố lịch sử 196 thời Thời Minh thuộc",
+    "year": 1414,
+    "summary": "Sự kiện nổi bật giai đoạn Thời Minh thuộc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_minh_thuoc",
+    "figureIds": [
+      "figure_auto_59",
+      "figure_auto_72"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Thời Minh thuộc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Quan hệ triều cống và thương mại với phương Bắc có nhiều thay đổi.",
+    "regionalContext": "Đông Nam Á xuất hiện nhiều trung tâm thương mại biển sôi động.",
+    "historicalImpact": "Tạo nền tảng cho cải cách hành chính, quân sự và giáo dục về sau.",
+    "metadata": {
+      "tags": [
+        "thoi-minh-thuoc",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  },
+  {
+    "_id": "event_auto_197",
+    "slug": "bien-co-197-nha-tay-son",
+    "title": "Biến cố lịch sử 197 thời Nhà Tây Sơn",
+    "year": 1796,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "dynasty_tay_son",
+    "figureIds": [
+      "figure_auto_66",
+      "figure_auto_79"
+    ],
+    "battleIds": [
+      "battle_auto_40"
+    ],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà Tây Sơn. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Trung Quốc đang trong quá trình điều chỉnh quyền lực triều đình.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "nha-tay-son",
+        "su-kien-lich-su"
+      ],
+      "importance": "cao"
+    }
+  },
+  {
+    "_id": "event_auto_198",
+    "slug": "bien-co-198-viet-nam-cong-hoa",
+    "title": "Biến cố lịch sử 198 thời Việt Nam Cộng hòa",
+    "year": 1964,
+    "summary": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_republic_of_vietnam",
+    "figureIds": [
+      "figure_auto_73",
+      "figure_auto_86"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Việt Nam Cộng hòa. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Các vương quốc lân cận điều chỉnh liên minh và hoạt động giao thương.",
+    "historicalImpact": "Góp phần mở rộng không gian kinh tế - văn hóa của quốc gia.",
+    "metadata": {
+      "tags": [
+        "viet-nam-cong-hoa",
+        "su-kien-lich-su"
+      ],
+      "importance": "trung bình"
+    }
+  },
+  {
+    "_id": "event_auto_199",
+    "slug": "bien-co-199-nuoc-au-lac",
+    "title": "Biến cố lịch sử 199 thời Nhà nước Âu Lạc",
+    "year": -252,
+    "summary": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc, phản ánh chuyển động chính trị - xã hội của Đại Việt.",
+    "dynastyId": "period_an_duong_vuong",
+    "figureIds": [
+      "figure_auto_80",
+      "figure_auto_93"
+    ],
+    "battleIds": [],
+    "vietnamEvent": "Sự kiện nổi bật giai đoạn Nhà nước Âu Lạc. Các nhân vật chủ chốt thúc đẩy thay đổi thể chế và đời sống dân chúng.",
+    "chinaContext": "Sức ép từ các cuộc chiến biên giới phía bắc gia tăng trong thời kỳ này.",
+    "regionalContext": "Mạng lưới buôn bán khu vực phát triển, tác động mạnh đến kinh tế Đại Việt.",
+    "historicalImpact": "Sự kiện củng cố bản sắc độc lập và tinh thần tự cường dân tộc.",
+    "metadata": {
+      "tags": [
+        "nuoc-au-lac",
+        "su-kien-lich-su"
+      ],
+      "importance": "địa phương"
+    }
+  }
+]

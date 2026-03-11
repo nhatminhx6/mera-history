@@ -1,0 +1,1802 @@
+[
+  {
+    "_id": "figure_ngo_quyen",
+    "name": "Ngô Quyền",
+    "role": "Vua",
+    "period": "898 - 944",
+    "description": "Anh hùng dân tộc đánh bại quân Nam Hán trên sông Bạch Đằng.",
+    "relatedEventIds": [
+      "event_bach_dang_938",
+      "event_auto_29"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_ly_thuong_kiet",
+    "name": "Lý Thường Kiệt",
+    "role": "Tướng",
+    "period": "1019 - 1105",
+    "description": "Danh tướng nhà Lý nổi tiếng với bài thơ Nam Quốc Sơn Hà.",
+    "relatedEventIds": [
+      "event_nhu_nguyet_1077",
+      "event_auto_32"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_tran_hung_dao",
+    "name": "Trần Hưng Đạo",
+    "role": "Tướng",
+    "period": "1228 - 1300",
+    "description": "Chỉ huy quân Đại Việt đánh bại quân Nguyên - Mông.",
+    "relatedEventIds": [
+      "event_hong_duc",
+      "event_auto_35"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_tran_nhan_tong",
+    "name": "Trần Nhân Tông",
+    "role": "Vua",
+    "period": "1258 - 1308",
+    "description": "Vua anh minh thời Trần, sau là tổ Trúc Lâm.",
+    "relatedEventIds": [
+      "event_doc_lap_1945",
+      "event_auto_38"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_le_loi",
+    "name": "Lê Lợi",
+    "role": "Anh hùng dân tộc",
+    "period": "1385 - 1433",
+    "description": "Lãnh tụ khởi nghĩa Lam Sơn, sáng lập nhà Lê sơ.",
+    "relatedEventIds": [
+      "event_doi_moi_1986",
+      "event_auto_41"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_nguyen_trai",
+    "name": "Nguyễn Trãi",
+    "role": "Học giả",
+    "period": "1380 - 1442",
+    "description": "Danh nhân văn hóa, mưu sĩ của khởi nghĩa Lam Sơn.",
+    "relatedEventIds": [
+      "event_auto_15",
+      "event_auto_44"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_quang_trung",
+    "name": "Quang Trung",
+    "role": "Vua",
+    "period": "1753 - 1792",
+    "description": "Hoàng đế Tây Sơn với chiến thắng Ngọc Hồi - Đống Đa.",
+    "relatedEventIds": [
+      "event_auto_18",
+      "event_auto_47"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_gia_long",
+    "name": "Gia Long",
+    "role": "Vua",
+    "period": "1762 - 1820",
+    "description": "Người thống nhất lãnh thổ, lập triều Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_21",
+      "event_auto_50"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_minh_mang",
+    "name": "Minh Mạng",
+    "role": "Vua",
+    "period": "1791 - 1841",
+    "description": "Đẩy mạnh cải cách bộ máy hành chính nhà Nguyễn.",
+    "relatedEventIds": [
+      "event_auto_24",
+      "event_auto_53"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_ho_chi_minh",
+    "name": "Hồ Chí Minh",
+    "role": "Lãnh tụ",
+    "period": "1890 - 1969",
+    "description": "Lãnh tụ cách mạng, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+    "relatedEventIds": [
+      "event_auto_27",
+      "event_auto_56"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_vo_nguyen_giap",
+    "name": "Võ Nguyên Giáp",
+    "role": "Tướng",
+    "period": "1911 - 2013",
+    "description": "Đại tướng, chỉ huy nhiều chiến dịch lớn trong thế kỷ XX.",
+    "relatedEventIds": [
+      "event_auto_30",
+      "event_auto_59"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_trung_nhi",
+    "name": "Trưng Nhị",
+    "role": "Anh hùng dân tộc",
+    "period": "Thế kỷ I",
+    "description": "Cùng Trưng Trắc lãnh đạo khởi nghĩa chống Đông Hán.",
+    "relatedEventIds": [
+      "event_auto_33",
+      "event_auto_62"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_trung_trac",
+    "name": "Trưng Trắc",
+    "role": "Anh hùng dân tộc",
+    "period": "Thế kỷ I",
+    "description": "Biểu tượng quật cường của phụ nữ Việt Nam.",
+    "relatedEventIds": [
+      "event_auto_36",
+      "event_auto_65"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_trieu_thi_trinh",
+    "name": "Triệu Thị Trinh",
+    "role": "Anh hùng dân tộc",
+    "period": "225 - 248",
+    "description": "Nữ tướng chống quân Ngô, được tôn là Bà Triệu.",
+    "relatedEventIds": [
+      "event_auto_39",
+      "event_auto_68"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_ngo_thi_nham",
+    "name": "Ngô Thì Nhậm",
+    "role": "Học giả",
+    "period": "1746 - 1803",
+    "description": "Nhà chính trị, học giả lớn thời Lê - Tây Sơn.",
+    "relatedEventIds": [
+      "event_auto_42",
+      "event_auto_71"
+    ],
+    "tags": [
+      "lich-su-viet-nam",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_15",
+    "name": "Nhân vật 15 Thời Hồng Bàng",
+    "role": "Học giả",
+    "period": "Khoảng -2863",
+    "description": "Học giả tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_45",
+      "event_auto_74"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_16",
+    "name": "Nhân vật 16 Nhà Tiền Lê",
+    "role": "Anh hùng dân tộc",
+    "period": "997 - 1054",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_48",
+      "event_auto_77"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_17",
+    "name": "Nhân vật 17 Nhà Lê sơ",
+    "role": "Nhà cải cách",
+    "period": "1446 - 1504",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_51",
+      "event_auto_80"
+    ],
+    "tags": [
+      "le-so",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_18",
+    "name": "Nhân vật 18 Thời kỳ thuộc địa Pháp",
+    "role": "Danh sĩ",
+    "period": "1877 - 1936",
+    "description": "Danh sĩ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_54",
+      "event_auto_83"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_19",
+    "name": "Nhân vật 19 Thời Hồng Bàng",
+    "role": "Lãnh tụ",
+    "period": "Khoảng -2859",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_57",
+      "event_auto_86"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_20",
+    "name": "Nhân vật 20 Nhà Tiền Lê",
+    "role": "Vua",
+    "period": "1001 - 1062",
+    "description": "Vua tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_60",
+      "event_auto_89"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_21",
+    "name": "Nhân vật 21 Nhà Lê sơ",
+    "role": "Tướng",
+    "period": "1450 - 1512",
+    "description": "Tướng tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_63",
+      "event_auto_92"
+    ],
+    "tags": [
+      "le-so",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_22",
+    "name": "Nhân vật 22 Thời kỳ thuộc địa Pháp",
+    "role": "Học giả",
+    "period": "1881 - 1944",
+    "description": "Học giả tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_66",
+      "event_auto_95"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_23",
+    "name": "Nhân vật 23 Thời Hồng Bàng",
+    "role": "Anh hùng dân tộc",
+    "period": "Khoảng -2855",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_69",
+      "event_auto_98"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_24",
+    "name": "Nhân vật 24 Nhà Tiền Lê",
+    "role": "Nhà cải cách",
+    "period": "1005 - 1070",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_72",
+      "event_auto_101"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_25",
+    "name": "Nhân vật 25 Nhà Lê sơ",
+    "role": "Danh sĩ",
+    "period": "1454 - 1520",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_75",
+      "event_auto_104"
+    ],
+    "tags": [
+      "le-so",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_26",
+    "name": "Nhân vật 26 Thời kỳ thuộc địa Pháp",
+    "role": "Lãnh tụ",
+    "period": "1885 - 1952",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_78",
+      "event_auto_107"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_27",
+    "name": "Nhân vật 27 Thời Hồng Bàng",
+    "role": "Vua",
+    "period": "Khoảng -2851",
+    "description": "Vua tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_81",
+      "event_auto_110"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_28",
+    "name": "Nhân vật 28 Nhà Tiền Lê",
+    "role": "Tướng",
+    "period": "1009 - 1078",
+    "description": "Tướng tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_84",
+      "event_auto_113"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_29",
+    "name": "Nhân vật 29 Nhà Lê sơ",
+    "role": "Học giả",
+    "period": "1458 - 1498",
+    "description": "Học giả tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_87",
+      "event_auto_116"
+    ],
+    "tags": [
+      "le-so",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_30",
+    "name": "Nhân vật 30 Thời kỳ thuộc địa Pháp",
+    "role": "Anh hùng dân tộc",
+    "period": "1889 - 1930",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_90",
+      "event_auto_119"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_31",
+    "name": "Nhân vật 31 Thời Hồng Bàng",
+    "role": "Nhà cải cách",
+    "period": "Khoảng -2847",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_93",
+      "event_auto_122"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_32",
+    "name": "Nhân vật 32 Nhà Tiền Lê",
+    "role": "Danh sĩ",
+    "period": "1013 - 1056",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_96",
+      "event_auto_125"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_33",
+    "name": "Nhân vật 33 Nhà Lê sơ",
+    "role": "Lãnh tụ",
+    "period": "1462 - 1506",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_99",
+      "event_auto_128"
+    ],
+    "tags": [
+      "le-so",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_34",
+    "name": "Nhân vật 34 Thời kỳ thuộc địa Pháp",
+    "role": "Vua",
+    "period": "1893 - 1938",
+    "description": "Vua tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_102",
+      "event_auto_131"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_35",
+    "name": "Nhân vật 35 Thời Hồng Bàng",
+    "role": "Tướng",
+    "period": "Khoảng -2843",
+    "description": "Tướng tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_105",
+      "event_auto_134"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_36",
+    "name": "Nhân vật 36 Nhà Tiền Lê",
+    "role": "Học giả",
+    "period": "1017 - 1064",
+    "description": "Học giả tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_108",
+      "event_auto_137"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_37",
+    "name": "Nhân vật 37 Nhà Lê sơ",
+    "role": "Anh hùng dân tộc",
+    "period": "1466 - 1514",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_111",
+      "event_auto_140"
+    ],
+    "tags": [
+      "le-so",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_38",
+    "name": "Nhân vật 38 Thời kỳ thuộc địa Pháp",
+    "role": "Nhà cải cách",
+    "period": "1897 - 1946",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_114",
+      "event_auto_143"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_39",
+    "name": "Nhân vật 39 Thời Hồng Bàng",
+    "role": "Danh sĩ",
+    "period": "Khoảng -2879",
+    "description": "Danh sĩ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_117",
+      "event_auto_146"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_40",
+    "name": "Nhân vật 40 Nhà Tiền Lê",
+    "role": "Lãnh tụ",
+    "period": "981 - 1032",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_120",
+      "event_auto_149"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_41",
+    "name": "Nhân vật 41 Nhà Lê sơ",
+    "role": "Vua",
+    "period": "1430 - 1482",
+    "description": "Vua tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_123",
+      "event_auto_152"
+    ],
+    "tags": [
+      "le-so",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_42",
+    "name": "Nhân vật 42 Thời kỳ thuộc địa Pháp",
+    "role": "Tướng",
+    "period": "1861 - 1914",
+    "description": "Tướng tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_126",
+      "event_auto_155"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_43",
+    "name": "Nhân vật 43 Thời Hồng Bàng",
+    "role": "Học giả",
+    "period": "Khoảng -2875",
+    "description": "Học giả tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_129",
+      "event_auto_158"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_44",
+    "name": "Nhân vật 44 Nhà Tiền Lê",
+    "role": "Anh hùng dân tộc",
+    "period": "985 - 1040",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_132",
+      "event_auto_161"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_45",
+    "name": "Nhân vật 45 Nhà Lê sơ",
+    "role": "Nhà cải cách",
+    "period": "1434 - 1490",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_135",
+      "event_auto_164"
+    ],
+    "tags": [
+      "le-so",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_46",
+    "name": "Nhân vật 46 Thời kỳ thuộc địa Pháp",
+    "role": "Danh sĩ",
+    "period": "1865 - 1922",
+    "description": "Danh sĩ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_138",
+      "event_auto_167"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_47",
+    "name": "Nhân vật 47 Thời Hồng Bàng",
+    "role": "Lãnh tụ",
+    "period": "Khoảng -2871",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_141",
+      "event_auto_170"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_48",
+    "name": "Nhân vật 48 Nhà Tiền Lê",
+    "role": "Vua",
+    "period": "989 - 1048",
+    "description": "Vua tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_144",
+      "event_auto_173"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_49",
+    "name": "Nhân vật 49 Nhà Lê sơ",
+    "role": "Tướng",
+    "period": "1438 - 1498",
+    "description": "Tướng tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_147",
+      "event_auto_176"
+    ],
+    "tags": [
+      "le-so",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_50",
+    "name": "Nhân vật 50 Thời kỳ thuộc địa Pháp",
+    "role": "Học giả",
+    "period": "1869 - 1930",
+    "description": "Học giả tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_150",
+      "event_auto_179"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_51",
+    "name": "Nhân vật 51 Thời Hồng Bàng",
+    "role": "Anh hùng dân tộc",
+    "period": "Khoảng -2867",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_153",
+      "event_auto_182"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_52",
+    "name": "Nhân vật 52 Nhà Tiền Lê",
+    "role": "Nhà cải cách",
+    "period": "993 - 1056",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_156",
+      "event_auto_185"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_53",
+    "name": "Nhân vật 53 Nhà Lê sơ",
+    "role": "Danh sĩ",
+    "period": "1442 - 1506",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_159",
+      "event_auto_188"
+    ],
+    "tags": [
+      "le-so",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_54",
+    "name": "Nhân vật 54 Thời kỳ thuộc địa Pháp",
+    "role": "Lãnh tụ",
+    "period": "1873 - 1938",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_162",
+      "event_auto_191"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_55",
+    "name": "Nhân vật 55 Thời Hồng Bàng",
+    "role": "Vua",
+    "period": "Khoảng -2863",
+    "description": "Vua tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_165",
+      "event_auto_194"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_56",
+    "name": "Nhân vật 56 Nhà Tiền Lê",
+    "role": "Tướng",
+    "period": "997 - 1064",
+    "description": "Tướng tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_168",
+      "event_auto_197"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_57",
+    "name": "Nhân vật 57 Nhà Lê sơ",
+    "role": "Học giả",
+    "period": "1446 - 1514",
+    "description": "Học giả tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_171",
+      "event_bach_dang_938"
+    ],
+    "tags": [
+      "le-so",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_58",
+    "name": "Nhân vật 58 Thời kỳ thuộc địa Pháp",
+    "role": "Anh hùng dân tộc",
+    "period": "1877 - 1946",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_174",
+      "event_nhu_nguyet_1077"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_59",
+    "name": "Nhân vật 59 Thời Hồng Bàng",
+    "role": "Nhà cải cách",
+    "period": "Khoảng -2859",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_177",
+      "event_hong_duc"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_60",
+    "name": "Nhân vật 60 Nhà Tiền Lê",
+    "role": "Danh sĩ",
+    "period": "1001 - 1042",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_180",
+      "event_doc_lap_1945"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_61",
+    "name": "Nhân vật 61 Nhà Lê sơ",
+    "role": "Lãnh tụ",
+    "period": "1450 - 1492",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_183",
+      "event_doi_moi_1986"
+    ],
+    "tags": [
+      "le-so",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_62",
+    "name": "Nhân vật 62 Thời kỳ thuộc địa Pháp",
+    "role": "Vua",
+    "period": "1881 - 1924",
+    "description": "Vua tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_186",
+      "event_auto_15"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_63",
+    "name": "Nhân vật 63 Thời Hồng Bàng",
+    "role": "Tướng",
+    "period": "Khoảng -2855",
+    "description": "Tướng tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_189",
+      "event_auto_18"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_64",
+    "name": "Nhân vật 64 Nhà Tiền Lê",
+    "role": "Học giả",
+    "period": "1005 - 1050",
+    "description": "Học giả tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_192",
+      "event_auto_21"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_65",
+    "name": "Nhân vật 65 Nhà Lê sơ",
+    "role": "Anh hùng dân tộc",
+    "period": "1454 - 1500",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_195",
+      "event_auto_24"
+    ],
+    "tags": [
+      "le-so",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_66",
+    "name": "Nhân vật 66 Thời kỳ thuộc địa Pháp",
+    "role": "Nhà cải cách",
+    "period": "1885 - 1932",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_198",
+      "event_auto_27"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_67",
+    "name": "Nhân vật 67 Thời Hồng Bàng",
+    "role": "Danh sĩ",
+    "period": "Khoảng -2851",
+    "description": "Danh sĩ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_dinh_linh_968",
+      "event_auto_30"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_68",
+    "name": "Nhân vật 68 Nhà Tiền Lê",
+    "role": "Lãnh tụ",
+    "period": "1009 - 1058",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_bach_dang_1288",
+      "event_auto_33"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_69",
+    "name": "Nhân vật 69 Nhà Lê sơ",
+    "role": "Vua",
+    "period": "1458 - 1508",
+    "description": "Vua tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_ngoc_hoi_1789",
+      "event_auto_36"
+    ],
+    "tags": [
+      "le-so",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_70",
+    "name": "Nhân vật 70 Thời kỳ thuộc địa Pháp",
+    "role": "Tướng",
+    "period": "1889 - 1940",
+    "description": "Tướng tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_dien_bien_1954",
+      "event_auto_39"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_71",
+    "name": "Nhân vật 71 Thời Hồng Bàng",
+    "role": "Học giả",
+    "period": "Khoảng -2847",
+    "description": "Học giả tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_13",
+      "event_auto_42"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_72",
+    "name": "Nhân vật 72 Nhà Tiền Lê",
+    "role": "Anh hùng dân tộc",
+    "period": "1013 - 1066",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_16",
+      "event_auto_45"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_73",
+    "name": "Nhân vật 73 Nhà Lê sơ",
+    "role": "Nhà cải cách",
+    "period": "1462 - 1516",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_19",
+      "event_auto_48"
+    ],
+    "tags": [
+      "le-so",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_74",
+    "name": "Nhân vật 74 Thời kỳ thuộc địa Pháp",
+    "role": "Danh sĩ",
+    "period": "1893 - 1948",
+    "description": "Danh sĩ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_22",
+      "event_auto_51"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_75",
+    "name": "Nhân vật 75 Thời Hồng Bàng",
+    "role": "Lãnh tụ",
+    "period": "Khoảng -2843",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_25",
+      "event_auto_54"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_76",
+    "name": "Nhân vật 76 Nhà Tiền Lê",
+    "role": "Vua",
+    "period": "1017 - 1074",
+    "description": "Vua tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_28",
+      "event_auto_57"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_77",
+    "name": "Nhân vật 77 Nhà Lê sơ",
+    "role": "Tướng",
+    "period": "1466 - 1524",
+    "description": "Tướng tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_31",
+      "event_auto_60"
+    ],
+    "tags": [
+      "le-so",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_78",
+    "name": "Nhân vật 78 Thời kỳ thuộc địa Pháp",
+    "role": "Học giả",
+    "period": "1897 - 1956",
+    "description": "Học giả tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_34",
+      "event_auto_63"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_79",
+    "name": "Nhân vật 79 Thời Hồng Bàng",
+    "role": "Anh hùng dân tộc",
+    "period": "Khoảng -2879",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_37",
+      "event_auto_66"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_80",
+    "name": "Nhân vật 80 Nhà Tiền Lê",
+    "role": "Nhà cải cách",
+    "period": "981 - 1042",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_40",
+      "event_auto_69"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_81",
+    "name": "Nhân vật 81 Nhà Lê sơ",
+    "role": "Danh sĩ",
+    "period": "1430 - 1492",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_43",
+      "event_auto_72"
+    ],
+    "tags": [
+      "le-so",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_82",
+    "name": "Nhân vật 82 Thời kỳ thuộc địa Pháp",
+    "role": "Lãnh tụ",
+    "period": "1861 - 1924",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_46",
+      "event_auto_75"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_83",
+    "name": "Nhân vật 83 Thời Hồng Bàng",
+    "role": "Vua",
+    "period": "Khoảng -2875",
+    "description": "Vua tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_49",
+      "event_auto_78"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_84",
+    "name": "Nhân vật 84 Nhà Tiền Lê",
+    "role": "Tướng",
+    "period": "985 - 1050",
+    "description": "Tướng tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_52",
+      "event_auto_81"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_85",
+    "name": "Nhân vật 85 Nhà Lê sơ",
+    "role": "Học giả",
+    "period": "1434 - 1500",
+    "description": "Học giả tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_55",
+      "event_auto_84"
+    ],
+    "tags": [
+      "le-so",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_86",
+    "name": "Nhân vật 86 Thời kỳ thuộc địa Pháp",
+    "role": "Anh hùng dân tộc",
+    "period": "1865 - 1932",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_58",
+      "event_auto_87"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_87",
+    "name": "Nhân vật 87 Thời Hồng Bàng",
+    "role": "Nhà cải cách",
+    "period": "Khoảng -2871",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_61",
+      "event_auto_90"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_88",
+    "name": "Nhân vật 88 Nhà Tiền Lê",
+    "role": "Danh sĩ",
+    "period": "989 - 1058",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_64",
+      "event_auto_93"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_89",
+    "name": "Nhân vật 89 Nhà Lê sơ",
+    "role": "Lãnh tụ",
+    "period": "1438 - 1478",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_67",
+      "event_auto_96"
+    ],
+    "tags": [
+      "le-so",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_90",
+    "name": "Nhân vật 90 Thời kỳ thuộc địa Pháp",
+    "role": "Vua",
+    "period": "1869 - 1910",
+    "description": "Vua tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_70",
+      "event_auto_99"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_91",
+    "name": "Nhân vật 91 Thời Hồng Bàng",
+    "role": "Tướng",
+    "period": "Khoảng -2867",
+    "description": "Tướng tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_73",
+      "event_auto_102"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_92",
+    "name": "Nhân vật 92 Nhà Tiền Lê",
+    "role": "Học giả",
+    "period": "993 - 1036",
+    "description": "Học giả tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_76",
+      "event_auto_105"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_93",
+    "name": "Nhân vật 93 Nhà Lê sơ",
+    "role": "Anh hùng dân tộc",
+    "period": "1442 - 1486",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_79",
+      "event_auto_108"
+    ],
+    "tags": [
+      "le-so",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_94",
+    "name": "Nhân vật 94 Thời kỳ thuộc địa Pháp",
+    "role": "Nhà cải cách",
+    "period": "1873 - 1918",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_82",
+      "event_auto_111"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_95",
+    "name": "Nhân vật 95 Thời Hồng Bàng",
+    "role": "Danh sĩ",
+    "period": "Khoảng -2863",
+    "description": "Danh sĩ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_85",
+      "event_auto_114"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_96",
+    "name": "Nhân vật 96 Nhà Tiền Lê",
+    "role": "Lãnh tụ",
+    "period": "997 - 1044",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_88",
+      "event_auto_117"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_97",
+    "name": "Nhân vật 97 Nhà Lê sơ",
+    "role": "Vua",
+    "period": "1446 - 1494",
+    "description": "Vua tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_91",
+      "event_auto_120"
+    ],
+    "tags": [
+      "le-so",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_98",
+    "name": "Nhân vật 98 Thời kỳ thuộc địa Pháp",
+    "role": "Tướng",
+    "period": "1877 - 1926",
+    "description": "Tướng tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_94",
+      "event_auto_123"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_99",
+    "name": "Nhân vật 99 Thời Hồng Bàng",
+    "role": "Học giả",
+    "period": "Khoảng -2859",
+    "description": "Học giả tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_97",
+      "event_auto_126"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_100",
+    "name": "Nhân vật 100 Nhà Tiền Lê",
+    "role": "Anh hùng dân tộc",
+    "period": "1001 - 1052",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_100",
+      "event_auto_129"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_101",
+    "name": "Nhân vật 101 Nhà Lê sơ",
+    "role": "Nhà cải cách",
+    "period": "1450 - 1502",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_103",
+      "event_auto_132"
+    ],
+    "tags": [
+      "le-so",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_102",
+    "name": "Nhân vật 102 Thời kỳ thuộc địa Pháp",
+    "role": "Danh sĩ",
+    "period": "1881 - 1934",
+    "description": "Danh sĩ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_106",
+      "event_auto_135"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_103",
+    "name": "Nhân vật 103 Thời Hồng Bàng",
+    "role": "Lãnh tụ",
+    "period": "Khoảng -2855",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_109",
+      "event_auto_138"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_104",
+    "name": "Nhân vật 104 Nhà Tiền Lê",
+    "role": "Vua",
+    "period": "1005 - 1060",
+    "description": "Vua tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_112",
+      "event_auto_141"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_105",
+    "name": "Nhân vật 105 Nhà Lê sơ",
+    "role": "Tướng",
+    "period": "1454 - 1510",
+    "description": "Tướng tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_115",
+      "event_auto_144"
+    ],
+    "tags": [
+      "le-so",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_106",
+    "name": "Nhân vật 106 Thời kỳ thuộc địa Pháp",
+    "role": "Học giả",
+    "period": "1885 - 1942",
+    "description": "Học giả tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_118",
+      "event_auto_147"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_107",
+    "name": "Nhân vật 107 Thời Hồng Bàng",
+    "role": "Anh hùng dân tộc",
+    "period": "Khoảng -2851",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_121",
+      "event_auto_150"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_108",
+    "name": "Nhân vật 108 Nhà Tiền Lê",
+    "role": "Nhà cải cách",
+    "period": "1009 - 1068",
+    "description": "Nhà cải cách tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_124",
+      "event_auto_153"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_109",
+    "name": "Nhân vật 109 Nhà Lê sơ",
+    "role": "Danh sĩ",
+    "period": "1458 - 1518",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_127",
+      "event_auto_156"
+    ],
+    "tags": [
+      "le-so",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_110",
+    "name": "Nhân vật 110 Thời kỳ thuộc địa Pháp",
+    "role": "Lãnh tụ",
+    "period": "1889 - 1950",
+    "description": "Lãnh tụ tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_130",
+      "event_auto_159"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_111",
+    "name": "Nhân vật 111 Thời Hồng Bàng",
+    "role": "Vua",
+    "period": "Khoảng -2847",
+    "description": "Vua tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_133",
+      "event_auto_162"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_112",
+    "name": "Nhân vật 112 Nhà Tiền Lê",
+    "role": "Tướng",
+    "period": "1013 - 1076",
+    "description": "Tướng tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_136",
+      "event_auto_165"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "tướng"
+    ]
+  },
+  {
+    "_id": "figure_auto_113",
+    "name": "Nhân vật 113 Nhà Lê sơ",
+    "role": "Học giả",
+    "period": "1462 - 1526",
+    "description": "Học giả tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_139",
+      "event_auto_168"
+    ],
+    "tags": [
+      "le-so",
+      "học-giả"
+    ]
+  },
+  {
+    "_id": "figure_auto_114",
+    "name": "Nhân vật 114 Thời kỳ thuộc địa Pháp",
+    "role": "Anh hùng dân tộc",
+    "period": "1893 - 1958",
+    "description": "Anh hùng dân tộc tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_142",
+      "event_auto_171"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "anh-hùng-dân-tộc"
+    ]
+  },
+  {
+    "_id": "figure_auto_115",
+    "name": "Nhân vật 115 Thời Hồng Bàng",
+    "role": "Nhà cải cách",
+    "period": "Khoảng -2843",
+    "description": "Nhà cải cách tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_145",
+      "event_auto_174"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "nhà-cải-cách"
+    ]
+  },
+  {
+    "_id": "figure_auto_116",
+    "name": "Nhân vật 116 Nhà Tiền Lê",
+    "role": "Danh sĩ",
+    "period": "1017 - 1084",
+    "description": "Danh sĩ tiêu biểu gắn với Nhà Tiền Lê, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_148",
+      "event_auto_177"
+    ],
+    "tags": [
+      "nha-tien-le",
+      "danh-sĩ"
+    ]
+  },
+  {
+    "_id": "figure_auto_117",
+    "name": "Nhân vật 117 Nhà Lê sơ",
+    "role": "Lãnh tụ",
+    "period": "1466 - 1534",
+    "description": "Lãnh tụ tiêu biểu gắn với Nhà Lê sơ, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_151",
+      "event_auto_180"
+    ],
+    "tags": [
+      "le-so",
+      "lãnh-tụ"
+    ]
+  },
+  {
+    "_id": "figure_auto_118",
+    "name": "Nhân vật 118 Thời kỳ thuộc địa Pháp",
+    "role": "Vua",
+    "period": "1897 - 1966",
+    "description": "Vua tiêu biểu gắn với Thời kỳ thuộc địa Pháp, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_154",
+      "event_auto_183"
+    ],
+    "tags": [
+      "thoi-ky-thuoc-dia-phap",
+      "vua"
+    ]
+  },
+  {
+    "_id": "figure_auto_119",
+    "name": "Nhân vật 119 Thời Hồng Bàng",
+    "role": "Tướng",
+    "period": "Khoảng -2879",
+    "description": "Tướng tiêu biểu gắn với Thời Hồng Bàng, có ảnh hưởng trong các biến chuyển chính trị và văn hóa thời kỳ này.",
+    "relatedEventIds": [
+      "event_auto_157",
+      "event_auto_186"
+    ],
+    "tags": [
+      "thoi-hong-bang",
+      "tướng"
+    ]
+  }
+]

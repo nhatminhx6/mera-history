@@ -1,0 +1,671 @@
+[
+  {
+    "_id": "timeline_905",
+    "year": 905,
+    "vietnam": "Khúc Thừa Dụ nắm quyền ở Tĩnh Hải quân.",
+    "china": "Nhà Đường suy yếu, cát cứ lan rộng.",
+    "world": "Châu Âu trong thời kỳ trung cổ đầu.",
+    "impact": "Mở đầu tiến trình tự chủ của người Việt.",
+    "metadata": {
+      "seed": true,
+      "order": 1
+    }
+  },
+  {
+    "_id": "timeline_938",
+    "year": 938,
+    "vietnam": "Chiến thắng Bạch Đằng của Ngô Quyền.",
+    "china": "Ngũ Đại Thập Quốc phân tranh.",
+    "world": "Đế chế Byzantine duy trì ảnh hưởng Đông Địa Trung Hải.",
+    "impact": "Khẳng định bước ngoặt độc lập lâu dài.",
+    "metadata": {
+      "seed": true,
+      "order": 2
+    }
+  },
+  {
+    "_id": "timeline_1010",
+    "year": 1010,
+    "vietnam": "Dời đô ra Thăng Long.",
+    "china": "Nhà Tống củng cố quản trị trung ương.",
+    "world": "Nhiều đô thị thương mại phát triển ở châu Á.",
+    "impact": "Tạo nền tảng cho quốc gia Đại Việt ổn định.",
+    "metadata": {
+      "seed": true,
+      "order": 3
+    }
+  },
+  {
+    "_id": "timeline_1288",
+    "year": 1288,
+    "vietnam": "Nhà Trần đại thắng quân Nguyên.",
+    "china": "Nhà Nguyên suy giảm tham vọng nam tiến.",
+    "world": "Con đường thương mại Á - Âu tiếp tục mở rộng.",
+    "impact": "Khẳng định sức mạnh phòng thủ của Đại Việt.",
+    "metadata": {
+      "seed": true,
+      "order": 4
+    }
+  },
+  {
+    "_id": "timeline_1428",
+    "year": 1428,
+    "vietnam": "Lê Lợi lên ngôi, lập nhà Lê sơ.",
+    "china": "Nhà Minh điều chỉnh chính sách biên cương.",
+    "world": "Phục hưng bắt đầu lan rộng ở châu Âu.",
+    "impact": "Đại Việt bước vào thời kỳ hưng thịnh mới.",
+    "metadata": {
+      "seed": true,
+      "order": 5
+    }
+  },
+  {
+    "_id": "timeline_1789",
+    "year": 1789,
+    "vietnam": "Chiến thắng Ngọc Hồi - Đống Đa.",
+    "china": "Nhà Thanh chịu tổn thất uy tín tại phương Nam.",
+    "world": "Cách mạng Pháp bùng nổ.",
+    "impact": "Nâng cao vị thế quân sự - chính trị của Đại Việt.",
+    "metadata": {
+      "seed": true,
+      "order": 6
+    }
+  },
+  {
+    "_id": "timeline_1945",
+    "year": 1945,
+    "vietnam": "Việt Nam tuyên bố độc lập.",
+    "china": "Trung Quốc bước vào nội chiến giai đoạn cuối.",
+    "world": "Chiến tranh thế giới thứ hai kết thúc.",
+    "impact": "Mở ra thời kỳ đấu tranh ngoại giao và kiến thiết quốc gia.",
+    "metadata": {
+      "seed": true,
+      "order": 7
+    }
+  },
+  {
+    "_id": "timeline_1975",
+    "year": 1975,
+    "vietnam": "Việt Nam thống nhất đất nước.",
+    "china": "Trung Quốc theo đuổi tái cấu trúc sau Cách mạng Văn hóa.",
+    "world": "Trật tự Chiến tranh Lạnh biến chuyển sâu sắc.",
+    "impact": "Tạo tiền đề tái thiết và hội nhập sau chiến tranh.",
+    "metadata": {
+      "seed": true,
+      "order": 8
+    }
+  },
+  {
+    "_id": "timeline_1986",
+    "year": 1986,
+    "vietnam": "Khởi động công cuộc Đổi mới.",
+    "china": "Trung Quốc tăng tốc cải cách mở cửa.",
+    "world": "Toàn cầu hóa kinh tế tăng mạnh.",
+    "impact": "Kinh tế Việt Nam chuyển sang quỹ đạo tăng trưởng mới.",
+    "metadata": {
+      "seed": true,
+      "order": 9
+    }
+  },
+  {
+    "_id": "timeline_auto_9",
+    "year": 1911,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Hồng Bàng xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_10",
+    "year": 1955,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Bắc thuộc xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_11",
+    "year": 1979,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Đinh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_12",
+    "year": 2008,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lý xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_13",
+    "year": 2024,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Hồ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_14",
+    "year": 41,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lê sơ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_15",
+    "year": 679,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Trịnh - Nguyễn phân tranh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_16",
+    "year": 969,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Nguyễn xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_17",
+    "year": 1054,
+    "vietnam": "Tại Việt Nam, giai đoạn Việt Nam Dân chủ Cộng hòa xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_18",
+    "year": 1259,
+    "vietnam": "Tại Việt Nam, giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_19",
+    "year": 1400,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Hồng Bàng xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_20",
+    "year": 1472,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Bắc thuộc xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_21",
+    "year": 1627,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Đinh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_22",
+    "year": 1789,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lý xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_23",
+    "year": 1885,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Hồ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_24",
+    "year": 1946,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lê sơ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_25",
+    "year": 1975,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Trịnh - Nguyễn phân tranh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_26",
+    "year": 1996,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Nguyễn xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_27",
+    "year": 2020,
+    "vietnam": "Tại Việt Nam, giai đoạn Việt Nam Dân chủ Cộng hòa xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_28",
+    "year": -110,
+    "vietnam": "Tại Việt Nam, giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_29",
+    "year": 542,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Hồng Bàng xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_30",
+    "year": 940,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Bắc thuộc xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_31",
+    "year": 1009,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Đinh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_32",
+    "year": 1226,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lý xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_33",
+    "year": 1288,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Hồ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_34",
+    "year": 1428,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lê sơ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_35",
+    "year": 1592,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Trịnh - Nguyễn phân tranh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_36",
+    "year": 1772,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Nguyễn xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_37",
+    "year": 1858,
+    "vietnam": "Tại Việt Nam, giai đoạn Việt Nam Dân chủ Cộng hòa xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_38",
+    "year": 1931,
+    "vietnam": "Tại Việt Nam, giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_39",
+    "year": 1968,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Hồng Bàng xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_40",
+    "year": 1987,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Bắc thuộc xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_41",
+    "year": 2013,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Đinh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_42",
+    "year": -199,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lý xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_43",
+    "year": 248,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Hồ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_44",
+    "year": 906,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lê sơ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_45",
+    "year": 980,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Trịnh - Nguyễn phân tranh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_46",
+    "year": 1078,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Nguyễn xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_47",
+    "year": 1285,
+    "vietnam": "Tại Việt Nam, giai đoạn Việt Nam Dân chủ Cộng hòa xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_48",
+    "year": 1408,
+    "vietnam": "Tại Việt Nam, giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_49",
+    "year": 1527,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Hồng Bàng xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_50",
+    "year": 1673,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Bắc thuộc xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_51",
+    "year": 1802,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Đinh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_52",
+    "year": 1912,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lý xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_53",
+    "year": 1954,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Hồ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_54",
+    "year": 1980,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Lê sơ xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_55",
+    "year": 2007,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Trịnh - Nguyễn phân tranh xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_56",
+    "year": 2025,
+    "vietnam": "Tại Việt Nam, giai đoạn Nhà Nguyễn xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_57",
+    "year": 40,
+    "vietnam": "Tại Việt Nam, giai đoạn Việt Nam Dân chủ Cộng hòa xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_58",
+    "year": 680,
+    "vietnam": "Tại Việt Nam, giai đoạn Cộng hòa Xã hội Chủ nghĩa Việt Nam xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  },
+  {
+    "_id": "timeline_auto_59",
+    "year": 968,
+    "vietnam": "Tại Việt Nam, giai đoạn Thời Hồng Bàng xuất hiện điều chỉnh quan trọng về quản trị và xã hội.",
+    "china": "Trung Quốc có biến động chính trị - kinh tế ảnh hưởng trực tiếp đến khu vực.",
+    "world": "Thế giới chứng kiến thay đổi về thương mại, công nghệ hoặc trật tự quyền lực.",
+    "impact": "Tương tác giữa bối cảnh trong nước và quốc tế tạo ra bước chuyển lịch sử đáng chú ý.",
+    "metadata": {
+      "generated": true
+    }
+  }
+]

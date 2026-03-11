@@ -5,6 +5,8 @@ import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/saved/bloc/saved_bloc.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
+import 'package:mera_history/shared/widgets/event_card.dart';
+import 'package:mera_history/shared/widgets/figure_card.dart';
 
 class SavedScreen extends StatelessWidget {
   const SavedScreen({super.key});
@@ -46,6 +48,22 @@ class SavedScreen extends StatelessWidget {
                         message: 'Nhấn lưu khi đọc để xem lại sau.',
                         icon: Icons.bookmark_outline,
                       ),
+                    )
+                  else
+                    ...events.map(
+                      (event) => Padding(
+                        padding: EdgeInsets.fromLTRB(
+                          spacing.md,
+                          0,
+                          spacing.md,
+                          spacing.sm,
+                        ),
+                        child: EventCard(
+                          event: event,
+                          onTap: () =>
+                              context.push('/kham-pha/su-kien/${event.id}'),
+                        ),
+                      ),
                     ),
                   SizedBox(height: spacing.lg),
                   Padding(
@@ -60,6 +78,30 @@ class SavedScreen extends StatelessWidget {
                         title: 'Chưa có nhân vật đã lưu',
                         message: 'Lưu nhân vật để xem lại nhanh hơn.',
                         icon: Icons.account_balance_outlined,
+                      ),
+                    )
+                  else
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                      child: GridView.builder(
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
+                        itemCount: figures.length,
+                        gridDelegate:
+                            const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 2,
+                              crossAxisSpacing: 12,
+                              mainAxisSpacing: 12,
+                              childAspectRatio: 0.72,
+                            ),
+                        itemBuilder: (context, index) {
+                          final figure = figures[index];
+                          return FigureCard(
+                            figure: figure,
+                            onTap: () =>
+                                context.push('/kham-pha/nhan-vat/${figure.id}'),
+                          );
+                        },
                       ),
                     ),
                   SizedBox(height: spacing.lg),

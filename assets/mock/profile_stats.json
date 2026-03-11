@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "profile_default",
+    "slug": "nguoi-dung-mac-dinh",
+    "displayName": "Nhà khám phá lịch sử",
+    "themePreference": "darkImperial",
+    "bookmarkCount": 6,
+    "readingStreak": 7,
+    "lastActive": "2026-03-11",
+    "metadata": {
+      "source": "mock-api",
+      "locale": "vi_VN"
+    }
+  }
+]

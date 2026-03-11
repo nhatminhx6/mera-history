@@ -1,0 +1,332 @@
+[
+  {
+    "_id": "quiz_001",
+    "question": "Ai là người đánh bại quân Thanh trong chiến thắng Ngọc Hồi - Đống Đa năm 1789?",
+    "answers": [
+      "A. Trần Hưng Đạo",
+      "B. Quang Trung",
+      "C. Lý Thường Kiệt"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Quang Trung chỉ huy chiến dịch thần tốc, giải phóng Thăng Long."
+  },
+  {
+    "_id": "quiz_002",
+    "question": "Triều đại nào dời đô ra Thăng Long năm 1010?",
+    "answers": [
+      "A. Nhà Trần",
+      "B. Nhà Lý",
+      "C. Nhà Nguyễn"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Lý Thái Tổ ban Chiếu dời đô, mở ra thời kỳ phát triển lâu dài."
+  },
+  {
+    "_id": "quiz_003",
+    "question": "Ngô Quyền nổi tiếng với chiến thắng nào?",
+    "answers": [
+      "A. Bạch Đằng 938",
+      "B. Chi Lăng 1427",
+      "C. Điện Biên Phủ 1954"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Chiến thắng Bạch Đằng 938 mở đầu kỷ nguyên độc lập tự chủ."
+  },
+  {
+    "_id": "quiz_004",
+    "question": "Ai là tác giả Bình Ngô đại cáo?",
+    "answers": [
+      "A. Nguyễn Trãi",
+      "B. Lê Lợi",
+      "C. Ngô Thì Nhậm"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Nguyễn Trãi soạn Bình Ngô đại cáo, tuyên bố nền độc lập Đại Việt."
+  },
+  {
+    "_id": "quiz_005",
+    "question": "Chiến dịch Điện Biên Phủ năm 1954 gắn với vị tướng nào?",
+    "answers": [
+      "A. Trần Hưng Đạo",
+      "B. Võ Nguyên Giáp",
+      "C. Hoàng Hoa Thám"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Đại tướng Võ Nguyên Giáp là tổng chỉ huy chiến dịch."
+  },
+  {
+    "_id": "quiz_006",
+    "question": "Nhà Trần nổi bật với mấy lần kháng chiến chống Nguyên - Mông?",
+    "answers": [
+      "A. 2 lần",
+      "B. 3 lần",
+      "C. 4 lần"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Nhà Trần ba lần đánh bại quân Nguyên - Mông thế kỷ XIII."
+  },
+  {
+    "_id": "quiz_007",
+    "question": "Lê Lợi lãnh đạo cuộc khởi nghĩa nào?",
+    "answers": [
+      "A. Tây Sơn",
+      "B. Lam Sơn",
+      "C. Cần Vương"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Khởi nghĩa Lam Sơn kết thúc thắng lợi năm 1427 - 1428."
+  },
+  {
+    "_id": "quiz_008",
+    "question": "Kinh đô của triều Nguyễn là ở đâu?",
+    "answers": [
+      "A. Huế",
+      "B. Thăng Long",
+      "C. Hoa Lư"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Huế là kinh đô của triều Nguyễn từ năm 1802."
+  },
+  {
+    "_id": "quiz_009",
+    "question": "Người được gọi là Hưng Đạo Đại Vương là ai?",
+    "answers": [
+      "A. Trần Quốc Toản",
+      "B. Trần Hưng Đạo",
+      "C. Lý Thường Kiệt"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Trần Hưng Đạo là danh tướng kiệt xuất của nhà Trần."
+  },
+  {
+    "_id": "quiz_010",
+    "question": "Sự kiện nào diễn ra vào ngày 2/9/1945?",
+    "answers": [
+      "A. Hiệp định Genève",
+      "B. Tuyên ngôn Độc lập",
+      "C. Tổng tuyển cử đầu tiên"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Ba Đình."
+  },
+  {
+    "_id": "quiz_011",
+    "question": "Ai là người đánh bại quân Thanh trong chiến thắng Ngọc Hồi - Đống Đa năm 1789?",
+    "answers": [
+      "A. Trần Hưng Đạo",
+      "B. Quang Trung",
+      "C. Lý Thường Kiệt"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Quang Trung chỉ huy chiến dịch thần tốc, giải phóng Thăng Long."
+  },
+  {
+    "_id": "quiz_012",
+    "question": "Triều đại nào dời đô ra Thăng Long năm 1010?",
+    "answers": [
+      "A. Nhà Trần",
+      "B. Nhà Lý",
+      "C. Nhà Nguyễn"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Lý Thái Tổ ban Chiếu dời đô, mở ra thời kỳ phát triển lâu dài."
+  },
+  {
+    "_id": "quiz_013",
+    "question": "Ngô Quyền nổi tiếng với chiến thắng nào?",
+    "answers": [
+      "A. Bạch Đằng 938",
+      "B. Chi Lăng 1427",
+      "C. Điện Biên Phủ 1954"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Chiến thắng Bạch Đằng 938 mở đầu kỷ nguyên độc lập tự chủ."
+  },
+  {
+    "_id": "quiz_014",
+    "question": "Ai là tác giả Bình Ngô đại cáo?",
+    "answers": [
+      "A. Nguyễn Trãi",
+      "B. Lê Lợi",
+      "C. Ngô Thì Nhậm"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Nguyễn Trãi soạn Bình Ngô đại cáo, tuyên bố nền độc lập Đại Việt."
+  },
+  {
+    "_id": "quiz_015",
+    "question": "Chiến dịch Điện Biên Phủ năm 1954 gắn với vị tướng nào?",
+    "answers": [
+      "A. Trần Hưng Đạo",
+      "B. Võ Nguyên Giáp",
+      "C. Hoàng Hoa Thám"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Đại tướng Võ Nguyên Giáp là tổng chỉ huy chiến dịch."
+  },
+  {
+    "_id": "quiz_016",
+    "question": "Nhà Trần nổi bật với mấy lần kháng chiến chống Nguyên - Mông?",
+    "answers": [
+      "A. 2 lần",
+      "B. 3 lần",
+      "C. 4 lần"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Nhà Trần ba lần đánh bại quân Nguyên - Mông thế kỷ XIII."
+  },
+  {
+    "_id": "quiz_017",
+    "question": "Lê Lợi lãnh đạo cuộc khởi nghĩa nào?",
+    "answers": [
+      "A. Tây Sơn",
+      "B. Lam Sơn",
+      "C. Cần Vương"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Khởi nghĩa Lam Sơn kết thúc thắng lợi năm 1427 - 1428."
+  },
+  {
+    "_id": "quiz_018",
+    "question": "Kinh đô của triều Nguyễn là ở đâu?",
+    "answers": [
+      "A. Huế",
+      "B. Thăng Long",
+      "C. Hoa Lư"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Huế là kinh đô của triều Nguyễn từ năm 1802."
+  },
+  {
+    "_id": "quiz_019",
+    "question": "Người được gọi là Hưng Đạo Đại Vương là ai?",
+    "answers": [
+      "A. Trần Quốc Toản",
+      "B. Trần Hưng Đạo",
+      "C. Lý Thường Kiệt"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Trần Hưng Đạo là danh tướng kiệt xuất của nhà Trần."
+  },
+  {
+    "_id": "quiz_020",
+    "question": "Sự kiện nào diễn ra vào ngày 2/9/1945?",
+    "answers": [
+      "A. Hiệp định Genève",
+      "B. Tuyên ngôn Độc lập",
+      "C. Tổng tuyển cử đầu tiên"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Ba Đình."
+  },
+  {
+    "_id": "quiz_021",
+    "question": "Ai là người đánh bại quân Thanh trong chiến thắng Ngọc Hồi - Đống Đa năm 1789?",
+    "answers": [
+      "A. Trần Hưng Đạo",
+      "B. Quang Trung",
+      "C. Lý Thường Kiệt"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Quang Trung chỉ huy chiến dịch thần tốc, giải phóng Thăng Long."
+  },
+  {
+    "_id": "quiz_022",
+    "question": "Triều đại nào dời đô ra Thăng Long năm 1010?",
+    "answers": [
+      "A. Nhà Trần",
+      "B. Nhà Lý",
+      "C. Nhà Nguyễn"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Lý Thái Tổ ban Chiếu dời đô, mở ra thời kỳ phát triển lâu dài."
+  },
+  {
+    "_id": "quiz_023",
+    "question": "Ngô Quyền nổi tiếng với chiến thắng nào?",
+    "answers": [
+      "A. Bạch Đằng 938",
+      "B. Chi Lăng 1427",
+      "C. Điện Biên Phủ 1954"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Chiến thắng Bạch Đằng 938 mở đầu kỷ nguyên độc lập tự chủ."
+  },
+  {
+    "_id": "quiz_024",
+    "question": "Ai là tác giả Bình Ngô đại cáo?",
+    "answers": [
+      "A. Nguyễn Trãi",
+      "B. Lê Lợi",
+      "C. Ngô Thì Nhậm"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Nguyễn Trãi soạn Bình Ngô đại cáo, tuyên bố nền độc lập Đại Việt."
+  },
+  {
+    "_id": "quiz_025",
+    "question": "Chiến dịch Điện Biên Phủ năm 1954 gắn với vị tướng nào?",
+    "answers": [
+      "A. Trần Hưng Đạo",
+      "B. Võ Nguyên Giáp",
+      "C. Hoàng Hoa Thám"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Đại tướng Võ Nguyên Giáp là tổng chỉ huy chiến dịch."
+  },
+  {
+    "_id": "quiz_026",
+    "question": "Nhà Trần nổi bật với mấy lần kháng chiến chống Nguyên - Mông?",
+    "answers": [
+      "A. 2 lần",
+      "B. 3 lần",
+      "C. 4 lần"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Nhà Trần ba lần đánh bại quân Nguyên - Mông thế kỷ XIII."
+  },
+  {
+    "_id": "quiz_027",
+    "question": "Lê Lợi lãnh đạo cuộc khởi nghĩa nào?",
+    "answers": [
+      "A. Tây Sơn",
+      "B. Lam Sơn",
+      "C. Cần Vương"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Khởi nghĩa Lam Sơn kết thúc thắng lợi năm 1427 - 1428."
+  },
+  {
+    "_id": "quiz_028",
+    "question": "Kinh đô của triều Nguyễn là ở đâu?",
+    "answers": [
+      "A. Huế",
+      "B. Thăng Long",
+      "C. Hoa Lư"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Huế là kinh đô của triều Nguyễn từ năm 1802."
+  },
+  {
+    "_id": "quiz_029",
+    "question": "Người được gọi là Hưng Đạo Đại Vương là ai?",
+    "answers": [
+      "A. Trần Quốc Toản",
+      "B. Trần Hưng Đạo",
+      "C. Lý Thường Kiệt"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Trần Hưng Đạo là danh tướng kiệt xuất của nhà Trần."
+  },
+  {
+    "_id": "quiz_030",
+    "question": "Sự kiện nào diễn ra vào ngày 2/9/1945?",
+    "answers": [
+      "A. Hiệp định Genève",
+      "B. Tuyên ngôn Độc lập",
+      "C. Tổng tuyển cử đầu tiên"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Ba Đình."
+  }
+]

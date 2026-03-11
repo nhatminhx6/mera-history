@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "saved_default",
+    "slug": "saved-content-default",
+    "savedEventIds": [
+      "event_ngoc_hoi_1789",
+      "event_bach_dang_938",
+      "event_doc_lap_1945"
+    ],
+    "savedFigureIds": [
+      "figure_quang_trung",
+      "figure_tran_hung_dao",
+      "figure_ly_thuong_kiet"
+    ],
+    "readingHistory": [
+      {
+        "_id": "read_001",
+        "title": "Chiến thắng Ngọc Hồi - Đống Đa",
+        "time": "Đọc cách đây 2 giờ",
+        "eventId": "event_ngoc_hoi_1789"
+      },
+      {
+        "_id": "read_002",
+        "title": "Hồ sơ Trần Hưng Đạo",
+        "time": "Đọc hôm qua",
+        "figureId": "figure_tran_hung_dao"
+      },
+      {
+        "_id": "read_003",
+        "title": "Tuyên ngôn Độc lập 1945",
+        "time": "Đọc 3 ngày trước",
+        "eventId": "event_doc_lap_1945"
+      }
+    ],
+    "metadata": {
+      "source": "mock-api",
+      "version": 1
+    }
+  }
+]

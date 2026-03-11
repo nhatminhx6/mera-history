@@ -10,6 +10,7 @@ import 'package:mera_history/features/calendar/view/widgets/lunar_day_summary_ca
 import 'package:mera_history/features/calendar/view/widgets/lunar_direction_section.dart';
 import 'package:mera_history/features/calendar/view/widgets/lunar_good_hours_section.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
+import 'package:mera_history/shared/widgets/daily_advice_card.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
 import 'package:mera_history/shared/widgets/event_card.dart';
 import 'package:mera_history/shared/widgets/unified_calendar_cell.dart';
@@ -143,6 +144,13 @@ class CalendarScreen extends StatelessWidget {
                     directions: state.selectedLunarInfo!.huongXuatHanh,
                   ),
                 ),
+                if (state.selectedAdvice != null) ...[
+                  SizedBox(height: spacing.sm),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                    child: DailyAdviceCard(advice: state.selectedAdvice!),
+                  ),
+                ],
               ],
               SizedBox(height: spacing.md),
               Padding(

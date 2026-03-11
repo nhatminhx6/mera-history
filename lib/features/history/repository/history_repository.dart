@@ -43,8 +43,12 @@ class HistoryRepositoryImpl implements HistoryRepository {
 
       return switch (filter) {
         HistoryFilter.today => event.date == today,
-        HistoryFilter.vietnam => event.country.toLowerCase() == 'vietnam',
-        HistoryFilter.world => event.country.toLowerCase() != 'vietnam',
+        HistoryFilter.vietnam =>
+          event.country.toLowerCase().contains('việt nam') ||
+              event.country.toLowerCase().contains('đại việt'),
+        HistoryFilter.world =>
+          !event.country.toLowerCase().contains('việt nam') &&
+              !event.country.toLowerCase().contains('đại việt'),
         HistoryFilter.timeline => true,
       };
     }).toList()..sort((a, b) => b.year.compareTo(a.year));

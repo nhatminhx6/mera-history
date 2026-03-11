@@ -12,6 +12,8 @@ import 'package:mera_history/features/home/view/home_screen.dart';
 import 'package:mera_history/features/history/bloc/history_bloc.dart';
 import 'package:mera_history/features/history/repository/history_repository.dart';
 import 'package:mera_history/features/main_navigation/bloc/main_navigation_bloc.dart';
+import 'package:mera_history/features/profile/bloc/profile_bloc.dart';
+import 'package:mera_history/features/profile/repository/profile_repository.dart';
 import 'package:mera_history/features/profile/view/profile_screen.dart';
 import 'package:mera_history/features/saved/bloc/saved_bloc.dart';
 import 'package:mera_history/features/saved/repository/saved_repository.dart';
@@ -56,7 +58,12 @@ class MainNavigationScreen extends StatelessWidget {
               ..add(const SavedEvent.started()),
         child: const SavedScreen(),
       ),
-      const ProfileScreen(),
+      BlocProvider(
+        create: (context) =>
+            ProfileBloc(context.read<ProfileRepository>())
+              ..add(const ProfileEvent.started()),
+        child: const ProfileScreen(),
+      ),
     ];
 
     return BlocBuilder<MainNavigationBloc, MainNavigationState>(

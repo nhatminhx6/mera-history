@@ -28,7 +28,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/mock/
     - assets/data/history_events.json
     - assets/data/heroes.json
     - assets/data/calendar_events.json
     - assets/data/lunar_day_info.json
+    - assets/data/daily_advice.json

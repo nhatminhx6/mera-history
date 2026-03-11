@@ -1,6 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:mera_history/data/models/calendar_event_model.dart';
+import 'package:mera_history/data/models/daily_advice.dart';
 import 'package:mera_history/data/models/history_event_model.dart';
 import 'package:mera_history/features/calendar/models/lunar_day_info.dart';
 import 'package:mera_history/features/calendar/repository/calendar_repository.dart';
@@ -31,6 +32,7 @@ class CalendarBloc extends Bloc<CalendarEvent, CalendarState> {
           specialLunarDays: payload.specialLunarDays,
           selectedLunarInfo: selection.lunarInfo,
           selectedEvents: selection.events,
+          selectedAdvice: selection.dailyAdvice,
         ),
       );
     } catch (e) {
@@ -50,6 +52,7 @@ class CalendarBloc extends Bloc<CalendarEvent, CalendarState> {
           isLoading: false,
           selectedLunarInfo: selection.lunarInfo,
           selectedEvents: selection.events,
+          selectedAdvice: selection.dailyAdvice,
         ),
       );
     } catch (e) {
@@ -75,6 +78,7 @@ sealed class CalendarState with _$CalendarState {
     required Set<String> specialLunarDays,
     required List<HistoryEventModel> selectedEvents,
     LunarDayInfo? selectedLunarInfo,
+    DailyAdvice? selectedAdvice,
     String? error,
   }) = _CalendarState;
 

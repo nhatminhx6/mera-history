@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/home/bloc/home_bloc.dart';
 import 'package:mera_history/shared/widgets/app_section_header.dart';
+import 'package:mera_history/shared/widgets/daily_advice_card.dart';
 import 'package:mera_history/shared/widgets/daily_quiz_card.dart';
 import 'package:mera_history/shared/widgets/dynasty_chip_list.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
@@ -59,12 +60,17 @@ class HomeScreen extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: spacing.md),
                     child: TodayInfoCard(
-                      today: DateTime.now(),
-                      lunarText: '20/1 Âm lịch',
-                      canChi: 'Giáp Thìn - Ngày Hoàng Đạo',
-                      good: 'Du lịch, Kinh doanh',
-                      avoid: 'Xây dựng',
+                      today: dashboard.todayInfo.today,
+                      lunarText: dashboard.todayInfo.lunarText,
+                      canChi: dashboard.todayInfo.canChi,
+                      good: dashboard.todayInfo.good,
+                      avoid: dashboard.todayInfo.avoid,
                     ),
+                  ),
+                  SizedBox(height: spacing.md),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: spacing.md),
+                    child: DailyAdviceCard(advice: dashboard.dailyAdvice),
                   ),
                   SizedBox(height: spacing.lg),
                   Padding(
@@ -109,34 +115,22 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(height: spacing.xs),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: spacing.md),
-                    child: const DynastyChipList(
-                      items: [
-                        'Cổ đại',
-                        'Nhà Lý',
-                        'Nhà Trần',
-                        'Nhà Lê',
-                        'Nhà Nguyễn',
-                        'Việt Nam hiện đại',
-                      ],
-                    ),
+                    child: DynastyChipList(items: dashboard.dynastyChips),
                   ),
                   SizedBox(height: spacing.lg),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: spacing.md),
                     child: DailyQuizCard(
-                      question: 'Ai là người đánh bại quân Thanh năm 1789?',
-                      answers: const [
-                        'A. Trần Hưng Đạo',
-                        'B. Quang Trung',
-                        'C. Lý Thường Kiệt',
-                      ],
+                      question: dashboard.dailyQuiz.question,
+                      answers: dashboard.dailyQuiz.answers,
                       onAnswerTap: (index) {
-                        final isCorrect = index == 1;
+                        final isCorrect =
+                            index == dashboard.dailyQuiz.correctAnswerIndex;
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text(
                               isCorrect
-                                  ? 'Chính xác! Đáp án: B. Quang Trung'
+                                  ? 'Chính xác! ${dashboard.dailyQuiz.explanation}'
                                   : 'Chưa đúng, thử lại nhé.',
                             ),
                           ),
