@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/explore/models/dynasty.dart';
+import 'package:mera_history/features/explore/view/widgets/explore_pressable.dart';
 
 class TimelinePeriodCard extends StatelessWidget {
   const TimelinePeriodCard({
@@ -18,7 +19,7 @@ class TimelinePeriodCard extends StatelessWidget {
     return SizedBox(
       width: 220,
       child: Card(
-        child: InkWell(
+        child: ExplorePressable(
           onTap: onTap,
           borderRadius: BorderRadius.circular(context.appRadius.xl),
           child: Padding(

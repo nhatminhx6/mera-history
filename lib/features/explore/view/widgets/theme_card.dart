@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/explore/models/historical_theme.dart';
+import 'package:mera_history/features/explore/view/widgets/explore_pressable.dart';
 
 class ThemeCard extends StatelessWidget {
   const ThemeCard({super.key, required this.theme, required this.onTap});
@@ -13,7 +14,7 @@ class ThemeCard extends StatelessWidget {
     final spacing = context.appSpacing;
     final radius = context.appRadius;
     return Card(
-      child: InkWell(
+      child: ExplorePressable(
         onTap: onTap,
         borderRadius: BorderRadius.circular(radius.xl),
         child: Column(

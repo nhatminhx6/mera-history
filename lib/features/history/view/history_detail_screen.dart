@@ -11,120 +11,119 @@ class HistoryDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final topInset = MediaQuery.paddingOf(context).top + 8;
     return Scaffold(
-      body: SafeArea(
-        child: BlocBuilder<HistoryBloc, HistoryState>(
-          builder: (context, state) {
-            return state.when(
-              initial: () => const Center(child: CircularProgressIndicator()),
-              loading: () => const Center(child: CircularProgressIndicator()),
-              error: (message) => EmptyStateView(
-                title: 'Unable to load event',
-                message: message,
-                icon: Icons.error_outline,
-              ),
-              feed: (allEvents, filteredEvents, selectedFilter, query) =>
-                  const SizedBox.shrink(),
-              detail: (selectedEvent, relatedEvents) {
-                if (selectedEvent == null) {
-                  return const EmptyStateView(
-                    title: 'Event not found',
-                    message: 'Please go back and try another item.',
-                  );
-                }
-                return ListView(
-                  padding: const EdgeInsets.only(bottom: 24),
-                  children: [
-                    Stack(
-                      children: [
-                        Image.network(
-                          selectedEvent.image,
-                          height: 280,
-                          width: double.infinity,
-                          fit: BoxFit.cover,
+      body: BlocBuilder<HistoryBloc, HistoryState>(
+        builder: (context, state) {
+          return state.when(
+            initial: () => const Center(child: CircularProgressIndicator()),
+            loading: () => const Center(child: CircularProgressIndicator()),
+            error: (message) => EmptyStateView(
+              title: 'Unable to load event',
+              message: message,
+              icon: Icons.error_outline,
+            ),
+            feed: (allEvents, filteredEvents, selectedFilter, query) =>
+                const SizedBox.shrink(),
+            detail: (selectedEvent, relatedEvents) {
+              if (selectedEvent == null) {
+                return const EmptyStateView(
+                  title: 'Event not found',
+                  message: 'Please go back and try another item.',
+                );
+              }
+              return ListView(
+                padding: const EdgeInsets.only(bottom: 24),
+                children: [
+                  Stack(
+                    children: [
+                      Image.network(
+                        selectedEvent.image,
+                        height: 280,
+                        width: double.infinity,
+                        fit: BoxFit.cover,
+                      ),
+                      Positioned(
+                        left: 12,
+                        top: topInset,
+                        child: CircleAvatar(
+                          backgroundColor: context.appColors.heroOverlayStart,
+                          child: IconButton(
+                            onPressed: () => Navigator.of(context).pop(),
+                            icon: const Icon(Icons.arrow_back),
+                          ),
                         ),
-                        Positioned(
-                          left: 12,
-                          top: 12,
-                          child: CircleAvatar(
-                            backgroundColor: context.appColors.heroOverlayStart,
-                            child: IconButton(
-                              onPressed: () => Navigator.of(context).pop(),
-                              icon: const Icon(Icons.arrow_back),
+                      ),
+                      Positioned(
+                        right: 12,
+                        top: topInset,
+                        child: CircleAvatar(
+                          backgroundColor: context.appColors.heroOverlayStart,
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: const Icon(Icons.bookmark_outline),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: AppSpacing.pagePadding,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const SizedBox(height: 16),
+                        Chip(
+                          label: Text(
+                            '${selectedEvent.year} • ${selectedEvent.country}',
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          selectedEvent.title,
+                          style: Theme.of(context).textTheme.headlineSmall,
+                        ),
+                        const SizedBox(height: 12),
+                        Text(
+                          selectedEvent.description,
+                          style: Theme.of(context).textTheme.bodyLarge,
+                        ),
+                        AppSpacing.sectionGap,
+                        const AppSectionHeader(title: 'Timeline'),
+                        const SizedBox(height: 10),
+                        Card(
+                          child: Padding(
+                            padding: const EdgeInsets.all(14),
+                            child: Column(
+                              children: relatedEvents
+                                  .map(
+                                    (e) => ListTile(
+                                      contentPadding: EdgeInsets.zero,
+                                      title: Text(e.title),
+                                      subtitle: Text('${e.year}'),
+                                    ),
+                                  )
+                                  .toList(),
                             ),
                           ),
                         ),
-                        Positioned(
-                          right: 12,
-                          top: 12,
-                          child: CircleAvatar(
-                            backgroundColor: context.appColors.heroOverlayStart,
-                            child: IconButton(
-                              onPressed: () {},
-                              icon: const Icon(Icons.bookmark_outline),
-                            ),
+                        AppSpacing.sectionGap,
+                        const AppSectionHeader(title: 'Related Figures'),
+                        const SizedBox(height: 10),
+                        const Card(
+                          child: Padding(
+                            padding: EdgeInsets.all(14),
+                            child: Text('Related figures placeholder'),
                           ),
                         ),
                       ],
                     ),
-                    Padding(
-                      padding: AppSpacing.pagePadding,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const SizedBox(height: 16),
-                          Chip(
-                            label: Text(
-                              '${selectedEvent.year} • ${selectedEvent.country}',
-                            ),
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            selectedEvent.title,
-                            style: Theme.of(context).textTheme.headlineSmall,
-                          ),
-                          const SizedBox(height: 12),
-                          Text(
-                            selectedEvent.description,
-                            style: Theme.of(context).textTheme.bodyLarge,
-                          ),
-                          AppSpacing.sectionGap,
-                          const AppSectionHeader(title: 'Timeline'),
-                          const SizedBox(height: 10),
-                          Card(
-                            child: Padding(
-                              padding: const EdgeInsets.all(14),
-                              child: Column(
-                                children: relatedEvents
-                                    .map(
-                                      (e) => ListTile(
-                                        contentPadding: EdgeInsets.zero,
-                                        title: Text(e.title),
-                                        subtitle: Text('${e.year}'),
-                                      ),
-                                    )
-                                    .toList(),
-                              ),
-                            ),
-                          ),
-                          AppSpacing.sectionGap,
-                          const AppSectionHeader(title: 'Related Figures'),
-                          const SizedBox(height: 10),
-                          const Card(
-                            child: Padding(
-                              padding: EdgeInsets.all(14),
-                              child: Text('Related figures placeholder'),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                );
-              },
-            );
-          },
-        ),
+                  ),
+                ],
+              );
+            },
+          );
+        },
       ),
     );
   }

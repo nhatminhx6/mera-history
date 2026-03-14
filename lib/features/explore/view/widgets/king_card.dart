@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/explore/models/king.dart';
+import 'package:mera_history/features/explore/view/widgets/explore_pressable.dart';
 
 class KingCard extends StatelessWidget {
   const KingCard({super.key, required this.king, required this.onTap});
@@ -15,7 +16,7 @@ class KingCard extends StatelessWidget {
     return SizedBox(
       width: 210,
       child: Card(
-        child: InkWell(
+        child: ExplorePressable(
           onTap: onTap,
           borderRadius: BorderRadius.circular(radius.xl),
           child: Column(

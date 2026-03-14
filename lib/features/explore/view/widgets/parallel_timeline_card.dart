@@ -11,7 +11,7 @@ class ParallelTimelineCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final spacing = context.appSpacing;
     return SizedBox(
-      width: 300,
+      width: 320,
       child: Card(
         child: Padding(
           padding: EdgeInsets.all(spacing.sm),
@@ -27,7 +27,7 @@ class ParallelTimelineCard extends StatelessWidget {
                   ),
                   SizedBox(width: spacing.xs),
                   Text(
-                    'Năm ${item.year}',
+                    'Năm ${_formatYear(item.year)}',
                     style: context.textTheme.titleMedium,
                   ),
                 ],
@@ -42,6 +42,11 @@ class ParallelTimelineCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  String _formatYear(int year) {
+    if (year < 0) return '${year.abs()} TCN';
+    return '$year';
   }
 }
 
@@ -61,7 +66,12 @@ class _Block extends StatelessWidget {
         children: [
           Text(title, style: context.textTheme.labelLarge),
           SizedBox(height: spacing.xxs),
-          Text(content, style: context.textTheme.bodySmall),
+          Text(
+            content,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: context.textTheme.bodySmall,
+          ),
         ],
       ),
     );

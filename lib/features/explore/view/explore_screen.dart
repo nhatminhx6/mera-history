@@ -14,14 +14,12 @@ import 'package:mera_history/features/explore/view/widgets/battle_card.dart';
 import 'package:mera_history/features/explore/view/widgets/dynasty_card.dart';
 import 'package:mera_history/features/explore/view/widgets/explore_section_header.dart';
 import 'package:mera_history/features/explore/view/widgets/explore_reveal.dart';
-import 'package:mera_history/features/explore/view/widgets/featured_event_card.dart';
 import 'package:mera_history/features/explore/view/widgets/figure_card.dart';
 import 'package:mera_history/features/explore/view/widgets/king_card.dart';
 import 'package:mera_history/features/explore/view/widgets/parallel_timeline_card.dart';
 import 'package:mera_history/features/explore/view/widgets/random_discovery_card.dart';
 import 'package:mera_history/features/explore/view/widgets/theme_card.dart';
 import 'package:mera_history/features/explore/view/widgets/timeline_period_card.dart';
-import 'package:mera_history/features/explore/view/widgets/today_history_card.dart';
 import 'package:mera_history/shared/widgets/empty_state_view.dart';
 
 class ExploreScreen extends StatelessWidget {
@@ -43,11 +41,6 @@ class ExploreScreen extends StatelessWidget {
               icon: Icons.error_outline,
             ),
             loaded: (hub, query, selectedFilter, selectedFigureRole) {
-              final featuredEvents = _filterEvents(
-                source: hub.featuredEvents,
-                query: query,
-                selectedFilter: selectedFilter,
-              );
               final dynasties = _filterDynasties(
                 source: hub.dynasties,
                 query: query,
@@ -70,10 +63,6 @@ class ExploreScreen extends StatelessWidget {
                 selectedFilter: selectedFilter,
               );
               final themes = _filterThemes(source: hub.themes, query: query);
-              final todayEvents = _filterTodayEvents(
-                source: hub.todayEvents,
-                query: query,
-              );
               final timelines = _filterTimelines(
                 source: hub.parallelTimelines,
                 query: query,
@@ -140,23 +129,53 @@ class ExploreScreen extends StatelessWidget {
                           subtitle: 'Lọc nhanh theo tuyến nội dung',
                         ),
                         SizedBox(height: spacing.xs),
-                        SizedBox(
-                          height: 42,
-                          child: ListView.separated(
-                            scrollDirection: Axis.horizontal,
-                            itemCount: hub.config.filterChips.length,
-                            separatorBuilder: (context, index) =>
-                                SizedBox(width: spacing.xs),
-                            itemBuilder: (context, index) {
-                              final chip = hub.config.filterChips[index];
-                              return ChoiceChip(
-                                label: Text(chip),
-                                selected: selectedFilter == chip,
-                                onSelected: (selected) => context
-                                    .read<ExploreBloc>()
-                                    .add(ExploreEvent.filterChanged(chip)),
-                              );
-                            },
+                        Container(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: spacing.xs,
+                            vertical: spacing.xs,
+                          ),
+                          decoration: BoxDecoration(
+                            color:
+                                (context.theme.cardTheme.color ??
+                                        context.colorScheme.surface)
+                                    .withValues(alpha: 0.95),
+                            borderRadius: BorderRadius.circular(
+                              context.appRadius.lg,
+                            ),
+                            border: Border.all(
+                              color: context.colorScheme.outline.withValues(
+                                alpha: 0.45,
+                              ),
+                            ),
+                          ),
+                          child: SizedBox(
+                            height: 42,
+                            child: ListView.separated(
+                              scrollDirection: Axis.horizontal,
+                              itemCount: hub.config.filterChips.length,
+                              separatorBuilder: (context, index) =>
+                                  SizedBox(width: spacing.xs),
+                              itemBuilder: (context, index) {
+                                final chip = hub.config.filterChips[index];
+                                return ChoiceChip(
+                                  label: Text(chip),
+                                  selected: selectedFilter == chip,
+                                  showCheckmark: true,
+                                  checkmarkColor: context.colorScheme.primary,
+                                  backgroundColor: context.colorScheme.surface
+                                      .withValues(alpha: 0.9),
+                                  selectedColor: context.colorScheme.primary
+                                      .withValues(alpha: 0.28),
+                                  side: BorderSide(
+                                    color: context.colorScheme.outline
+                                        .withValues(alpha: 0.45),
+                                  ),
+                                  onSelected: (selected) => context
+                                      .read<ExploreBloc>()
+                                      .add(ExploreEvent.filterChanged(chip)),
+                                );
+                              },
+                            ),
                           ),
                         ),
                       ],
@@ -168,46 +187,18 @@ class ExploreScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const ExploreSectionHeader(title: 'Sự kiện nổi bật'),
-                        SizedBox(height: spacing.xs),
-                        AnimatedSwitcher(
-                          duration: const Duration(milliseconds: 260),
-                          child: Column(
-                            key: ValueKey('featured-$query-$selectedFilter'),
-                            children: featuredEvents
-                                .take(4)
-                                .map(
-                                  (event) => Padding(
-                                    padding: EdgeInsets.only(
-                                      bottom: spacing.sm,
-                                    ),
-                                    child: FeaturedEventCard(
-                                      event: event,
-                                      onTap: () => context.push(
-                                        '/kham-pha/su-kien/${event.id}',
-                                      ),
-                                    ),
-                                  ),
-                                )
-                                .toList(),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(height: spacing.lg),
-                  ExploreReveal(
-                    delayMs: 210,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const ExploreSectionHeader(
+                        ExploreSectionHeader(
                           title: 'Dòng thời gian lịch sử',
+                          action: TextButton(
+                            onPressed: () =>
+                                context.push('/kham-pha/danh-sach/timeline'),
+                            child: const Text('Xem tất cả'),
+                          ),
                         ),
                         SizedBox(height: spacing.xs),
                         _horizontalDynastyList(
                           context,
-                          dynasties: dynasties,
+                          dynasties: dynasties.take(4).toList(),
                           height: 150,
                           asTimeline: true,
                         ),
@@ -216,7 +207,7 @@ class ExploreScreen extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 280,
+                    delayMs: 210,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -230,10 +221,10 @@ class ExploreScreen extends StatelessWidget {
                         ),
                         SizedBox(height: spacing.xs),
                         SizedBox(
-                          height: 270,
+                          height: 320,
                           child: ListView.separated(
                             scrollDirection: Axis.horizontal,
-                            itemCount: timelines.take(8).length,
+                            itemCount: timelines.take(4).length,
                             separatorBuilder: (context, index) =>
                                 SizedBox(width: spacing.xs),
                             itemBuilder: (context, index) =>
@@ -245,17 +236,22 @@ class ExploreScreen extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 350,
+                    delayMs: 280,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const ExploreSectionHeader(
+                        ExploreSectionHeader(
                           title: 'Các triều đại Việt Nam',
+                          action: TextButton(
+                            onPressed: () =>
+                                context.push('/kham-pha/danh-sach/dynasties'),
+                            child: const Text('Xem tất cả'),
+                          ),
                         ),
                         SizedBox(height: spacing.xs),
                         _horizontalDynastyList(
                           context,
-                          dynasties: dynasties,
+                          dynasties: dynasties.take(4).toList(),
                           height: 150,
                           asTimeline: false,
                         ),
@@ -264,19 +260,24 @@ class ExploreScreen extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 420,
+                    delayMs: 350,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const ExploreSectionHeader(
+                        ExploreSectionHeader(
                           title: 'Các vị vua Việt Nam',
+                          action: TextButton(
+                            onPressed: () =>
+                                context.push('/kham-pha/danh-sach/kings'),
+                            child: const Text('Xem tất cả'),
+                          ),
                         ),
                         SizedBox(height: spacing.xs),
                         SizedBox(
                           height: 230,
                           child: ListView.separated(
                             scrollDirection: Axis.horizontal,
-                            itemCount: kings.length,
+                            itemCount: kings.take(4).length,
                             separatorBuilder: (context, index) =>
                                 SizedBox(width: spacing.xs),
                             itemBuilder: (context, index) {
@@ -294,29 +295,67 @@ class ExploreScreen extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 490,
+                    delayMs: 420,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const ExploreSectionHeader(title: 'Nhân vật lịch sử'),
+                        ExploreSectionHeader(
+                          title: 'Nhân vật lịch sử',
+                          action: TextButton(
+                            onPressed: () =>
+                                context.push('/kham-pha/danh-sach/figures'),
+                            child: const Text('Xem tất cả'),
+                          ),
+                        ),
                         SizedBox(height: spacing.xs),
-                        SizedBox(
-                          height: 38,
-                          child: ListView.separated(
-                            scrollDirection: Axis.horizontal,
-                            itemCount: hub.config.figureRoleChips.length,
-                            separatorBuilder: (context, index) =>
-                                SizedBox(width: spacing.xs),
-                            itemBuilder: (context, index) {
-                              final role = hub.config.figureRoleChips[index];
-                              return ChoiceChip(
-                                label: Text(role),
-                                selected: selectedFigureRole == role,
-                                onSelected: (selected) => context
-                                    .read<ExploreBloc>()
-                                    .add(ExploreEvent.figureRoleChanged(role)),
-                              );
-                            },
+                        Container(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: spacing.xs,
+                            vertical: spacing.xs,
+                          ),
+                          decoration: BoxDecoration(
+                            color:
+                                (context.theme.cardTheme.color ??
+                                        context.colorScheme.surface)
+                                    .withValues(alpha: 0.95),
+                            borderRadius: BorderRadius.circular(
+                              context.appRadius.lg,
+                            ),
+                            border: Border.all(
+                              color: context.colorScheme.outline.withValues(
+                                alpha: 0.45,
+                              ),
+                            ),
+                          ),
+                          child: SizedBox(
+                            height: 38,
+                            child: ListView.separated(
+                              scrollDirection: Axis.horizontal,
+                              itemCount: hub.config.figureRoleChips.length,
+                              separatorBuilder: (context, index) =>
+                                  SizedBox(width: spacing.xs),
+                              itemBuilder: (context, index) {
+                                final role = hub.config.figureRoleChips[index];
+                                return ChoiceChip(
+                                  label: Text(role),
+                                  selected: selectedFigureRole == role,
+                                  showCheckmark: true,
+                                  checkmarkColor: context.colorScheme.primary,
+                                  backgroundColor: context.colorScheme.surface
+                                      .withValues(alpha: 0.9),
+                                  selectedColor: context.colorScheme.primary
+                                      .withValues(alpha: 0.28),
+                                  side: BorderSide(
+                                    color: context.colorScheme.outline
+                                        .withValues(alpha: 0.45),
+                                  ),
+                                  onSelected: (selected) =>
+                                      context.read<ExploreBloc>().add(
+                                        ExploreEvent.figureRoleChanged(role),
+                                      ),
+                                );
+                              },
+                            ),
                           ),
                         ),
                         SizedBox(height: spacing.sm),
@@ -326,7 +365,7 @@ class ExploreScreen extends StatelessWidget {
                             key: ValueKey('figures-$query-$selectedFigureRole'),
                             shrinkWrap: true,
                             physics: const NeverScrollableScrollPhysics(),
-                            itemCount: figures.take(6).length,
+                            itemCount: figures.take(4).length,
                             gridDelegate:
                                 const SliverGridDelegateWithFixedCrossAxisCount(
                                   crossAxisCount: 2,
@@ -354,19 +393,24 @@ class ExploreScreen extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 560,
+                    delayMs: 490,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const ExploreSectionHeader(
+                        ExploreSectionHeader(
                           title: 'Các trận đánh nổi bật',
+                          action: TextButton(
+                            onPressed: () =>
+                                context.push('/kham-pha/danh-sach/battles'),
+                            child: const Text('Xem tất cả'),
+                          ),
                         ),
                         SizedBox(height: spacing.xs),
                         SizedBox(
                           height: 130,
                           child: ListView.separated(
                             scrollDirection: Axis.horizontal,
-                            itemCount: battles.length,
+                            itemCount: battles.take(4).length,
                             separatorBuilder: (context, index) =>
                                 SizedBox(width: spacing.xs),
                             itemBuilder: (context, index) {
@@ -385,28 +429,38 @@ class ExploreScreen extends StatelessWidget {
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 630,
+                    delayMs: 560,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const ExploreSectionHeader(title: 'Chủ đề lịch sử'),
-                        SizedBox(height: spacing.xs),
-                        ...themes.map(
-                          (theme) => Padding(
-                            padding: EdgeInsets.only(bottom: spacing.sm),
-                            child: ThemeCard(
-                              theme: theme,
-                              onTap: () =>
-                                  context.push('/kham-pha/chu-de/${theme.id}'),
-                            ),
+                        ExploreSectionHeader(
+                          title: 'Chủ đề lịch sử',
+                          action: TextButton(
+                            onPressed: () =>
+                                context.push('/kham-pha/danh-sach/themes'),
+                            child: const Text('Xem tất cả'),
                           ),
                         ),
+                        SizedBox(height: spacing.xs),
+                        ...themes
+                            .take(4)
+                            .map(
+                              (theme) => Padding(
+                                padding: EdgeInsets.only(bottom: spacing.sm),
+                                child: ThemeCard(
+                                  theme: theme,
+                                  onTap: () => context.push(
+                                    '/kham-pha/chu-de/${theme.id}',
+                                  ),
+                                ),
+                              ),
+                            ),
                       ],
                     ),
                   ),
                   SizedBox(height: spacing.lg),
                   ExploreReveal(
-                    delayMs: 700,
+                    delayMs: 630,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -425,37 +479,6 @@ class ExploreScreen extends StatelessWidget {
                             context.push(random.route);
                           },
                         ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(height: spacing.lg),
-                  ExploreReveal(
-                    delayMs: 770,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const ExploreSectionHeader(
-                          title: 'Hôm nay trong lịch sử Việt Nam',
-                        ),
-                        SizedBox(height: spacing.xs),
-                        if (todayEvents.isEmpty)
-                          const EmptyStateView(
-                            title: 'Chưa có sự kiện trùng ngày',
-                            message:
-                                'Hãy quay lại vào ngày khác để khám phá thêm.',
-                          )
-                        else
-                          ...todayEvents.map(
-                            (event) => Padding(
-                              padding: EdgeInsets.only(bottom: spacing.sm),
-                              child: TodayHistoryCard(
-                                event: event,
-                                onTap: () => context.push(
-                                  '/kham-pha/su-kien/${event.id}',
-                                ),
-                              ),
-                            ),
-                          ),
                       ],
                     ),
                   ),
@@ -496,29 +519,6 @@ class ExploreScreen extends StatelessWidget {
         },
       ),
     );
-  }
-
-  List<ExploreEventItem> _filterEvents({
-    required List<ExploreEventItem> source,
-    required String query,
-    required String selectedFilter,
-  }) {
-    return source.where((event) {
-      final matchesQuery =
-          query.isEmpty ||
-          event.title.toLowerCase().contains(query.toLowerCase()) ||
-          event.summary.toLowerCase().contains(query.toLowerCase());
-      if (!matchesQuery) {
-        return false;
-      }
-      if (selectedFilter == 'Việt Nam') {
-        return event.context != 'Bối cảnh khu vực';
-      }
-      if (selectedFilter == 'Thế giới' || selectedFilter == 'Trung Quốc') {
-        return event.context == 'Bối cảnh khu vực';
-      }
-      return true;
-    }).toList();
   }
 
   List<Dynasty> _filterDynasties({
@@ -602,19 +602,6 @@ class ExploreScreen extends StatelessWidget {
           (item) =>
               query.isEmpty ||
               item.title.toLowerCase().contains(query.toLowerCase()),
-        )
-        .toList();
-  }
-
-  List<ExploreEventItem> _filterTodayEvents({
-    required List<ExploreEventItem> source,
-    required String query,
-  }) {
-    return source
-        .where(
-          (event) =>
-              query.isEmpty ||
-              event.title.toLowerCase().contains(query.toLowerCase()),
         )
         .toList();
   }

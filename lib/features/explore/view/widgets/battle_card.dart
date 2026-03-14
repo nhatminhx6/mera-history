@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/explore/models/battle.dart';
+import 'package:mera_history/features/explore/view/widgets/explore_pressable.dart';
 
 class BattleCard extends StatelessWidget {
   const BattleCard({super.key, required this.battle, required this.onTap});
@@ -14,7 +15,7 @@ class BattleCard extends StatelessWidget {
     return SizedBox(
       width: 280,
       child: Card(
-        child: InkWell(
+        child: ExplorePressable(
           onTap: onTap,
           borderRadius: BorderRadius.circular(context.appRadius.xl),
           child: Padding(

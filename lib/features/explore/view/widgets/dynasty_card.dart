@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mera_history/core/theme/theme_extensions.dart';
 import 'package:mera_history/features/explore/models/dynasty.dart';
+import 'package:mera_history/features/explore/view/widgets/explore_pressable.dart';
 
 class DynastyCard extends StatelessWidget {
   const DynastyCard({super.key, required this.dynasty, required this.onTap});
@@ -14,7 +15,7 @@ class DynastyCard extends StatelessWidget {
     return SizedBox(
       width: 250,
       child: Card(
-        child: InkWell(
+        child: ExplorePressable(
           onTap: onTap,
           borderRadius: BorderRadius.circular(context.appRadius.xl),
           child: Padding(

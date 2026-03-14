@@ -7,6 +7,7 @@ import 'package:mera_history/features/explore/view/figure_detail_screen.dart';
 import 'package:mera_history/features/explore/view/history_detail_screen.dart';
 import 'package:mera_history/features/explore/view/king_detail_screen.dart';
 import 'package:mera_history/features/explore/view/parallel_timeline_screen.dart';
+import 'package:mera_history/features/explore/view/explore_section_list_screen.dart';
 import 'package:mera_history/features/explore/view/theme_detail_screen.dart';
 import 'package:mera_history/features/figures/bloc/figures_bloc.dart';
 import 'package:mera_history/features/figures/repository/figures_repository.dart';
@@ -85,6 +86,13 @@ class AppRouter {
         GoRoute(
           path: '/kham-pha/timeline-song-song',
           builder: (context, state) => const ParallelTimelineScreen(),
+        ),
+        GoRoute(
+          path: '/kham-pha/danh-sach/:type',
+          builder: (context, state) {
+            final type = state.pathParameters['type'] ?? '';
+            return ExploreSectionListScreen(type: type);
+          },
         ),
         GoRoute(
           path: '/settings/theme',
